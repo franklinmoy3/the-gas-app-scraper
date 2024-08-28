@@ -1,0 +1,12 @@
+[project]
+name="scraper"
+version="0.1.0"
+description="gas-website-scraper"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"

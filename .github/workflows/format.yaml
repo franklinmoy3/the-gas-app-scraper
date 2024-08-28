@@ -1,0 +1,34 @@
+name: Format Python sources
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
+  
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Local Checkout
+        uses: actions/checkout@v4
+
+      - name: Format with Black
+        uses: psf/black@stable
+        with:
+          src: "."
+          version: "~= 24.0"
+    
+      - name: Check for modified files
+        id: modified-check
+        run: echo "modified=$(if git diff-index --quiet HEAD --; then echo "false"; else echo "true"; fi)" >> $GITHUB_OUTPUT
+  
+      - name: Push changes
+        if: steps.modified-check.outputs.modified == 'true'
+        run: |
+          git config --global user.name 'Github Actions'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git commit -am "Formatted Go sources"
+          git push

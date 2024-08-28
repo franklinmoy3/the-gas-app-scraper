@@ -17,6 +17,7 @@ jobs:
       - name: Format with Black
         uses: psf/black@stable
         with:
+          options: ""
           src: "."
           version: "~= 24.0"
     

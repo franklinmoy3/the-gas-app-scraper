@@ -20,7 +20,7 @@ def filter_for_useful_keys(data):
         {
             "address": warehouse_details["address"],
             "gasPrices": warehouse_details["gasPrices"],
-            "name": warehouse_details["name"]
+            "name": warehouse_details["name"],
         }
         for warehouse_details in data
     ]

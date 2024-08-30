@@ -45,7 +45,11 @@ def normalize_data(data) -> str:
                 and premium_price == None
                 and diesel_price == None
             ):
-                logger.warning("Station \"{name}\" has a gas prices section, but no gas prices were found. Station details: {station}", name=name, station=station)
+                logger.warning(
+                    'Station "{name}" has a gas prices section, but no gas prices were found. Station details: {station}',
+                    name=name,
+                    station=station,
+                )
             normalized.append(
                 {
                     "franchiseName": franchise_name,

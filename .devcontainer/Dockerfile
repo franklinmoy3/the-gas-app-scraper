@@ -20,6 +20,7 @@ RUN mv geckodriver /usr/local/bin/
 
 # Set the default user and home directory
 ENV HOME /home/${REMOTE_USER}
+ENV PATH="${PATH}:/home/${REMOTE_USER}/.local/bin" 
 USER ${REMOTE_USER}
 
 # Set locale to C.UTF-8 since en_US.UTF-8 isn't listed by "locale -a"

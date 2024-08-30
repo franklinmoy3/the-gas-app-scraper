@@ -21,7 +21,10 @@ def get_and_normalize_data_for_station(url: str) -> str | None:
         return None
     # Map to normalized schema
     franchise_name = "COSTCO"
-    name = soup.find("h1", attrs={"automation-id": "warehouseNameOutput"}).text + " (Costco)"
+    name = (
+        soup.find("h1", attrs={"automation-id": "warehouseNameOutput"}).text
+        + " (Costco)"
+    )
     street_address = soup.find("span", attrs={"itemprop": "streetAddress"}).text
     city = soup.find("span", attrs={"itemprop": "addressLocality"}).text
     state = soup.find("span", attrs={"itemprop": "addressRegion"}).text
@@ -36,7 +39,10 @@ def get_and_normalize_data_for_station(url: str) -> str | None:
         grade = None
         price = None
         for meaningful_descendant in gas_price.find_all("span"):
-            if grade == None and "gas-type" in meaningful_descendant.get_attribute_list("class"):
+            if (
+                grade == None
+                and "gas-type" in meaningful_descendant.get_attribute_list("class")
+            ):
                 grade = meaningful_descendant.text
             else:
                 price = meaningful_descendant.text
@@ -85,9 +91,11 @@ def get_data() -> list:
 
 def main():
     data = get_data()
-    logger.info(get_and_normalize_data_for_station(
-        "https://www.costco.com/warehouse-locations/santa-cruz-ca-149.html"
-    ))
+    logger.info(
+        get_and_normalize_data_for_station(
+            "https://www.costco.com/warehouse-locations/santa-cruz-ca-149.html"
+        )
+    )
 
 
 if __name__ == "__main__":

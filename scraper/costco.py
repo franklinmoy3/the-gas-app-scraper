@@ -1,4 +1,4 @@
-from scraper import helpers
+import helpers
 
 
 def get_all_prices():

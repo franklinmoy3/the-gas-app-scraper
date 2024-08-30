@@ -31,6 +31,7 @@ typing-extensions = "==4.12.2"
 urllib3 = "==2.2.2"
 websocket-client = "==1.8.0"
 wsproto = "==1.2.0"
+html5lib = "*"
 
 [dev-packages]
 

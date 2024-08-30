@@ -30,7 +30,6 @@ def get_and_normalize_data_for_station(url: str) -> str | None:
     state = soup.find("span", attrs={"itemprop": "addressRegion"}).text
     postal_code = soup.find("span", attrs={"itemprop": "postalCode"}).text
 
-    # div class gas-price-section -> multiple divs -> span class gas-type (gas grade), other span is price with currency symbol
     regular_price = None
     mid_grade_price = None
     premium_price = None

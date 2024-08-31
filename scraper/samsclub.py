@@ -67,7 +67,7 @@ def normalize_data(data) -> str:
         else:
             logger.info("Warehouse {name} does not have any gas prices", name=name)
     logger.info("Done normalizing data")
-    return json.dumps(normalized)
+    return json.dumps(normalized, indent=2)
 
 
 def get_data():

@@ -3,6 +3,11 @@ import logging
 from loguru import logger
 import sys
 
+get_request_log_fmt_str = "Making GET request to {url}"
+api_response_log_fmt_str = "Received HTTP {status_code} from {url}"
+abort_due_to_bad_response_fmt_str = "Cannot continue due to receiving non-200 response"
+read_html_log_fmt_str = "Reading HTML tree from {url}"
+
 
 def parse_command_args():
     arg_parser = argparse.ArgumentParser()

@@ -1,13 +1,14 @@
 import helpers
+from helpers import results_queue_type_error_msg
 import json
 from loguru import logger
+from multiprocessing.queues import Queue
 from selenium import webdriver
 from selenium.webdriver import FirefoxOptions
 from selenium.webdriver.common.by import By
-import sys
 
 
-def normalize_data(data) -> str:
+def normalize_data(data) -> list:
     logger.info("Normalizing data...")
     normalized = []
     franchise_name = "SAMS_CLUB"
@@ -67,10 +68,10 @@ def normalize_data(data) -> str:
         else:
             logger.info("Warehouse {name} does not have any gas prices", name=name)
     logger.info("Done normalizing data")
-    return json.dumps(normalized, indent=2)
+    return normalized
 
 
-def get_data():
+def get_and_normalize_data_from_source():
     logger.info("Launching Firefox in headless mode...")
     browser_opts = FirefoxOptions()
     browser_opts.add_argument("--headless")
@@ -99,15 +100,28 @@ def get_data():
             error=data["error"],
             message=data["message"],
         )
-        sys.exit(1)
+        raise AssertionError("Data contains an error")
+    return normalize_data(data)
+
+
+def collect_data(**kwargs) -> list:
+    results_queue_present = False
+    if "results_queue" in kwargs:
+        if isinstance(kwargs["results_queue"], Queue):
+            results_queue_present = True
+        else:
+            raise TypeError(results_queue_type_error_msg)
+    data = get_and_normalize_data_from_source()
+    if results_queue_present:
+        kwargs["results_queue"].put(obj=data)
+        kwargs["results_queue"].close()
     return data
 
 
 def main():
-    data = get_data()
-    normalized = normalize_data(data)
+    data = collect_data()
     with open("samsclub-prices-out.json", "w") as out_file:
-        out_file.write(normalized)
+        out_file.write(json.dumps(data, indent=2))
 
 
 if __name__ == "__main__":

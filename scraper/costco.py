@@ -1,5 +1,3 @@
-import multiprocessing.pool
-import multiprocessing.queues
 from bs4 import BeautifulSoup
 import helpers
 from helpers import (
@@ -7,12 +5,13 @@ from helpers import (
     api_response_log_fmt_str,
     abort_due_to_bad_response_fmt_str,
     read_html_log_fmt_str,
+    results_queue_type_error_msg,
 )
 import json
 from loguru import logger
-import multiprocessing
+import multiprocessing as mp
 from multiprocessing import Pool
-from multiprocessing.queues import SimpleQueue
+from multiprocessing.queues import Queue
 import requests
 
 
@@ -52,7 +51,7 @@ def write_and_get_all_gas_station_urls() -> list:
         )
     warehouse_list = json.loads(warehouse_list_as_str)
     logger.info("Found and loaded warehouse list.")
-    with open("costco-warehouse-urls-us.json", "w") as out_file:
+    with open("costco-gas-station-urls-us.json", "w") as out_file:
         logger.info(
             "Writing Costco US warehouse URLs that have gas stations to {file_name}",
             file_name=out_file.name,
@@ -161,8 +160,8 @@ def get_and_normalize_data_for_station(url: str) -> dict | None:
     }
 
 
-def get_data(urls: list) -> list:
-    usable_cpus = multiprocessing.cpu_count() - 1
+def get_and_normalize_data_from_source(urls: list) -> list:
+    usable_cpus = mp.cpu_count() - 1
     if usable_cpus < 1:
         usable_cpus = 1
     with Pool(usable_cpus) as p:
@@ -170,9 +169,23 @@ def get_data(urls: list) -> list:
     return data
 
 
-def main():
+def collect_data(**kwargs) -> list:
+    results_queue_present = False
+    if "results_queue" in kwargs:
+        if isinstance(kwargs["results_queue"], Queue):
+            results_queue_present = True
+        else:
+            raise TypeError(results_queue_type_error_msg)
     urls = write_and_get_all_gas_station_urls()
-    data = get_data(urls)
+    data = get_and_normalize_data_from_source(urls)
+    if results_queue_present:
+        kwargs["results_queue"].put(obj=data)
+        kwargs["results_queue"].close()
+    return data
+
+
+def main():
+    data = collect_data()
     with open("costco-prices-out.json", "w") as out_file:
         out_file.write(json.dumps(data, indent=2))
 

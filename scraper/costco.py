@@ -83,7 +83,10 @@ def write_and_get_all_gas_station_urls() -> list:
                     gas_station_urls.append(url_to_write.replace(" ", "-"))
         out_file.write(json.dumps(gas_station_urls, indent=2))
     p_end = time.perf_counter()
-    logger.info("Done writing all Costco US warehouse URLs with gas stations. Took {time_s} s", time_s=p_end-p_start)
+    logger.info(
+        "Done writing all Costco US warehouse URLs with gas stations. Took {time_s} s",
+        time_s=p_end - p_start,
+    )
     return gas_station_urls
 
 
@@ -189,7 +192,9 @@ def collect_data(process_count: int, **kwargs) -> list:
     with open(gas_station_urls_file_name, "r") as file:
         urls = json.loads(file.read())
     data = get_and_normalize_data_from_source(urls, process_count)
-    logger.info("Collected prices on {len_urls} Costco gas stations", len_urls=len(urls))
+    logger.info(
+        "Collected prices on {len_urls} Costco gas stations", len_urls=len(urls)
+    )
     if results_queue_present:
         kwargs["results_queue"].put(obj=data)
         kwargs["results_queue"].close()
@@ -198,7 +203,9 @@ def collect_data(process_count: int, **kwargs) -> list:
 
 def main(run_args):
     if args.refresh_station_list:
-        logger.info('Will refresh station list as "--refresh-station-list" was specified')
+        logger.info(
+            'Will refresh station list as "--refresh-station-list" was specified'
+        )
         write_and_get_all_gas_station_urls()
     if args.no_collect_prices:
         logger.info('Will not collect prices as "--no-collect-prices" was specified')

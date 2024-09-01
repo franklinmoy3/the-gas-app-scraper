@@ -43,7 +43,7 @@ def parse_command_args():
         "--no-collect-prices",
         action="store_true",
         default=False,
-        help="Whether to not collect prices. Useful for if you only want to refresh data source files such as gas station URLs."
+        help="Whether to not collect prices. Useful for if you only want to refresh data source files such as gas station URLs.",
     )
     return arg_parser.parse_args()
 

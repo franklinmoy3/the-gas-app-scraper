@@ -33,13 +33,16 @@ def get_all_prices() -> list:
     return prices
 
 
-def main():
-    data = get_all_prices()
-    with open("all-prices-out.json", "w") as out_file:
-        out_file.write(json.dumps(data, indent=2))
+def main(run_args):
+    if run_args.no_collect_prices:
+        logger.info('Will not collect prices as "--no-collect-prices" was specified')
+    else:
+        data = get_all_prices()
+        with open("all-prices-out.json", "w") as out_file:
+            out_file.write(json.dumps(data, indent=2))
 
 
 if __name__ == "__main__":
     args = helpers.parse_command_args()
     helpers.configure_logger(args)
-    main()
+    main(args)

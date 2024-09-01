@@ -1,6 +1,7 @@
 import argparse
 import logging
 from loguru import logger
+import multiprocessing as mp
 import sys
 
 get_request_log_fmt_str = "Making GET request to {url}"
@@ -24,6 +25,25 @@ def parse_command_args():
         action="store_true",
         default=False,
         help="Denotes whether to structure log statements",
+    )
+    arg_parser.add_argument(
+        "--refresh-station-list",
+        action="store_true",
+        default=False,
+        help="Denotes whether to refresh the list of stations (for applicable franchises)",
+    )
+    arg_parser.add_argument(
+        "--mp-pool-size",
+        action="store",
+        type=int,
+        default=mp.cpu_count(),
+        help="Number of subprocesses to use for gas station data retrieval (for applicable franchises)",
+    )
+    arg_parser.add_argument(
+        "--no-collect-prices",
+        action="store_true",
+        default=False,
+        help="Whether to not collect prices. Useful for if you only want to refresh data source files such as gas station URLs."
     )
     return arg_parser.parse_args()
 

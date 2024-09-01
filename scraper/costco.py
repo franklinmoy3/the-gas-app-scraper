@@ -13,6 +13,10 @@ import multiprocessing as mp
 from multiprocessing import Pool
 from multiprocessing.queues import Queue
 import requests
+import time
+
+
+gas_station_urls_file_name = "costco-gas-station-urls-us.json"
 
 
 def write_and_get_all_gas_station_urls() -> list:
@@ -22,6 +26,7 @@ def write_and_get_all_gas_station_urls() -> list:
     )
     alt_warehouse_url_format_string = "https://costco.com/warehouse-locations/{name}-{city}-{state_code}-{location_id}.html"
     warehouse_list_url = "https://www.costco.com/WarehouseListByStateDisplayView"
+    p_start = time.perf_counter()
     logger.info(get_request_log_fmt_str, url=warehouse_list_url)
     # Must send User-Agent, else will hang
     resp = requests.get(
@@ -51,7 +56,7 @@ def write_and_get_all_gas_station_urls() -> list:
         )
     warehouse_list = json.loads(warehouse_list_as_str)
     logger.info("Found and loaded warehouse list.")
-    with open("costco-gas-station-urls-us.json", "w") as out_file:
+    with open(gas_station_urls_file_name, "w") as out_file:
         logger.info(
             "Writing Costco US warehouse URLs that have gas stations to {file_name}",
             file_name=out_file.name,
@@ -77,7 +82,8 @@ def write_and_get_all_gas_station_urls() -> list:
                         )
                     gas_station_urls.append(url_to_write.replace(" ", "-"))
         out_file.write(json.dumps(gas_station_urls, indent=2))
-    logger.info("Done writing all Costco US warehouse URLs with gas stations")
+    p_end = time.perf_counter()
+    logger.info("Done writing all Costco US warehouse URLs with gas stations. Took {time_s} s", time_s=p_end-p_start)
     return gas_station_urls
 
 
@@ -160,37 +166,49 @@ def get_and_normalize_data_for_station(url: str) -> dict | None:
     }
 
 
-def get_and_normalize_data_from_source(urls: list) -> list:
-    usable_cpus = mp.cpu_count() - 1
-    if usable_cpus < 1:
-        usable_cpus = 1
-    with Pool(usable_cpus) as p:
+def get_and_normalize_data_from_source(urls: list, process_count: int) -> list:
+    logger.info(
+        "Creating multiprocessing pool of size {process_count} to gather Costco gas prices",
+        process_count=process_count,
+    )
+    with Pool(process_count) as p:
+        p_start = time.perf_counter()
         data = p.map(get_and_normalize_data_for_station, urls)
+        p_end = time.perf_counter()
+        logger.info("Data collection took {time_s} s", time_s=p_end - p_start)
     return data
 
 
-def collect_data(**kwargs) -> list:
+def collect_data(process_count: int, **kwargs) -> list:
     results_queue_present = False
     if "results_queue" in kwargs:
         if isinstance(kwargs["results_queue"], Queue):
             results_queue_present = True
         else:
             raise TypeError(results_queue_type_error_msg)
-    urls = write_and_get_all_gas_station_urls()
-    data = get_and_normalize_data_from_source(urls)
+    with open(gas_station_urls_file_name, "r") as file:
+        urls = json.loads(file.read())
+    data = get_and_normalize_data_from_source(urls, process_count)
+    logger.info("Collected prices on {len_urls} Costco gas stations", len_urls=len(urls))
     if results_queue_present:
         kwargs["results_queue"].put(obj=data)
         kwargs["results_queue"].close()
     return data
 
 
-def main():
-    data = collect_data()
-    with open("costco-prices-out.json", "w") as out_file:
-        out_file.write(json.dumps(data, indent=2))
+def main(run_args):
+    if args.refresh_station_list:
+        logger.info('Will refresh station list as "--refresh-station-list" was specified')
+        write_and_get_all_gas_station_urls()
+    if args.no_collect_prices:
+        logger.info('Will not collect prices as "--no-collect-prices" was specified')
+    else:
+        data = collect_data(process_count=run_args.mp_pool_size)
+        with open("costco-prices-out.json", "w") as out_file:
+            out_file.write(json.dumps(data, indent=2))
 
 
 if __name__ == "__main__":
     args = helpers.parse_command_args()
     helpers.configure_logger(args)
-    main()
+    main(args)

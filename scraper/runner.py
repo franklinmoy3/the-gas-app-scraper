@@ -23,10 +23,13 @@ def get_all_prices() -> list:
     prices_2d.append(results.get())
 
     logger.info("All subprocesses joined")
-    
+
     logger.info("Flattening prices into 1D array...")
     prices = [price for arr in prices_2d for price in arr]
-    logger.info("Done flattening prices. Read prices of {num_prices} stations", num_prices=len(prices))
+    logger.info(
+        "Done flattening prices. Read prices of {num_prices} stations",
+        num_prices=len(prices),
+    )
     return prices
 
 

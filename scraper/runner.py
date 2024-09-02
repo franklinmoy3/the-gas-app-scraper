@@ -68,7 +68,9 @@ def main(run_args):
         os.system("git add {prices_file}".format(prices_file=db_repo_prices_file_name))
         today = datetime.today().strftime("%Y-%m-%d")
         os.system('git commit -m "Pricing update: {today}"'.format(today=today))
-        os.system('git tag -f -a -m "Pricing update for {today}" {today}'.format(today=today))
+        os.system(
+            'git tag -f -a -m "Pricing update for {today}" {today}'.format(today=today)
+        )
         logger.info("Pricing update for {today} staged. Pushing...", today=today)
         os.system("git push --follow-tags --force")
         logger.info("Pricing update pushed! Cleaning up...")

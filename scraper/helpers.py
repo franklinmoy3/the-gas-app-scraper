@@ -1,8 +1,12 @@
 import argparse
+from datetime import timezone
+from datetime import datetime
+import json
 import logging
 from loguru import logger
 import multiprocessing as mp
 import sys
+
 
 get_request_log_fmt_str = "Making GET request to {url}"
 api_response_log_fmt_str = "Received HTTP {status_code} from {url}"
@@ -48,11 +52,26 @@ def parse_command_args():
     return arg_parser.parse_args()
 
 
+def serialize_log(record):
+    timestamp_iso = datetime.fromtimestamp(record["time"].timestamp(), tz=timezone.utc).isoformat()
+    subset = {
+        "timestamp": timestamp_iso,
+        "severity": record["level"].name,
+        "message": record["message"],
+    }
+    return json.dumps(subset)
+
+
+def structured_log_formatter(record):
+    record["extra"]["serialized"] = serialize_log(record)
+    return "{extra[serialized]}\n"
+
+
 def configure_logger(run_args) -> logging.Logger:
     # Replace default stdout registration with the one we will configure
     logger.remove(0)
     if run_args.structured_logging:
-        logger.add(sys.stdout, level=run_args.log_level, serialize=True)
+        logger.add(sys.stdout, format=structured_log_formatter, level=run_args.log_level)
     else:
         logger.add(sys.stdout, level=run_args.log_level)
     return logger

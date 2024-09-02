@@ -51,6 +51,11 @@ def normalize_data(data) -> list:
                     name=name,
                     station=station,
                 )
+            elif regular_price == None:
+                logger.error(
+                    "Expected a price for regular octane at {station_name}, but got None!",
+                    station_name=name,
+                )
             normalized.append(
                 {
                     "franchiseName": franchise_name,

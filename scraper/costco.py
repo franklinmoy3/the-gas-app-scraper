@@ -155,6 +155,10 @@ def get_and_normalize_data_for_station(url: str) -> dict | None:
             'URL "{url}" has a gas prices section, but no gas prices were found.',
             url=url,
         )
+    elif regular_price == None:
+        logger.error(
+            "Expected a price for regular octane at {url}, but got None!", url=url
+        )
     return {
         "franchiseName": franchise_name,
         "name": name,

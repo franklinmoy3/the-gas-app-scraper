@@ -53,7 +53,9 @@ def parse_command_args():
 
 
 def serialize_log(record):
-    timestamp_iso = datetime.fromtimestamp(record["time"].timestamp(), tz=timezone.utc).isoformat()
+    timestamp_iso = datetime.fromtimestamp(
+        record["time"].timestamp(), tz=timezone.utc
+    ).isoformat()
     subset = {
         "timestamp": timestamp_iso,
         "severity": record["level"].name,
@@ -71,7 +73,9 @@ def configure_logger(run_args) -> logging.Logger:
     # Replace default stdout registration with the one we will configure
     logger.remove(0)
     if run_args.structured_logging:
-        logger.add(sys.stdout, format=structured_log_formatter, level=run_args.log_level)
+        logger.add(
+            sys.stdout, format=structured_log_formatter, level=run_args.log_level
+        )
     else:
         logger.add(sys.stdout, level=run_args.log_level)
     return logger

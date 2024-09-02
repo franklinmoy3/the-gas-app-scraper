@@ -169,12 +169,12 @@ def get_and_normalize_data_for_station(url: str) -> dict | None:
     }
 
 
-def get_and_normalize_data_from_source(urls: list, process_count: int) -> list:
+def get_and_normalize_data_from_source(urls: list, cpu_pool_size: int) -> list:
     logger.info(
         "Creating multiprocessing pool of size {process_count} to gather Costco gas prices",
-        process_count=process_count,
+        process_count=cpu_pool_size,
     )
-    with Pool(process_count) as p:
+    with Pool(cpu_pool_size) as p:
         p_start = time.perf_counter()
         data = p.map(get_and_normalize_data_for_station, urls)
         p_end = time.perf_counter()
@@ -182,7 +182,7 @@ def get_and_normalize_data_from_source(urls: list, process_count: int) -> list:
     return data
 
 
-def collect_data(process_count: int, **kwargs) -> list:
+def collect_data(cpu_pool_size: int, **kwargs) -> list:
     results_queue_present = False
     if "results_queue" in kwargs:
         if isinstance(kwargs["results_queue"], Queue):
@@ -191,7 +191,7 @@ def collect_data(process_count: int, **kwargs) -> list:
             raise TypeError(results_queue_type_error_msg)
     with open(gas_station_urls_file_name, "r") as file:
         urls = json.loads(file.read())
-    data = get_and_normalize_data_from_source(urls, process_count)
+    data = get_and_normalize_data_from_source(urls, cpu_pool_size)
     logger.info(
         "Collected prices on {len_urls} Costco gas stations", len_urls=len(urls)
     )
@@ -210,7 +210,7 @@ def main(run_args):
     if args.no_collect_prices:
         logger.info('Will not collect prices as "--no-collect-prices" was specified')
     else:
-        data = collect_data(process_count=run_args.mp_pool_size)
+        data = collect_data(cpu_pool_size=run_args.cpu_pool_size)
         with open("costco-prices-out.json", "w") as out_file:
             out_file.write(json.dumps(data, indent=2))
 

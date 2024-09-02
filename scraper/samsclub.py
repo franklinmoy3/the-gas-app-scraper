@@ -115,6 +115,7 @@ def collect_data(**kwargs) -> list:
     if results_queue_present:
         kwargs["results_queue"].put(obj=data)
         kwargs["results_queue"].close()
+    logger.info("Got prices for {len_data} Sam's Club gas stations", len_data=len(data))
     return data
 
 

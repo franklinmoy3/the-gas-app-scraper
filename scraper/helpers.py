@@ -33,7 +33,7 @@ def parse_command_args():
         help="Denotes whether to refresh the list of stations (for applicable franchises)",
     )
     arg_parser.add_argument(
-        "--mp-pool-size",
+        "--cpu-pool-size",
         action="store",
         type=int,
         default=mp.cpu_count(),

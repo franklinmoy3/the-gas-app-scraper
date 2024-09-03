@@ -5,4 +5,7 @@ REPO_ROOT := $(shell git rev-parse --show-toplevel)
 .PHONY: init requirements chromedriver
 
 init:
-	pipenv install
+	python3 -m pipenv install
+
+lint:
+	python3 -m flake8 -v

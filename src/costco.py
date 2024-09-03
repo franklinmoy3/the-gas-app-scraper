@@ -9,7 +9,6 @@ from helpers import (
 )
 import json
 from loguru import logger
-import multiprocessing as mp
 from multiprocessing import Pool
 from multiprocessing.queues import Queue
 import requests
@@ -101,7 +100,7 @@ def get_and_normalize_data_for_station(url: str) -> dict | None:
     logger.info(read_html_log_fmt_str, url=url)
     soup = BeautifulSoup(resp.text, "html5lib")
     gas_price_section = soup.find("div", attrs={"class": "gas-price-section"})
-    if gas_price_section == None:
+    if gas_price_section is None:
         logger.info(
             "URL {url} does not have a gas-price-section. Returning None", url=url
         )
@@ -126,7 +125,7 @@ def get_and_normalize_data_for_station(url: str) -> dict | None:
         price = None
         for meaningful_descendant in gas_price.find_all("span"):
             if (
-                grade == None
+                grade is None
                 and "gas-type" in meaningful_descendant.get_attribute_list("class")
             ):
                 grade = meaningful_descendant.text
@@ -146,16 +145,16 @@ def get_and_normalize_data_for_station(url: str) -> dict | None:
                     gas_price=price,
                 )
     if (
-        regular_price == None
-        and mid_grade_price == None
-        and premium_price == None
-        and diesel_price == None
+        regular_price is None
+        and mid_grade_price is None
+        and premium_price is None
+        and diesel_price is None
     ):
         logger.warning(
             'URL "{url}" has a gas prices section, but no gas prices were found.',
             url=url,
         )
-    elif regular_price == None:
+    elif regular_price is None:
         logger.error(
             "Expected a price for regular octane at {url}, but got None!", url=url
         )

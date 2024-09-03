@@ -22,4 +22,4 @@ jobs:
     
       - name: Lint with flake8
         id: flake8-lint
-        run: python3 -m flake8
+        run: python3 -m flake8 -v

@@ -41,17 +41,17 @@ def normalize_data(data) -> list:
                             gas_price=gas_price,
                         )
             if (
-                regular_price == None
-                and mid_grade_price == None
-                and premium_price == None
-                and diesel_price == None
+                regular_price is None
+                and mid_grade_price is None
+                and premium_price is None
+                and diesel_price is None
             ):
                 logger.warning(
                     'Station "{name}" has a gas prices section, but no gas prices were found. Station details: {station}',
                     name=name,
                     station=station,
                 )
-            elif regular_price == None:
+            elif regular_price is None:
                 logger.error(
                     "Expected a price for regular octane at {station_name}, but got None!",
                     station_name=name,

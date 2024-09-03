@@ -49,6 +49,18 @@ def parse_command_args():
         default=False,
         help="Whether to not collect prices. Useful for if you only want to refresh data source files such as gas station URLs.",
     )
+    arg_parser.add_argument(
+        "--no-update-db",
+        action="store_true",
+        default=False,
+        help="Whether to not push pricing updates to the DB. Useful for if you just want to perform testing without affecting the pricing DB",
+    )
+    arg_parser.add_argument(
+        "--no-write-to-file",
+        action="store_true",
+        default=False,
+        help="Whether to not write pricing update to the local filesystem. You will likely use this flag in the cloud.",
+    )
     return arg_parser.parse_args()
 
 

@@ -6,10 +6,15 @@ from multiprocessing.queues import Queue
 from selenium import webdriver
 from selenium.webdriver import FirefoxOptions
 from selenium.webdriver.common.by import By
+import time
+
+
+samsclub_us_data_source_url = "view-source:https://www.samsclub.com/api/node/vivaldi/browse/v2/clubfinder/list?singleLineAddr=94040&nbrOfStores=2147483647&distance=2147483647"
 
 
 def normalize_data(data) -> list:
     logger.info("Normalizing data...")
+    p_start = time.perf_counter()
     normalized = []
     franchise_name = "SAMS_CLUB"
     for station in data:
@@ -36,7 +41,8 @@ def normalize_data(data) -> list:
                         diesel_price = str(gas_price["price"])
                     case _:
                         logger.warning(
-                            'Gas price with grade name "{grade_name}" is unexpected. Gas price object={gas_price}',
+                            '{station_name} has unexpected gas grade "{grade_name}". Gas price object={gas_price}',
+                            station_name=name,
                             grade_name=gas_price["name"],
                             gas_price=gas_price,
                         )
@@ -47,8 +53,8 @@ def normalize_data(data) -> list:
                 and diesel_price is None
             ):
                 logger.warning(
-                    'Station "{name}" has a gas prices section, but no gas prices were found. Station details: {station}',
-                    name=name,
+                    'Station "{station_name}" has a gas prices section, but no gas prices were found. Station details: {station}',
+                    station_name=name,
                     station=station,
                 )
             elif regular_price is None:
@@ -71,22 +77,29 @@ def normalize_data(data) -> list:
                 }
             )
         else:
-            logger.info("Warehouse {name} does not have any gas prices", name=name)
-    logger.info("Done normalizing data")
+            logger.debug("Warehouse {name} does not have any gas prices", name=name)
+    p_end = time.perf_counter()
+    logger.info("Done normalizing data in {time_s} s", time_s=p_end - p_start)
     return normalized
 
 
-def get_and_normalize_data_from_source():
-    logger.info("Launching Firefox in headless mode...")
+def get_and_normalize_data_from_url(url: str) -> list | None:
+    p_start = time.perf_counter()
+    logger.debug("Launching Firefox in headless mode...")
     browser_opts = FirefoxOptions()
     browser_opts.add_argument("--headless")
     browser = webdriver.Firefox(options=browser_opts)
     logger.info("Started Firefox in headless mode")
 
-    url = "view-source:https://www.samsclub.com/api/node/vivaldi/browse/v2/clubfinder/list?singleLineAddr=94040&nbrOfStores=2147483647&distance=2147483647"
-    logger.info("Making browser GET request to {url}", url=url)
+    logger.debug("Making browser GET request to {url}", url=url)
+    browser_get_start = time.perf_counter()
     browser.get(url)
-    logger.info("GET request to {url} done", url=url)
+    browser_get_end = time.perf_counter()
+    logger.info(
+        "GET request to {url} done in {time_s} s",
+        url=url,
+        time_s=browser_get_end - browser_get_start,
+    )
 
     logger.info("Getting warehouse details blob from document...")
     details_blob = (
@@ -99,6 +112,7 @@ def get_and_normalize_data_from_source():
     browser.close()
 
     data = json.loads(details_blob)
+    p_end = time.perf_counter()
     if "error" in data:
         logger.critical(
             "Data contains an error: {error} - {message}",
@@ -106,29 +120,20 @@ def get_and_normalize_data_from_source():
             message=data["message"],
         )
         raise AssertionError("Data contains an error")
-    return normalize_data(data)
+    normalized = normalize_data(data)
+    logger.info(
+        "Collected gas prices for all Sam's Clubs in {time_s} s", time_s=p_end - p_start
+    )
+    return normalized
 
 
-def collect_data(**kwargs) -> list:
-    results_queue_present = False
-    if "results_queue" in kwargs:
-        if isinstance(kwargs["results_queue"], Queue):
-            results_queue_present = True
-        else:
-            raise TypeError(results_queue_type_error_msg)
-    data = get_and_normalize_data_from_source()
-    if results_queue_present:
-        kwargs["results_queue"].put(obj=data)
-        kwargs["results_queue"].close()
-    logger.info("Got prices for {len_data} Sam's Club gas stations", len_data=len(data))
-    return data
-
-
-def main(run_args):
-    if run_args.no_collect_prices:
+def main(args):
+    if args.refresh_station_list:
+        logger.info("Sam's Club has no URL list to update")
+    if args.no_collect_prices:
         logger.info('Will not collect prices as "--no-collect-prices" was specified')
     else:
-        data = collect_data()
+        data = get_and_normalize_data_from_url(samsclub_us_data_source_url)
         with open("samsclub-prices-out.json", "w") as out_file:
             out_file.write(json.dumps(data, indent=2))
 

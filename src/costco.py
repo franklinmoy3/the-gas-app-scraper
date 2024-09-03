@@ -5,17 +5,16 @@ from helpers import (
     api_response_log_fmt_str,
     abort_due_to_bad_response_fmt_str,
     read_html_log_fmt_str,
-    results_queue_type_error_msg,
 )
 import json
 from loguru import logger
 from multiprocessing import Pool
-from multiprocessing.queues import Queue
 import requests
 import time
 
 
-gas_station_urls_file_name = "costco-gas-station-urls-us.json"
+costco_station_urls_file_name = "costco-gas-station-urls-us.json"
+_prices_output_file_name = "costco-prices-out.json"
 
 
 def write_and_get_all_gas_station_urls() -> list:
@@ -26,7 +25,7 @@ def write_and_get_all_gas_station_urls() -> list:
     alt_warehouse_url_format_string = "https://costco.com/warehouse-locations/{name}-{city}-{state_code}-{location_id}.html"
     warehouse_list_url = "https://www.costco.com/WarehouseListByStateDisplayView"
     p_start = time.perf_counter()
-    logger.info(get_request_log_fmt_str, url=warehouse_list_url)
+    logger.debug(get_request_log_fmt_str, url=warehouse_list_url)
     # Must send User-Agent, else will hang
     resp = requests.get(
         warehouse_list_url, headers={"User-Agent": "PostmanRuntime/7.39.1"}
@@ -55,7 +54,7 @@ def write_and_get_all_gas_station_urls() -> list:
         )
     warehouse_list = json.loads(warehouse_list_as_str)
     logger.info("Found and loaded warehouse list.")
-    with open(gas_station_urls_file_name, "w") as out_file:
+    with open(costco_station_urls_file_name, "w") as out_file:
         logger.info(
             "Writing Costco US warehouse URLs that have gas stations to {file_name}",
             file_name=out_file.name,
@@ -89,9 +88,10 @@ def write_and_get_all_gas_station_urls() -> list:
     return gas_station_urls
 
 
-def get_and_normalize_data_for_station(url: str) -> dict | None:
-    # Must send User-Agent, else will hang
+def get_and_normalize_data_from_url(url: str) -> dict | None:
+    p_start = time.perf_counter()
     logger.info(get_request_log_fmt_str, url=url)
+    # Must send User-Agent, else will hang
     resp = requests.get(url, headers={"User-Agent": "PostmanRuntime/7.39.1"})
     logger.info(api_response_log_fmt_str, status_code=resp.status_code, url=url)
     if resp.status_code != 200:
@@ -100,11 +100,12 @@ def get_and_normalize_data_for_station(url: str) -> dict | None:
     logger.info(read_html_log_fmt_str, url=url)
     soup = BeautifulSoup(resp.text, "html5lib")
     gas_price_section = soup.find("div", attrs={"class": "gas-price-section"})
-    if gas_price_section is None:
-        logger.info(
-            "URL {url} does not have a gas-price-section. Returning None", url=url
-        )
-        return None
+    # Should never happen, but I don't want to delete this safeguard completely from code
+    # if gas_price_section is None:
+    #     logger.info(
+    #         "URL {url} does not have a gas-price-section. Returning None", url=url
+    #     )
+    #     return None
     # Map to normalized schema
     franchise_name = "COSTCO"
     name = (
@@ -158,6 +159,8 @@ def get_and_normalize_data_for_station(url: str) -> dict | None:
         logger.error(
             "Expected a price for regular octane at {url}, but got None!", url=url
         )
+    p_end = time.perf_counter()
+    logger.info("Got prices from {url} in {time_s} s", url=url, time_s=p_end - p_start)
     return {
         "franchiseName": franchise_name,
         "name": name,
@@ -172,49 +175,33 @@ def get_and_normalize_data_for_station(url: str) -> dict | None:
     }
 
 
-def get_and_normalize_data_from_source(urls: list, cpu_pool_size: int) -> list:
-    logger.info(
-        "Creating multiprocessing pool of size {process_count} to gather Costco gas prices",
-        process_count=cpu_pool_size,
-    )
-    with Pool(cpu_pool_size) as p:
-        p_start = time.perf_counter()
-        data = p.map(get_and_normalize_data_for_station, urls)
-        p_end = time.perf_counter()
-        logger.info("Data collection took {time_s} s", time_s=p_end - p_start)
-    return data
-
-
-def collect_data(cpu_pool_size: int, **kwargs) -> list:
-    results_queue_present = False
-    if "results_queue" in kwargs:
-        if isinstance(kwargs["results_queue"], Queue):
-            results_queue_present = True
-        else:
-            raise TypeError(results_queue_type_error_msg)
-    with open(gas_station_urls_file_name, "r") as file:
-        urls = json.loads(file.read())
-    data = get_and_normalize_data_from_source(urls, cpu_pool_size)
-    logger.info(
-        "Collected prices on {len_urls} Costco gas stations", len_urls=len(urls)
-    )
-    if results_queue_present:
-        kwargs["results_queue"].put(obj=data)
-        kwargs["results_queue"].close()
-    return data
-
-
-def main(run_args):
+def main(args):
+    urls = None
     if args.refresh_station_list:
-        logger.info(
-            'Will refresh station list as "--refresh-station-list" was specified'
-        )
-        write_and_get_all_gas_station_urls()
+        logger.info("Updating list of Costco gas station URLs")
+        urls = write_and_get_all_gas_station_urls()
     if args.no_collect_prices:
         logger.info('Will not collect prices as "--no-collect-prices" was specified')
     else:
-        data = collect_data(cpu_pool_size=run_args.cpu_pool_size)
-        with open("costco-prices-out.json", "w") as out_file:
+        if urls is None:
+            logger.info(
+                "Reading Costco URLs from {file_name}",
+                file_name=costco_station_urls_file_name,
+            )
+            with open(costco_station_urls_file_name, "r") as urls_file:
+                urls = json.loads(urls_file.read())
+        logger.info(
+            "Creating pool of size {pool_size} to get Costco prices",
+            pool_size=args.cpu_pool_size,
+        )
+        with Pool(processes=args.cpu_pool_size) as p:
+            p_start = time.perf_counter()
+            data = p.map(get_and_normalize_data_from_url, urls)
+            p_end = time.perf_counter()
+            logger.info(
+                "Got prices for all Costcos in {time_s} s", time_s=p_end - p_start
+            )
+        with open(_prices_output_file_name, "w") as out_file:
             out_file.write(json.dumps(data, indent=2))
 
 

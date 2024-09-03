@@ -164,4 +164,4 @@ cython_debug/
 # Test output files
 **/samsclub-prices-out.json
 **/costco-prices-out.json
-**/all-prices-out.json
+**/prices.json

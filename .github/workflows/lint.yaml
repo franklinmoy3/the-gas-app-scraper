@@ -22,11 +22,8 @@ jobs:
       - name: Setup pipenv
         run: python3 -m pip install pipenv
 
-      - name: Enter virtual environment
-        run: python3 -m pipenv shell
-
       - name: Setup flake8
-        run: python3 -m pipenv install --dev
+        run: python3 -m pipenv install --dev --system
     
       - name: Lint with flake8
         id: flake8-lint

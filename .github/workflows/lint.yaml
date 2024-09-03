@@ -19,8 +19,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Setup pipenv
+        run: python3 -m pip install pipenv
+
       - name: Setup flake8
-        run: python3 -m pip install pipenv && python3 -m pipenv install --dev
+        run: python3 -m pipenv install --dev
     
       - name: Lint with flake8
         id: flake8-lint

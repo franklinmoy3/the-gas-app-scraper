@@ -15,9 +15,13 @@ COPY src Pipfile Pipfile.lock ./
 RUN useradd app
 USER app
 
+# Set Git config (maybe use a service account later?)
+RUN git config --global user.name Franklin Moy
+RUN git config --global user.email franklinmoy3@gmail.com
+
 # Install pipenv and project dependencies
 RUN python3 -m pip install pipenv
-RUN python3 -m pipenv install
+RUN python3 -m pipenv install --system
 
 # Run the scraper
 CMD ["python3", "src/scraper.py", "--structured-logging", "--log-level=INFO"]

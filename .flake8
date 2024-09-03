@@ -9,6 +9,8 @@ exclude =
     dist
 max-complexity = 10
 max-line-length = 88 
+plugins = flake8_annotations
+select = B,E
 extend-ignore = 
     ; E501: line too long (Delegated to black)
     E501,

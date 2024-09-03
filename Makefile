@@ -9,3 +9,6 @@ init:
 
 lint:
 	python3 -m flake8 -v
+
+deptree:
+	python3 -m pipdeptree -fl

@@ -1,0 +1,13 @@
+.gcloudignore
+
+.git
+.gitignore
+.github
+
+.devcontainer
+
+docs
+
+LICENSE
+README.md
+

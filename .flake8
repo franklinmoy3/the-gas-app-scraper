@@ -1,0 +1,16 @@
+[flake8]
+exclude =
+    .devcontainer,
+    .git,
+    .github,
+    __pycache__,
+    docs,
+    build,
+    dist
+max-complexity = 10
+max-line-length = 88 
+extend-ignore = 
+    ; E501: line too long (Delegated to black)
+    E501,
+    ; E203: whitespace before ':' (Contradicts black)
+    E203

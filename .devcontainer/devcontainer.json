@@ -29,6 +29,7 @@
 				"eamodio.gitlens",
 				"github.vscode-github-actions",
 				"ms-python.black-formatter",
+				"ms-python.flake8",
 				"ms-python.python",
 				"ms-vscode.makefile-tools",
 				"ms-vsliveshare.vsliveshare"

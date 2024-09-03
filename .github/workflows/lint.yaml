@@ -1,0 +1,25 @@
+name: Format Python sources
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
+  
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Local Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@main
+
+      - name: Setup flake8
+        run: python3 -m pip install flake8
+    
+      - name: Lint with flake8
+        id: flake8-lint
+        run: python3 -m flake8

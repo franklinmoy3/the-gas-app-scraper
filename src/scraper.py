@@ -122,13 +122,15 @@ def main(args):
             today = datetime.today().strftime("%Y-%m-%d")
             os.system('git commit -m "Pricing update: {today}"'.format(today=today))
             os.system(
-                'git tag -f -a -m "Pricing update for {today}" {today}'.format(
+                'git tag -a -f -m "Pricing update for {today}" {today}'.format(
                     today=today
                 )
             )
             logger.info("Pricing update for {today} staged. Pushing...", today=today)
             push_start = time.perf_counter()
-            os.system("git push --follow-tags --force")
+            os.system("git push")
+            # Force update the tag name
+            os.system("git push origin {today} --force".format(today=today))
             push_end = time.perf_counter()
             logger.info(
                 "Pricing update pushed in {time_s} s. Cleaning up...",

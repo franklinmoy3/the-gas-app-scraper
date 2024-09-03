@@ -66,9 +66,7 @@ def main(args):
         logger.debug("Flattening prices list")
         flatten_start = time.perf_counter()
         prices_already_flattened = [
-            price
-            for price in prices_list
-            if not isinstance(price, list)
+            price for price in prices_list if not isinstance(price, list)
         ]
         prices_to_flattened = [
             inner_price

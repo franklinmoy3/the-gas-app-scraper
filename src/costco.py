@@ -157,7 +157,9 @@ def get_and_normalize_data_from_url(url: str) -> dict | None:
         )
     elif regular_price is None:
         logger.error(
-            "Expected a price for regular octane at {url}, but got None! html is {html}", url=url, html=gas_price_section.contents
+            "Expected a price for regular octane at {url}, but got None! html is {html}",
+            url=url,
+            html=gas_price_section.contents,
         )
     p_end = time.perf_counter()
     logger.info("Got prices from {url} in {time_s} s", url=url, time_s=p_end - p_start)

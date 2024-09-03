@@ -65,11 +65,18 @@ def main(args):
         #   i.e. the prices list will be like [[price1, price2], price3, price4]
         logger.debug("Flattening prices list")
         flatten_start = time.perf_counter()
-        prices = [
-            price if not isinstance(price, list) else inner_price
+        prices_already_flattened = [
+            price
+            for price in prices_list
+            if not isinstance(price, list)
+        ]
+        prices_to_flattened = [
+            inner_price
             for price in prices_list
             for inner_price in price
+            if isinstance(price, list)
         ]
+        prices = prices_to_flattened + prices_already_flattened
         data = {"timestamp": int(time.time() * 1000), "prices": prices}
         data_as_json = json.dumps(data, indent=2)
         flatten_end = time.perf_counter()

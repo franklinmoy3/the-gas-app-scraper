@@ -3,6 +3,10 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'us-central1-docker.pkg.dev/the-gas-app-prod/scraper-images:$COMMIT_SHA', '.']
     automapSubstitutions: true
+  # Push container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'us-central1-docker.pkg.dev/the-gas-app-prod/scraper-images:$COMMIT_SHA']
+    automapSubstitutions: true
   # Deploy container image to Cloud Run Jobs
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint: gcloud
@@ -21,9 +25,6 @@ steps:
     - '4Gi' 
     - '--parallelism'
     - '1'
-    - '--set-secrets=/home/app/.ssh=projects/1046315716182/secrets/gh-db-deploy-key:latest'
-# Images to save to Artifact Registry at build end
-images:
-  - 'us-central1-docker.pkg.dev/the-gas-app-prod/scraper-images:$COMMIT_SHA'
+    - '--set-secrets=/home/app/.ssh=gh-db-deploy-key:latest'
 options:
   logging: CLOUD_LOGGING_ONLY

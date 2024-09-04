@@ -13,8 +13,8 @@ pipdeptree = "*"
 python_version = "3.12"
 
 [packages]
-loguru = "*"
-bs4 = "*"
-requests = "*"
-selenium = "*"
-html5lib = "*"
+loguru = "==0.7.2"
+requests = "==2.32.3"
+selenium = "==4.24.0"
+html5lib = "==1.1"
+beautifulsoup4 = "==4.12.3"

@@ -22,7 +22,7 @@ steps:
     - '--cpu'
     - '8000m'
     - '--memory'
-    - '4Gi' 
+    - '8Gi' 
     - '--parallelism'
     - '1'
     - '--max-retries'

@@ -126,9 +126,7 @@ def get_and_normalize_data_from_url(url_object: dict) -> dict | None:
         if resp.status_code != 200:
             logger.error(abort_due_to_bad_response_fmt_str)
             if resp.status_code == 403 or resp.status_code == 429 and not _should_abort:
-                logger.error(
-                    "Being rate limited or honeypotted. Setting abort flag."
-                )
+                logger.error("Being rate limited or honeypotted. Setting abort flag.")
                 _should_abort = True
         else:
             logger.info(read_html_log_fmt_str, url=url)
@@ -147,7 +145,8 @@ def get_and_normalize_data_from_url(url_object: dict) -> dict | None:
                 for meaningful_descendant in gas_price.find_all("span"):
                     if (
                         grade is None
-                        and "gas-type" in meaningful_descendant.get_attribute_list("class")
+                        and "gas-type"
+                        in meaningful_descendant.get_attribute_list("class")
                     ):
                         grade = meaningful_descendant.text
                     else:
@@ -183,7 +182,9 @@ def get_and_normalize_data_from_url(url_object: dict) -> dict | None:
                     html=gas_price_section.contents,
                 )
             p_end = time.perf_counter()
-            logger.info("Got prices from {url} in {time_s} s", url=url, time_s=p_end - p_start)
+            logger.info(
+                "Got prices from {url} in {time_s} s", url=url, time_s=p_end - p_start
+            )
     return {
         "franchiseName": franchise_name,
         "name": name,

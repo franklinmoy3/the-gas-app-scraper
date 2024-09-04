@@ -17,7 +17,9 @@ import time
 db_repo_url_ssh = "git@github.com:franklinmoy3/the-gas-app-db.git"
 db_repo_clone_dir = "/tmp/the-gas-app-db"
 prices_file_name = "prices.json"
-current_prices_url = "https://github.com/franklinmoy3/the-gas-app-db/blob/latest/prices.json"
+current_prices_url = (
+    "https://github.com/franklinmoy3/the-gas-app-db/blob/latest/prices.json"
+)
 
 
 def dispatcher(url_object: dict):
@@ -47,7 +49,7 @@ def merge_prices(curr_prices: list, new_prices: list):
         merged_mid_grade_price = curr_station_state["midGradePrice"]
         merged_premium_price = curr_station_state["premiumPrice"]
         merged_diesel_price = curr_station_state["dieselPrice"]
-        
+
         if new_station_state["regularPrice"] is not None:
             merged_regular_price = new_station_state["regularPrice"]
         if new_station_state["midGradePrice"] is not None:
@@ -82,7 +84,10 @@ def main(args):
         url_collect_start = time.perf_counter()
         urls.append({"franchise_name": "SAMS_CLUB", "url": samsclub_us_data_source_url})
         if refreshed_costco_urls is not None:
-            costco_urls_formatted = [{"franchise_name": "COSTCO", "url": url} for url in refreshed_costco_urls]
+            costco_urls_formatted = [
+                {"franchise_name": "COSTCO", "url": url}
+                for url in refreshed_costco_urls
+            ]
         else:
             with open(costco_station_urls_file_name, "r") as costco_urls_file:
                 costco_urls = json.loads(costco_urls_file.read())
@@ -152,7 +157,9 @@ def main(args):
             )
         if not args.no_update_db:
             # Get and merge pricing
-            curr_prices_resp = requests.get(current_prices_url, headers={"User-Agent": user_agent})
+            curr_prices_resp = requests.get(
+                current_prices_url, headers={"User-Agent": user_agent}
+            )
             if curr_prices_resp.status_code == 200:
                 curr_prices = json.loads(curr_prices_resp.text)
                 merged_prices = merged_prices(curr_prices, new_prices)

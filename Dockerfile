@@ -9,7 +9,7 @@ RUN curl -L https://github.com/mozilla/geckodriver/releases/download/v0.35.0/gec
 RUN mv geckodriver /usr/local/bin/
 
 # Copy project files
-COPY Pipfile Pipfile.lock ./
+COPY costco-gas-station-urls-us.json Pipfile Pipfile.lock ./
 COPY src ./src
 
 # Create and use non-root user

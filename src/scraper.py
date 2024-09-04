@@ -18,7 +18,7 @@ db_repo_url_ssh = "git@github.com:franklinmoy3/the-gas-app-db.git"
 db_repo_clone_dir = "/tmp/the-gas-app-db"
 prices_file_name = "prices.json"
 current_prices_url = (
-    "https://github.com/franklinmoy3/the-gas-app-db/blob/latest/prices.json"
+    "https://raw.githubusercontent.com/franklinmoy3/the-gas-app-db/latest/prices.json"
 )
 
 

@@ -25,6 +25,8 @@ steps:
     - '4Gi' 
     - '--parallelism'
     - '1'
+    - '--max-retries'
+    - '0'
     - '--set-secrets=/home/app/.ssh/id_rsa=gh-db-deploy-key:latest'
 options:
   logging: CLOUD_LOGGING_ONLY

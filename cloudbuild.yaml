@@ -1,6 +1,3 @@
-options:
-  logging: CLOUD_LOGGING_ONLY
-
 steps:
   # Build and push container image to Artifact Registry
   - name: 'gcr.io/cloud-builders/docker'
@@ -20,3 +17,5 @@ steps:
     - 'us-central1'
   images:
   - 'us-central1-docker.pkg.dev/the-gas-app-prod/scraper-images:$COMMIT_SHA'
+options:
+  logging: CLOUD_LOGGING_ONLY

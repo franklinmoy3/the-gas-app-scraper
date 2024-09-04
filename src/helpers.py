@@ -6,6 +6,7 @@ import logging
 from loguru import logger
 import multiprocessing as mp
 import sys
+import time
 
 
 get_request_log_fmt_str = "Making GET request to {url}"
@@ -13,6 +14,11 @@ api_response_log_fmt_str = "Received HTTP {status_code} from {url}"
 abort_due_to_bad_response_fmt_str = "Cannot continue due to receiving non-200 response"
 read_html_log_fmt_str = "Reading HTML tree from {url}"
 results_queue_type_error_msg = "results_queue must be a multiprocessing.queues.Queue"
+user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
+
+
+def now_in_epoch_ms() -> int:
+    return int(time.time() * 1000)
 
 
 def parse_command_args():

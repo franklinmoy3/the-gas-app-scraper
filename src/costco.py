@@ -5,6 +5,8 @@ from helpers import (
     api_response_log_fmt_str,
     abort_due_to_bad_response_fmt_str,
     read_html_log_fmt_str,
+    user_agent,
+    now_in_epoch_ms,
 )
 import json
 from loguru import logger
@@ -15,6 +17,7 @@ import time
 
 costco_station_urls_file_name = "costco-gas-station-urls-us.json"
 _prices_output_file_name = "costco-prices-out.json"
+_should_abort = False
 
 
 def write_and_get_all_gas_station_urls() -> list:
@@ -27,9 +30,7 @@ def write_and_get_all_gas_station_urls() -> list:
     p_start = time.perf_counter()
     logger.debug(get_request_log_fmt_str, url=warehouse_list_url)
     # Must send User-Agent, else will hang
-    resp = requests.get(
-        warehouse_list_url, headers={"User-Agent": "PostmanRuntime/7.39.1"}
-    )
+    resp = requests.get(warehouse_list_url, headers={"User-Agent": user_agent})
     logger.info(
         api_response_log_fmt_str, status_code=resp.status_code, url=warehouse_list_url
     )
@@ -64,21 +65,34 @@ def write_and_get_all_gas_station_urls() -> list:
             state_code = state_with_warehouses["stateCode"].lower()
             for warehouse in state_with_warehouses["warehouseList"]:
                 if warehouse["hasGasDepartment"]:
-                    location_name = warehouse["locationName"].lower()
-                    city = warehouse["city"].lower()
+                    location_name = warehouse["locationName"]
+                    location_name_lower = location_name.lower()
+                    city_lower = warehouse["city"].lower()
+                    city = city_lower.title()
                     location_id = warehouse["identifier"]
-                    if location_name == city:
+                    if location_name_lower == city_lower:
                         url_to_write = warehouse_url_format_string.format(
-                            city=city, state_code=state_code, location_id=location_id
-                        )
-                    else:
-                        url_to_write = alt_warehouse_url_format_string.format(
-                            name=location_name,
-                            city=city,
+                            city=city_lower,
                             state_code=state_code,
                             location_id=location_id,
                         )
-                    gas_station_urls.append(url_to_write.replace(" ", "-"))
+                    else:
+                        url_to_write = alt_warehouse_url_format_string.format(
+                            name=location_name_lower,
+                            city=city_lower,
+                            state_code=state_code,
+                            location_id=location_id,
+                        )
+                    gas_station_urls.append(
+                        {
+                            "name": location_name,
+                            "streetAddress": warehouse["address1"].title(),
+                            "city": city,
+                            "state": warehouse["state"],
+                            "postalCode": warehouse["zipCode"],
+                            "url": url_to_write.replace(" ", "-"),
+                        }
+                    )
         out_file.write(json.dumps(gas_station_urls, indent=2))
     p_end = time.perf_counter()
     logger.info(
@@ -88,81 +102,88 @@ def write_and_get_all_gas_station_urls() -> list:
     return gas_station_urls
 
 
-def get_and_normalize_data_from_url(url: str) -> dict | None:
-    p_start = time.perf_counter()
-    logger.info(get_request_log_fmt_str, url=url)
-    # Must send User-Agent, else will hang
-    resp = requests.get(url, headers={"User-Agent": "PostmanRuntime/7.39.1"})
-    logger.info(api_response_log_fmt_str, status_code=resp.status_code, url=url)
-    if resp.status_code != 200:
-        logger.error(abort_due_to_bad_response_fmt_str)
-        resp.raise_for_status()
-    logger.info(read_html_log_fmt_str, url=url)
-    soup = BeautifulSoup(resp.text, "html5lib")
-    gas_price_section = soup.find("div", attrs={"class": "gas-price-section"})
-    # Should never happen, but I don't want to delete this safeguard completely from code
-    # if gas_price_section is None:
-    #     logger.info(
-    #         "URL {url} does not have a gas-price-section. Returning None", url=url
-    #     )
-    #     return None
-    # Map to normalized schema
+def get_and_normalize_data_from_url(url_object: dict) -> dict | None:
     franchise_name = "COSTCO"
-    name = (
-        soup.find("h1", attrs={"automation-id": "warehouseNameOutput"}).text
-        + " (Costco)"
-    )
-    street_address = soup.find("span", attrs={"itemprop": "streetAddress"}).text
-    city = soup.find("span", attrs={"itemprop": "addressLocality"}).text
-    state = soup.find("span", attrs={"itemprop": "addressRegion"}).text
-    postal_code = soup.find("span", attrs={"itemprop": "postalCode"}).text
-
+    name = url_object["name"] + " (Costco)"
+    street_address = url_object["streetAddress"]
+    city = url_object["city"]
+    state = url_object["state"]
+    postal_code = url_object["postalCode"]
     regular_price = None
     mid_grade_price = None
     premium_price = None
     diesel_price = None
-    for gas_price in gas_price_section.find_all("div"):
-        grade = None
-        price = None
-        for meaningful_descendant in gas_price.find_all("span"):
-            if (
-                grade is None
-                and "gas-type" in meaningful_descendant.get_attribute_list("class")
-            ):
-                grade = meaningful_descendant.text
-            else:
-                price = meaningful_descendant.text
-        match grade:
-            case "Regular":
-                regular_price = price
-            case "Premium":
-                premium_price = price
-            case "Diesel":
-                diesel_price = price
-            case _:
-                logger.warning(
-                    'Gas price with grade name "{grade_name}" is unexpected. Gas price is={gas_price}',
-                    grade_name=grade,
-                    gas_price=price,
+    url = url_object["url"]
+    global _should_abort
+    if _should_abort:
+        logger.warning("Abort flag set, setting gas prices to None for {url}", url=url)
+    else:
+        p_start = time.perf_counter()
+        logger.debug(get_request_log_fmt_str, url=url)
+        # Must send User-Agent, else will hang
+        resp = requests.get(url, headers={"User-Agent": user_agent})
+        logger.info(api_response_log_fmt_str, status_code=resp.status_code, url=url)
+        if resp.status_code != 200:
+            logger.error(abort_due_to_bad_response_fmt_str)
+            if resp.status_code == 403 or resp.status_code == 429 and not _should_abort:
+                logger.error(
+                    "Being rate limited or honeypotted. Setting abort flag."
                 )
-    if (
-        regular_price is None
-        and mid_grade_price is None
-        and premium_price is None
-        and diesel_price is None
-    ):
-        logger.warning(
-            'URL "{url}" has a gas prices section, but no gas prices were found.',
-            url=url,
-        )
-    elif regular_price is None:
-        logger.error(
-            "Expected a price for regular octane at {url}, but got None! html is {html}",
-            url=url,
-            html=gas_price_section.contents,
-        )
-    p_end = time.perf_counter()
-    logger.info("Got prices from {url} in {time_s} s", url=url, time_s=p_end - p_start)
+                _should_abort = True
+        else:
+            logger.info(read_html_log_fmt_str, url=url)
+            soup = BeautifulSoup(resp.text, "html5lib")
+            gas_price_section = soup.find("div", attrs={"class": "gas-price-section"})
+            # Should never happen, but I don't want to delete this safeguard completely from code
+            # if gas_price_section is None:
+            #     logger.info(
+            #         "URL {url} does not have a gas-price-section. Returning None", url=url
+            #     )
+            #     return None
+            # Map to normalized schema
+            for gas_price in gas_price_section.find_all("div"):
+                grade = None
+                price = None
+                for meaningful_descendant in gas_price.find_all("span"):
+                    if (
+                        grade is None
+                        and "gas-type" in meaningful_descendant.get_attribute_list("class")
+                    ):
+                        grade = meaningful_descendant.text
+                    else:
+                        price = meaningful_descendant.text
+                match grade:
+                    case "Regular":
+                        regular_price = {"timestamp": now_in_epoch_ms(), "price": price}
+                    case "Premium":
+                        premium_price = {"timestamp": now_in_epoch_ms(), "price": price}
+                    case "Diesel":
+                        diesel_price = {"timestamp": now_in_epoch_ms(), "price": price}
+                    case _:
+                        logger.warning(
+                            '{url} has unknown gas grade "{grade_name}". Gas price is={gas_price}',
+                            url=url,
+                            grade_name=grade,
+                            gas_price=price,
+                        )
+            if (
+                regular_price is None
+                and mid_grade_price is None
+                and premium_price is None
+                and diesel_price is None
+            ):
+                logger.warning(
+                    'URL "{url}" has a gas prices section, but no gas prices were found.',
+                    url=url,
+                )
+            elif regular_price is None:
+                logger.error(
+                    "Expected a price for regular octane at {url}, but got None! html is {html}",
+                    url=url,
+                    html=gas_price_section.contents,
+                )
+            p_end = time.perf_counter()
+            logger.info("Got prices from {url} in {time_s} s", url=url, time_s=p_end - p_start)
     return {
         "franchiseName": franchise_name,
         "name": name,
@@ -199,12 +220,13 @@ def main(args):
         with Pool(processes=args.cpu_pool_size) as p:
             p_start = time.perf_counter()
             data = p.map(get_and_normalize_data_from_url, urls)
+            data_with_nulls_removed = [price for price in data if price is not None]
             p_end = time.perf_counter()
             logger.info(
                 "Got prices for all Costcos in {time_s} s", time_s=p_end - p_start
             )
         with open(_prices_output_file_name, "w") as out_file:
-            out_file.write(json.dumps(data, indent=2))
+            out_file.write(json.dumps(data_with_nulls_removed, indent=2))
 
 
 if __name__ == "__main__":

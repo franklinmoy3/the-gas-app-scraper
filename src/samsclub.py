@@ -1,8 +1,7 @@
 import helpers
-from helpers import results_queue_type_error_msg
+from helpers import now_in_epoch_ms
 import json
 from loguru import logger
-from multiprocessing.queues import Queue
 from selenium import webdriver
 from selenium.webdriver import FirefoxOptions
 from selenium.webdriver.common.by import By
@@ -32,13 +31,25 @@ def normalize_data(data) -> list:
             for gas_price in station["gasPrices"]:
                 match gas_price["name"]:
                     case "UNLEAD":
-                        regular_price = str(gas_price["price"])
+                        regular_price = {
+                            "timestamp": now_in_epoch_ms(),
+                            "price": "$" + str(gas_price["price"]),
+                        }
                     case "MIDGRAD":
-                        mid_grade_price = str(gas_price["price"])
+                        mid_grade_price = {
+                            "timestamp": now_in_epoch_ms(),
+                            "price": "$" + str(gas_price["price"]),
+                        }
                     case "PREMIUM":
-                        premium_price = str(gas_price["price"])
+                        premium_price = {
+                            "timestamp": now_in_epoch_ms(),
+                            "price": "$" + str(gas_price["price"]),
+                        }
                     case "DIESEL":
-                        diesel_price = str(gas_price["price"])
+                        diesel_price = {
+                            "timestamp": now_in_epoch_ms(),
+                            "price": "$" + str(gas_price["price"]),
+                        }
                     case _:
                         logger.warning(
                             '{station_name} has unexpected gas grade "{grade_name}". Gas price object={gas_price}',

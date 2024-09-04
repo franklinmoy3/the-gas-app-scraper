@@ -21,10 +21,7 @@ steps:
     - '4Gi' 
     - '--parallelism'
     - '1'
-    - '--add-volume'
-    - 'type=secret,name=projects/1046315716182/secrets/gh-db-deploy-key:latest'
-    - '--add-volume-mount'
-    - 'volume=projects/1046315716182/secrets/gh-db-deploy-key:latest,mount-path=/home/app/.ssh'
+    - '--set-secrets=/home/app/.ssh=projects/1046315716182/secrets/gh-db-deploy-key:latest'
 # Images to save to Artifact Registry at build end
 images:
   - 'us-central1-docker.pkg.dev/the-gas-app-prod/scraper-images:$COMMIT_SHA'

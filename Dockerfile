@@ -12,11 +12,10 @@ RUN mv geckodriver /usr/local/bin/
 COPY src Pipfile Pipfile.lock ./
 
 # Create and use non-root user
-RUN useradd app
+RUN useradd --create-home app
 USER app
 
 # Set Git config (maybe use a service account later?)
-RUN touch /home/app/.gitconfig
 RUN git config --global user.name Franklin Moy
 RUN git config --global user.email franklinmoy3@gmail.com
 

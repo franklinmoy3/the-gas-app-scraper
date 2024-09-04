@@ -16,6 +16,7 @@ RUN useradd app
 USER app
 
 # Set Git config (maybe use a service account later?)
+RUN touch /home/app/.gitconfig
 RUN git config --global user.name Franklin Moy
 RUN git config --global user.email franklinmoy3@gmail.com
 

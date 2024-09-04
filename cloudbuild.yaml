@@ -1,11 +1,11 @@
 steps:
   # Build container image
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'us-central1-docker.pkg.dev/the-gas-app-prod/scraper-images:$COMMIT_SHA', '.']
+    args: ['build', '-t', 'us-central1-docker.pkg.dev/the-gas-app-prod/scraper-images/scraper:$COMMIT_SHA', '.']
     automapSubstitutions: true
   # Push container image
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'us-central1-docker.pkg.dev/the-gas-app-prod/scraper-images:$COMMIT_SHA']
+    args: ['push', 'us-central1-docker.pkg.dev/the-gas-app-prod/scraper-images/scraper:$COMMIT_SHA']
     automapSubstitutions: true
   # Deploy container image to Cloud Run Jobs
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
@@ -16,7 +16,7 @@ steps:
     - 'deploy'
     - 'scraper'
     - '--image'
-    - 'us-central1-docker.pkg.dev/the-gas-app-prod/scraper-images:$COMMIT_SHA'
+    - 'us-central1-docker.pkg.dev/the-gas-app-prod/scraper-images/scraper:$COMMIT_SHA'
     - '--region'
     - 'us-central1'
     - '--cpu'

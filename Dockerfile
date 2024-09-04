@@ -9,7 +9,7 @@ RUN curl -L https://github.com/mozilla/geckodriver/releases/download/v0.35.0/gec
 RUN mv geckodriver /usr/local/bin/
 
 # Copy project files
-COPY src Pipfile Pipfile.lock ./
+COPY src/ Pipfile Pipfile.lock ./
 
 # Create and use non-root user
 RUN useradd --create-home app

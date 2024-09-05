@@ -171,11 +171,16 @@ def main(args):
             orig_dir = os.curdir
             logger.info("Cloning database repo...")
             clone_start = time.perf_counter()
-            os.system(
+            if os.system(
                 "git clone --depth=1 {db_repo} {target_dir}".format(
                     db_repo=db_repo_url_ssh, target_dir=db_repo_clone_dir
                 )
-            )
+            ) != 0:
+                raise RuntimeError(
+                    "Failed to clone {db_repo} to location {target_dir}".format(
+                        db_repo=db_repo_url_ssh, target_dir=db_repo_clone_dir
+                    )
+                )
             clone_end = time.perf_counter()
             logger.info(
                 "Pricing DB repo cloned in {time_s} s", time_s=clone_end - clone_start
@@ -197,9 +202,12 @@ def main(args):
             )
             logger.info("Pricing update for {today} staged. Pushing...", today=today)
             push_start = time.perf_counter()
-            os.system("git push")
+            if os.system("git push") != 0:
+                logger.error("Failed to push pricing update")
+                raise RuntimeError("Failed to push pricing update")
             # Force update the tag name
-            os.system("git push origin {today} --force".format(today=today))
+            if os.system("git push origin {today} --force".format(today=today)):
+                logger.error("Failed to push tag for {today}", today=today)
             push_end = time.perf_counter()
             logger.info(
                 "Pricing update pushed in {time_s} s. Cleaning up...",

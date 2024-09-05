@@ -171,11 +171,14 @@ def main(args):
             orig_dir = os.curdir
             logger.info("Cloning database repo...")
             clone_start = time.perf_counter()
-            if os.system(
-                "git clone --depth=1 {db_repo} {target_dir}".format(
-                    db_repo=db_repo_url_ssh, target_dir=db_repo_clone_dir
+            if (
+                os.system(
+                    "git clone --depth=1 {db_repo} {target_dir}".format(
+                        db_repo=db_repo_url_ssh, target_dir=db_repo_clone_dir
+                    )
                 )
-            ) != 0:
+                != 0
+            ):
                 raise RuntimeError(
                     "Failed to clone {db_repo} to location {target_dir}".format(
                         db_repo=db_repo_url_ssh, target_dir=db_repo_clone_dir

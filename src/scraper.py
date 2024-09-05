@@ -169,6 +169,8 @@ def main(args):
             # Publish update to DB in GitHub
             logger.info("Preparing to apply pricing update to DB...")
             orig_dir = os.curdir
+            logger.debug("Setting SSH private key perms")
+            os.chmod(os.path.expanduser("~/.ssh/id_rsa"), 600)
             logger.info("Cloning database repo...")
             clone_start = time.perf_counter()
             if (

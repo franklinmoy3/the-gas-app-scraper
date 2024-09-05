@@ -162,7 +162,7 @@ def main(args):
             )
             if curr_prices_resp.status_code == 200:
                 curr_prices = json.loads(curr_prices_resp.text)
-                merged_prices = merged_prices(curr_prices, new_prices)
+                merged_prices = merge_prices(curr_prices, new_prices)
             else:
                 merged_prices = new_prices
             merged_prices_as_json = json.dumps(merged_prices, indent=2)

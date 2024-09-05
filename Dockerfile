@@ -21,6 +21,8 @@ RUN git config --global user.name Franklin Moy
 RUN git config --global user.email franklinmoy3@gmail.com
 
 # Add GitHub to known SSH hosts
+RUN mkdir /home/app/.ssh
+RUN touch /home/app/.ssh/known_hosts 
 RUN ssh-keyscan -H github.com >> /home/app/.ssh/known_hosts
 
 # Install pipenv and project dependencies

@@ -175,21 +175,26 @@ def main(args):
             if args.use_mounted_deploy_key:
                 did_preserve_key = False
                 try:
-                    logger.debug("Preserving existing id_rsa")
+                    logger.debug("Preserving user's existing id_rsa")
                     shutil.copyfile(
                         _user_home_private_ssh_key_file_name,
                         _preserved_user_home_private_ssh_key_file_name,
                     )
                     did_preserve_key = True
+                    logger.info("Preserved user's existing id_rsa")
                 except FileNotFoundError:
-                    logger.debug(
+                    logger.info(
                         "Nothing to preserve as no default id_rsa private key was found in the user directory"
                     )
                 logger.debug("Copying mounted SSH deploy key")
-                shutil.copyfile(
-                    _mounted_deploy_key_file_name, _user_home_private_ssh_key_file_name
-                )
+                with open(_mounted_deploy_key_file_name, "r") as secret_file:
+                    mounted_deploy_key = secret_file.read()
+                with open(
+                    _user_home_private_ssh_key_file_name, "w+"
+                ) as private_key_file:
+                    private_key_file.write(mounted_deploy_key)
                 os.chmod(_user_home_private_ssh_key_file_name, 600)
+                logger.info("Copied mounted SSH deploy key")
             logger.info("Cloning database repo...")
             clone_start = time.perf_counter()
             if (
@@ -239,13 +244,12 @@ def main(args):
             )
             shutil.rmtree(db_repo_clone_dir, ignore_errors=True)
             if did_preserve_key:
-                logger.debug(
-                    "Replacing mounted deploy key with user's existing private SSH key"
-                )
+                logger.debug("Restoring with user's existing private SSH key")
                 shutil.move(
                     _preserved_user_home_private_ssh_key_file_name,
                     _user_home_private_ssh_key_file_name,
                 )
+                logger.info("Restored user's existing private SSH key")
             os.chdir(orig_dir)
         scraper_end = time.perf_counter()
         logger.info(

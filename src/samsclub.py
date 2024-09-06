@@ -5,6 +5,7 @@ from loguru import logger
 from selenium import webdriver
 from selenium.webdriver import FirefoxOptions
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import WebDriverException
 import time
 
 
@@ -99,7 +100,12 @@ def get_and_normalize_data_from_url(url: str) -> list | None:
     logger.debug("Launching Firefox in headless mode...")
     browser_opts = FirefoxOptions()
     browser_opts.add_argument("--headless")
-    browser = webdriver.Firefox(options=browser_opts)
+    try:
+        browser = webdriver.Firefox(options=browser_opts)
+    except WebDriverException as err:
+        with open("geckodriver.log") as geckodriver_log:
+            logger.debug(geckodriver_log.read())
+        raise err
     logger.info("Started Firefox in headless mode")
 
     logger.debug("Making browser GET request to {url}", url=url)

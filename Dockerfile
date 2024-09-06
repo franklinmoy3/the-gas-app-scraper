@@ -28,4 +28,4 @@ RUN python3 -m pip install pipenv
 RUN python3 -m pipenv install --system
 
 # Run the scraper
-CMD ["python3", "src/scraper.py", "--no-write-to-file", "--structured-logging", "--log-level=INFO"]
+CMD ["python3", "src/scraper.py", "--no-write-to-file", "--structured-logging", "--use-mounted-deploy-key", "--log-level=INFO"]

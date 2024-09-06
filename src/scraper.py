@@ -20,6 +20,9 @@ prices_file_name = "prices.json"
 current_prices_url = (
     "https://raw.githubusercontent.com/franklinmoy3/the-gas-app-db/latest/prices.json"
 )
+_mounted_deploy_key_file_name = "/etc/secrets/id_rsa"
+_user_home_private_ssh_key_file_name = os.path.expanduser("~/.ssh/id_rsa")
+_preserved_user_home_private_ssh_key_file_name = os.path.expanduser("~/.ssh/id_rsa.old")
 
 
 def dispatcher(url_object: dict):
@@ -169,8 +172,17 @@ def main(args):
             # Publish update to DB in GitHub
             logger.info("Preparing to apply pricing update to DB...")
             orig_dir = os.curdir
-            logger.debug("Setting SSH private key perms")
-            os.chmod(os.path.expanduser("~/.ssh/id_rsa"), 600)
+            if args.use_mounted_deploy_key:
+                did_preserve_key = False
+                try:
+                    logger.debug("Preserving existing id_rsa")
+                    shutil.copyfile(_user_home_private_ssh_key_file_name, _preserved_user_home_private_ssh_key_file_name)
+                    did_preserve_key = True
+                except FileNotFoundError:
+                    logger.debug("Nothing to preserve as no default id_rsa private key was found in the user directory")
+                logger.debug("Copying mounted SSH deploy key")
+                shutil.copyfile(_mounted_deploy_key_file_name, _user_home_private_ssh_key_file_name)
+                os.chmod(_user_home_private_ssh_key_file_name, 600)
             logger.info("Cloning database repo...")
             clone_start = time.perf_counter()
             if (
@@ -219,6 +231,9 @@ def main(args):
                 time_s=push_end - push_start,
             )
             shutil.rmtree(db_repo_clone_dir, ignore_errors=True)
+            if did_preserve_key:
+                logger.debug("Replacing mounted deploy key with user's existing private SSH key")
+                shutil.move(_preserved_user_home_private_ssh_key_file_name, _user_home_private_ssh_key_file_name)
             os.chdir(orig_dir)
         scraper_end = time.perf_counter()
         logger.info(

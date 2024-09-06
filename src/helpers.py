@@ -67,6 +67,12 @@ def parse_command_args():
         default=False,
         help="Whether to not write pricing update to the local filesystem. You will likely use this flag in the cloud.",
     )
+    arg_parser.add_argument(
+        "--use-mounted-deploy-key",
+        action="store_true",
+        default=False,
+        help="Whether or not to use the deploy key mounted as a secret. You will likely use this flag in the cloud."
+    )
     return arg_parser.parse_args()
 
 

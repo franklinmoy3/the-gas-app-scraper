@@ -193,7 +193,8 @@ def main(args):
                     _user_home_private_ssh_key_file_name, "w+"
                 ) as private_key_file:
                     private_key_file.write(mounted_deploy_key)
-                os.chmod(_user_home_private_ssh_key_file_name, 600)
+                # Don't forget that it's the octal representation
+                os.chmod(_user_home_private_ssh_key_file_name, 0o600)
                 logger.info("Copied mounted SSH deploy key")
             logger.info("Cloning database repo...")
             clone_start = time.perf_counter()

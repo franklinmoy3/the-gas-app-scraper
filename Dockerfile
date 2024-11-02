@@ -1,5 +1,5 @@
 # This Dockerfile bundles the scraper into a deployable container
-FROM python:3-bookworm
+FROM python:3.12-bookworm
 WORKDIR /usr/local/app
 
 # Install Selenium dependencies

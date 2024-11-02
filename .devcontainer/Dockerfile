@@ -1,7 +1,7 @@
 # This Dockerfile is only intended to be used by an IDE's Dev Containers extension
 
 # Use latest python3 on Debian bookworm
-FROM python:3-bookworm
+FROM python:3.12-bookworm
 
 # Reflect the local user in the container
 ARG REMOTE_USER

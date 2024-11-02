@@ -34,22 +34,22 @@ def normalize_data(data) -> list:
                     case "UNLEAD":
                         regular_price = {
                             "timestamp": now_in_epoch_ms(),
-                            "price": "$" + str(gas_price["price"]),
+                            "price": float(gas_price["price"]),
                         }
                     case "MIDGRAD":
                         mid_grade_price = {
                             "timestamp": now_in_epoch_ms(),
-                            "price": "$" + str(gas_price["price"]),
+                            "price": float(gas_price["price"]),
                         }
                     case "PREMIUM":
                         premium_price = {
                             "timestamp": now_in_epoch_ms(),
-                            "price": "$" + str(gas_price["price"]),
+                            "price": float(gas_price["price"]),
                         }
                     case "DIESEL":
                         diesel_price = {
                             "timestamp": now_in_epoch_ms(),
-                            "price": "$" + str(gas_price["price"]),
+                            "price": float(gas_price["price"]),
                         }
                     case _:
                         logger.warning(
@@ -82,6 +82,7 @@ def normalize_data(data) -> list:
                     "city": city,
                     "state": state,
                     "postalCode": postal_code,
+                    "currencySymbol": "$",
                     "regularPrice": regular_price,
                     "midGradePrice": mid_grade_price,
                     "premiumPrice": premium_price,

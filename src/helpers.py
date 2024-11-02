@@ -17,6 +17,10 @@ results_queue_type_error_msg = "results_queue must be a multiprocessing.queues.Q
 user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
 
 
+def convert_price_per_liter_to_price_per_gallon(price_per_liter: float) -> float:
+    return round(price_per_liter * 3.78541178, 2) + 0.009
+
+
 def now_in_epoch_ms() -> int:
     return int(time.time() * 1000)
 

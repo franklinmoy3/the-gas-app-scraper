@@ -172,8 +172,8 @@ def main(args):
             # Publish update to DB in GitHub
             logger.info("Preparing to apply pricing update to DB...")
             orig_dir = os.curdir
+            did_preserve_key = False
             if args.use_mounted_deploy_key:
-                did_preserve_key = False
                 try:
                     logger.debug("Preserving user's existing id_rsa")
                     shutil.copyfile(

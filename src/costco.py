@@ -7,6 +7,7 @@ from helpers import (
     read_html_log_fmt_str,
     user_agent,
     now_in_epoch_ms,
+    convert_price_per_liter_to_price_per_gallon,
 )
 import json
 from loguru import logger
@@ -150,7 +151,9 @@ def get_and_normalize_data_from_url(url_object: dict) -> dict | None:
                     ):
                         grade = meaningful_descendant.text
                     else:
-                        price = meaningful_descendant.text
+                        price = float(meaningful_descendant.text.replace("$", ""))
+                        if state == "PR":
+                            price = convert_price_per_liter_to_price_per_gallon(price)
                 match grade:
                     case "Regular":
                         regular_price = {"timestamp": now_in_epoch_ms(), "price": price}
@@ -192,6 +195,7 @@ def get_and_normalize_data_from_url(url_object: dict) -> dict | None:
         "city": city,
         "state": state,
         "postalCode": postal_code,
+        "currencySymbol": "$",
         "regularPrice": regular_price,
         "midGradePrice": mid_grade_price,
         "premiumPrice": premium_price,

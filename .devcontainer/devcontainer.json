@@ -1,49 +1,57 @@
 {
-    "name": "Gas Website Scraper",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"build": {
-		"dockerfile": "Dockerfile",
-		"context": "..",
-		"args": {
-			"REMOTE_USER": "${localEnv:USER}",
-			"REMOTE_UID": "${localEnv:UID:1000}",
-			"REMOTE_GID": "${localEnv:GID:1000}"
-		}
-	},
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip install --user pipenv",
-	// Use 'postAttachCommand' to run commands after attaching to the container
-	// "postAttachCommand": "git config --global core.hooksPath /usr/local/git-hooks",
-	// Configure tool-specific properties.
-	"customizations": {
-		// Configure properties specific to VS Code
-		"vscode": {
-			// Set *default* container specific settings.json values on container create
-			"settings": {},
-			// Add the IDs of extensions you want installed when the container is created
-			"extensions": [
-				"eamodio.gitlens",
-				"github.vscode-github-actions",
-				"ms-python.black-formatter",
-				"ms-python.flake8",
-				"ms-python.python",
-				"ms-vscode.makefile-tools",
-				"ms-vsliveshare.vsliveshare"
-			]
-		}
-	},
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	"remoteUser": "${localEnv:USER}",
-	"containerUser": "${localEnv:USER}",
-	// Workaround for rootless Podman not respecting "remoteUser" 
-	"runArgs": [
-		"--userns=keep-id"
-	],
-	"containerEnv": {
-		"HOME": "/home/${localEnv:USER}"
-	}
+  "name": "Gas Website Scraper",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "..",
+    "args": {
+      "REMOTE_USER": "${localEnv:USER}",
+      "REMOTE_UID": "${localEnv:UID:1000}",
+      "REMOTE_GID": "${localEnv:GID:1000}"
+    }
+  },
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "configureZshAsDefaultShell": true,
+      "installOhMyZsh": true,
+      "installOhMyZshConfig": true,
+      "upgradePackages": true
+    }
+  },
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": "pip install --user pipenv",
+  // Use 'postAttachCommand' to run commands after attaching to the container
+  // "postAttachCommand": "git config --global core.hooksPath /usr/local/git-hooks",
+  // Configure tool-specific properties.
+  "customizations": {
+    // Configure properties specific to VS Code
+    "vscode": {
+      // Set *default* container specific settings.json values on container create
+      "settings": {},
+      // Add the IDs of extensions you want installed when the container is created
+      "extensions": [
+        "eamodio.gitlens",
+        "github.vscode-github-actions",
+        "ms-python.black-formatter",
+        "ms-python.flake8",
+        "ms-python.python",
+        "ms-vscode.makefile-tools",
+        "ms-vsliveshare.vsliveshare"
+      ]
+    }
+  },
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  "remoteUser": "${localEnv:USER}",
+  "containerUser": "${localEnv:USER}",
+  // Workaround for rootless Podman not respecting "remoteUser" 
+  "runArgs": [
+    "--userns=keep-id"
+  ],
+  "containerEnv": {
+    "HOME": "/home/${localEnv:USER}"
+  }
 }

@@ -24,6 +24,8 @@ def normalize_data(data) -> list:
         city = station["address"]["city"]
         state = station["address"]["state"]
         postal_code = station["address"]["postalCode"]
+        latitude = station["geoPoint"]["latitude"]
+        longitude = station["geoPoint"]["longitude"]
         regular_price = None
         mid_grade_price = None
         premium_price = None
@@ -82,6 +84,8 @@ def normalize_data(data) -> list:
                     "city": city,
                     "state": state,
                     "postalCode": postal_code,
+                    "latitude": latitude,
+                    "longitude": longitude,
                     "currencySymbol": "$",
                     "regularPrice": regular_price,
                     "midGradePrice": mid_grade_price,

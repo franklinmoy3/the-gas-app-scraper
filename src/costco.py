@@ -91,6 +91,8 @@ def write_and_get_all_gas_station_urls() -> list:
                             "city": city,
                             "state": warehouse["state"],
                             "postalCode": warehouse["zipCode"],
+                            "latitude": warehouse["latitude"],
+                            "longitude": warehouse["longitude"],
                             "url": url_to_write.replace(" ", "-"),
                         }
                     )
@@ -110,6 +112,8 @@ def get_and_normalize_data_from_url(url_object: dict) -> dict | None:
     city = url_object["city"]
     state = url_object["state"]
     postal_code = url_object["postalCode"]
+    latitude = url_object["latitude"]
+    longitude = url_object["longitude"]
     regular_price = None
     mid_grade_price = None
     premium_price = None
@@ -195,6 +199,8 @@ def get_and_normalize_data_from_url(url_object: dict) -> dict | None:
         "city": city,
         "state": state,
         "postalCode": postal_code,
+        "latitude": latitude,
+        "longitude": longitude,
         "currencySymbol": "$",
         "regularPrice": regular_price,
         "midGradePrice": mid_grade_price,

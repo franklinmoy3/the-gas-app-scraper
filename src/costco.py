@@ -35,37 +35,37 @@ def mark_diesel_station_urls(urls: list) -> None:
     diesel_stations_url = "https://www.costco.com/gasoline-diesel.html"
     logger.debug(get_request_log_fmt_str, url=diesel_stations_url)
     resp = requests.get(diesel_stations_url, headers={"User-Agent": user_agent})
-    logger.info(api_response_log_fmt_str, status_code=resp.status_code, url=diesel_stations_url)
-    
+    logger.info(
+        api_response_log_fmt_str, status_code=resp.status_code, url=diesel_stations_url
+    )
+
     if resp.status_code != 200:
         logger.error(abort_due_to_bad_response_fmt_str)
         resp.raise_for_status()
-        
+
     logger.info(read_html_log_fmt_str, url=diesel_stations_url)
     soup = BeautifulSoup(resp.text, "html5lib")
     logger.info("Done reading HTML response tree from {url}", url=diesel_stations_url)
-    
+
     # Find all links on the diesel stations page
     diesel_station_links = set()
-    for link in soup.find_all('a', href=True):
-        if '/warehouse-locations/' in link['href']:
-            diesel_station_links.add(urljoin("https://www.costco.com", link['href']))
-    
+    for link in soup.find_all("a", href=True):
+        if "/warehouse-locations/" in link["href"]:
+            diesel_station_links.add(urljoin("https://www.costco.com", link["href"]))
+
     # Mark stations that appear in the diesel page
     for url_obj in urls:
-        if url_obj['url'] in diesel_station_links:
-            url_obj['hasDiesel'] = True
+        if url_obj["url"] in diesel_station_links:
+            url_obj["hasDiesel"] = True
         else:
-            url_obj['hasDiesel'] = False
+            url_obj["hasDiesel"] = False
 
     return urls
 
 
 def get_all_gas_station_urls() -> list:
     # When the warehouse name isn't the same as the city name, use the alt format
-    warehouse_url_format_string = (
-        "https://www.costco.com/warehouse-locations/{city}-{state_code}-{location_id}.html"
-    )
+    warehouse_url_format_string = "https://www.costco.com/warehouse-locations/{city}-{state_code}-{location_id}.html"
     alt_warehouse_url_format_string = "https://www.costco.com/warehouse-locations/{name}-{city}-{state_code}-{location_id}.html"
     warehouse_list_url = "https://www.costco.com/WarehouseListByStateDisplayView"
     p_start = time.perf_counter()
@@ -200,7 +200,7 @@ def get_and_normalize_data_from_url(url_object: dict) -> dict | None:
                     case "Diesel":
                         if url_object["hasDiesel"] is False:
                             logger.warning(
-                                '{url} has a diesel price, but is not marked as a diesel station! Ignoring...',
+                                "{url} has a diesel price, but is not marked as a diesel station! Ignoring...",
                                 url=url,
                             )
                             continue

@@ -7,7 +7,8 @@
     "postalCode": "35244-2346",
     "latitude": 33.379,
     "longitude": -86.812,
-    "url": "https://costco.com/warehouse-locations/hoover-al-362.html"
+    "url": "https://www.costco.com/warehouse-locations/hoover-al-362.html",
+    "hasDiesel": false
   },
   {
     "name": "Huntsville",
@@ -17,7 +18,8 @@
     "postalCode": "35801-5930",
     "latitude": 34.744,
     "longitude": -86.603,
-    "url": "https://costco.com/warehouse-locations/huntsville-al-356.html"
+    "url": "https://www.costco.com/warehouse-locations/huntsville-al-356.html",
+    "hasDiesel": false
   },
   {
     "name": "Madison",
@@ -27,7 +29,8 @@
     "postalCode": "35758",
     "latitude": 34.753,
     "longitude": -86.754,
-    "url": "https://costco.com/warehouse-locations/madison-al-1712.html"
+    "url": "https://www.costco.com/warehouse-locations/madison-al-1712.html",
+    "hasDiesel": false
   },
   {
     "name": "Mobile",
@@ -37,7 +40,8 @@
     "postalCode": "36606-2632",
     "latitude": 30.649,
     "longitude": -88.119,
-    "url": "https://costco.com/warehouse-locations/mobile-al-1192.html"
+    "url": "https://www.costco.com/warehouse-locations/mobile-al-1192.html",
+    "hasDiesel": false
   },
   {
     "name": "Montgomery",
@@ -47,7 +51,8 @@
     "postalCode": "36117-7033",
     "latitude": 32.364,
     "longitude": -86.151,
-    "url": "https://costco.com/warehouse-locations/montgomery-al-1009.html"
+    "url": "https://www.costco.com/warehouse-locations/montgomery-al-1009.html",
+    "hasDiesel": false
   },
   {
     "name": "Anchorage",
@@ -57,7 +62,8 @@
     "postalCode": "99515-1903",
     "latitude": 61.143,
     "longitude": -149.885,
-    "url": "https://costco.com/warehouse-locations/anchorage-ak-10.html"
+    "url": "https://www.costco.com/warehouse-locations/anchorage-ak-10.html",
+    "hasDiesel": true
   },
   {
     "name": "Fairbanks",
@@ -67,7 +73,8 @@
     "postalCode": "99701-1706",
     "latitude": 64.853,
     "longitude": -147.708,
-    "url": "https://costco.com/warehouse-locations/fairbanks-ak-1342.html"
+    "url": "https://www.costco.com/warehouse-locations/fairbanks-ak-1342.html",
+    "hasDiesel": false
   },
   {
     "name": "NE Anchorage",
@@ -77,7 +84,8 @@
     "postalCode": "99508-3115",
     "latitude": 61.21,
     "longitude": -149.804,
-    "url": "https://costco.com/warehouse-locations/ne-anchorage-anchorage-ak-63.html"
+    "url": "https://www.costco.com/warehouse-locations/ne-anchorage-anchorage-ak-63.html",
+    "hasDiesel": false
   },
   {
     "name": "Avondale",
@@ -87,7 +95,8 @@
     "postalCode": "85392-4803",
     "latitude": 33.467,
     "longitude": -112.274,
-    "url": "https://costco.com/warehouse-locations/avondale-az-691.html"
+    "url": "https://www.costco.com/warehouse-locations/avondale-az-691.html",
+    "hasDiesel": false
   },
   {
     "name": "Buckeye",
@@ -97,7 +106,8 @@
     "postalCode": "85326",
     "latitude": 33.46,
     "longitude": -112.501,
-    "url": "https://costco.com/warehouse-locations/buckeye-az-1653.html"
+    "url": "https://www.costco.com/warehouse-locations/buckeye-az-1653.html",
+    "hasDiesel": false
   },
   {
     "name": "Cave Creek",
@@ -107,7 +117,8 @@
     "postalCode": "85050-1300",
     "latitude": 33.671,
     "longitude": -112.028,
-    "url": "https://costco.com/warehouse-locations/cave-creek-phoenix-az-738.html"
+    "url": "https://www.costco.com/warehouse-locations/cave-creek-phoenix-az-738.html",
+    "hasDiesel": false
   },
   {
     "name": "Chandler",
@@ -117,7 +128,8 @@
     "postalCode": "85226-4932",
     "latitude": 33.293,
     "longitude": -111.9,
-    "url": "https://costco.com/warehouse-locations/chandler-az-736.html"
+    "url": "https://www.costco.com/warehouse-locations/chandler-az-736.html",
+    "hasDiesel": false
   },
   {
     "name": "Gilbert",
@@ -127,7 +139,8 @@
     "postalCode": "85233-1616",
     "latitude": 33.377,
     "longitude": -111.841,
-    "url": "https://costco.com/warehouse-locations/gilbert-az-481.html"
+    "url": "https://www.costco.com/warehouse-locations/gilbert-az-481.html",
+    "hasDiesel": false
   },
   {
     "name": "Glendale",
@@ -137,7 +150,8 @@
     "postalCode": "85308-8711",
     "latitude": 33.643,
     "longitude": -112.233,
-    "url": "https://costco.com/warehouse-locations/glendale-az-674.html"
+    "url": "https://www.costco.com/warehouse-locations/glendale-az-674.html",
+    "hasDiesel": false
   },
   {
     "name": "Mesa",
@@ -147,7 +161,8 @@
     "postalCode": "85209-3400",
     "latitude": 33.389,
     "longitude": -111.669,
-    "url": "https://costco.com/warehouse-locations/mesa-az-1028.html"
+    "url": "https://www.costco.com/warehouse-locations/mesa-az-1028.html",
+    "hasDiesel": false
   },
   {
     "name": "N Phoenix",
@@ -157,7 +172,8 @@
     "postalCode": "85027-5036",
     "latitude": 33.66,
     "longitude": -112.116,
-    "url": "https://costco.com/warehouse-locations/n-phoenix-phoenix-az-490.html"
+    "url": "https://www.costco.com/warehouse-locations/n-phoenix-phoenix-az-490.html",
+    "hasDiesel": true
   },
   {
     "name": "NW Tucson",
@@ -167,7 +183,8 @@
     "postalCode": "85741-2864",
     "latitude": 32.326,
     "longitude": -111.049,
-    "url": "https://costco.com/warehouse-locations/nw-tucson-tucson-az-431.html"
+    "url": "https://www.costco.com/warehouse-locations/nw-tucson-tucson-az-431.html",
+    "hasDiesel": false
   },
   {
     "name": "Paradise Valley",
@@ -177,7 +194,8 @@
     "postalCode": "85032-7702",
     "latitude": 33.604,
     "longitude": -111.986,
-    "url": "https://costco.com/warehouse-locations/paradise-valley-phoenix-az-1058.html"
+    "url": "https://www.costco.com/warehouse-locations/paradise-valley-phoenix-az-1058.html",
+    "hasDiesel": false
   },
   {
     "name": "Phoenix Business Center",
@@ -187,7 +205,8 @@
     "postalCode": "85017-4508",
     "latitude": 33.492,
     "longitude": -112.128,
-    "url": "https://costco.com/warehouse-locations/phoenix-business-center-phoenix-az-827.html"
+    "url": "https://www.costco.com/warehouse-locations/phoenix-business-center-phoenix-az-827.html",
+    "hasDiesel": false
   },
   {
     "name": "Prescott",
@@ -197,7 +216,8 @@
     "postalCode": "86301-6717",
     "latitude": 34.548,
     "longitude": -112.397,
-    "url": "https://costco.com/warehouse-locations/prescott-az-466.html"
+    "url": "https://www.costco.com/warehouse-locations/prescott-az-466.html",
+    "hasDiesel": true
   },
   {
     "name": "Queen Creek",
@@ -207,7 +227,8 @@
     "postalCode": "85142",
     "latitude": 33.265,
     "longitude": -111.637,
-    "url": "https://costco.com/warehouse-locations/queen-creek-az-1620.html"
+    "url": "https://www.costco.com/warehouse-locations/queen-creek-az-1620.html",
+    "hasDiesel": false
   },
   {
     "name": "SE Gilbert",
@@ -217,7 +238,8 @@
     "postalCode": "85295-1303",
     "latitude": 33.296,
     "longitude": -111.746,
-    "url": "https://costco.com/warehouse-locations/se-gilbert-gilbert-az-644.html"
+    "url": "https://www.costco.com/warehouse-locations/se-gilbert-gilbert-az-644.html",
+    "hasDiesel": false
   },
   {
     "name": "SW Tucson",
@@ -227,7 +249,8 @@
     "postalCode": "85713-6561",
     "latitude": 32.181,
     "longitude": -110.947,
-    "url": "https://costco.com/warehouse-locations/sw-tucson-tucson-az-1079.html"
+    "url": "https://www.costco.com/warehouse-locations/sw-tucson-tucson-az-1079.html",
+    "hasDiesel": false
   },
   {
     "name": "Scottsdale",
@@ -237,7 +260,8 @@
     "postalCode": "85260-2551",
     "latitude": 33.623,
     "longitude": -111.901,
-    "url": "https://costco.com/warehouse-locations/scottsdale-az-427.html"
+    "url": "https://www.costco.com/warehouse-locations/scottsdale-az-427.html",
+    "hasDiesel": false
   },
   {
     "name": "Surprise",
@@ -247,7 +271,8 @@
     "postalCode": "85388",
     "latitude": 33.608,
     "longitude": -112.412,
-    "url": "https://costco.com/warehouse-locations/surprise-az-1375.html"
+    "url": "https://www.costco.com/warehouse-locations/surprise-az-1375.html",
+    "hasDiesel": false
   },
   {
     "name": "Tempe",
@@ -257,7 +282,8 @@
     "postalCode": "85284-1103",
     "latitude": 33.347,
     "longitude": -111.961,
-    "url": "https://costco.com/warehouse-locations/tempe-az-436.html"
+    "url": "https://www.costco.com/warehouse-locations/tempe-az-436.html",
+    "hasDiesel": false
   },
   {
     "name": "Thomas Road",
@@ -267,7 +293,8 @@
     "postalCode": "85008-2411",
     "latitude": 33.474,
     "longitude": -111.985,
-    "url": "https://costco.com/warehouse-locations/thomas-road-phoenix-az-465.html"
+    "url": "https://www.costco.com/warehouse-locations/thomas-road-phoenix-az-465.html",
+    "hasDiesel": false
   },
   {
     "name": "Tucson",
@@ -277,7 +304,8 @@
     "postalCode": "85712-5804",
     "latitude": 32.252,
     "longitude": -110.859,
-    "url": "https://costco.com/warehouse-locations/tucson-az-407.html"
+    "url": "https://www.costco.com/warehouse-locations/tucson-az-407.html",
+    "hasDiesel": false
   },
   {
     "name": "Little Rock",
@@ -287,7 +315,8 @@
     "postalCode": "72223",
     "latitude": 34.757,
     "longitude": -92.454,
-    "url": "https://costco.com/warehouse-locations/little-rock-ar-1442.html"
+    "url": "https://www.costco.com/warehouse-locations/little-rock-ar-1442.html",
+    "hasDiesel": false
   },
   {
     "name": "Alhambra",
@@ -297,7 +326,8 @@
     "postalCode": "91803-1302",
     "latitude": 34.089,
     "longitude": -118.148,
-    "url": "https://costco.com/warehouse-locations/alhambra-ca-428.html"
+    "url": "https://www.costco.com/warehouse-locations/alhambra-ca-428.html",
+    "hasDiesel": false
   },
   {
     "name": "Antioch",
@@ -307,7 +337,8 @@
     "postalCode": "94509-7911",
     "latitude": 38.009,
     "longitude": -121.836,
-    "url": "https://costco.com/warehouse-locations/antioch-ca-1002.html"
+    "url": "https://www.costco.com/warehouse-locations/antioch-ca-1002.html",
+    "hasDiesel": false
   },
   {
     "name": "Azusa",
@@ -317,7 +348,8 @@
     "postalCode": "91702-2819",
     "latitude": 34.132,
     "longitude": -117.926,
-    "url": "https://costco.com/warehouse-locations/azusa-ca-412.html"
+    "url": "https://www.costco.com/warehouse-locations/azusa-ca-412.html",
+    "hasDiesel": false
   },
   {
     "name": "Bakersfield",
@@ -327,7 +359,8 @@
     "postalCode": "93308-6235",
     "latitude": 35.385,
     "longitude": -119.049,
-    "url": "https://costco.com/warehouse-locations/bakersfield-ca-688.html"
+    "url": "https://www.costco.com/warehouse-locations/bakersfield-ca-688.html",
+    "hasDiesel": true
   },
   {
     "name": "Burbank",
@@ -337,7 +370,8 @@
     "postalCode": "91506-1421",
     "latitude": 34.185,
     "longitude": -118.324,
-    "url": "https://costco.com/warehouse-locations/burbank-ca-677.html"
+    "url": "https://www.costco.com/warehouse-locations/burbank-ca-677.html",
+    "hasDiesel": false
   },
   {
     "name": "Cal Expo (Sacramento)",
@@ -347,7 +381,8 @@
     "postalCode": "95815-4228",
     "latitude": 38.597,
     "longitude": -121.453,
-    "url": "https://costco.com/warehouse-locations/cal-expo-(sacramento)-sacramento-ca-471.html"
+    "url": "https://www.costco.com/warehouse-locations/cal-expo-(sacramento)-sacramento-ca-471.html",
+    "hasDiesel": false
   },
   {
     "name": "Carlsbad",
@@ -357,7 +392,8 @@
     "postalCode": "92011-1110",
     "latitude": 33.12,
     "longitude": -117.316,
-    "url": "https://costco.com/warehouse-locations/carlsbad-ca-462.html"
+    "url": "https://www.costco.com/warehouse-locations/carlsbad-ca-462.html",
+    "hasDiesel": false
   },
   {
     "name": "Carmel Mountain",
@@ -367,7 +403,8 @@
     "postalCode": "92128-4616",
     "latitude": 32.987,
     "longitude": -117.078,
-    "url": "https://costco.com/warehouse-locations/carmel-mountain-san-diego-ca-452.html"
+    "url": "https://www.costco.com/warehouse-locations/carmel-mountain-san-diego-ca-452.html",
+    "hasDiesel": false
   },
   {
     "name": "Chico",
@@ -377,7 +414,8 @@
     "postalCode": "95928-4422",
     "latitude": 39.721,
     "longitude": -121.811,
-    "url": "https://costco.com/warehouse-locations/chico-ca-1011.html"
+    "url": "https://www.costco.com/warehouse-locations/chico-ca-1011.html",
+    "hasDiesel": false
   },
   {
     "name": "Chino Hills",
@@ -387,7 +425,8 @@
     "postalCode": "91709-6002",
     "latitude": 34.015,
     "longitude": -117.742,
-    "url": "https://costco.com/warehouse-locations/chino-hills-ca-473.html"
+    "url": "https://www.costco.com/warehouse-locations/chino-hills-ca-473.html",
+    "hasDiesel": false
   },
   {
     "name": "Chula Vista",
@@ -397,7 +436,8 @@
     "postalCode": "91911-2707",
     "latitude": 32.608,
     "longitude": -117.083,
-    "url": "https://costco.com/warehouse-locations/chula-vista-ca-781.html"
+    "url": "https://www.costco.com/warehouse-locations/chula-vista-ca-781.html",
+    "hasDiesel": false
   },
   {
     "name": "Citrus Heights",
@@ -407,7 +447,8 @@
     "postalCode": "95621-4342",
     "latitude": 38.69,
     "longitude": -121.298,
-    "url": "https://costco.com/warehouse-locations/citrus-heights-ca-771.html"
+    "url": "https://www.costco.com/warehouse-locations/citrus-heights-ca-771.html",
+    "hasDiesel": false
   },
   {
     "name": "City Of Industry",
@@ -417,7 +458,8 @@
     "postalCode": "91748-1701",
     "latitude": 33.994,
     "longitude": -117.922,
-    "url": "https://costco.com/warehouse-locations/city-of-industry-ca-679.html"
+    "url": "https://www.costco.com/warehouse-locations/city-of-industry-ca-679.html",
+    "hasDiesel": false
   },
   {
     "name": "Clovis",
@@ -427,7 +469,8 @@
     "postalCode": "93612",
     "latitude": 36.806,
     "longitude": -119.703,
-    "url": "https://costco.com/warehouse-locations/clovis-ca-1360.html"
+    "url": "https://www.costco.com/warehouse-locations/clovis-ca-1360.html",
+    "hasDiesel": false
   },
   {
     "name": "Commerce Business Center",
@@ -437,7 +480,8 @@
     "postalCode": "90040-2513",
     "latitude": 33.995,
     "longitude": -118.141,
-    "url": "https://costco.com/warehouse-locations/commerce-business-center-commerce-ca-569.html"
+    "url": "https://www.costco.com/warehouse-locations/commerce-business-center-commerce-ca-569.html",
+    "hasDiesel": true
   },
   {
     "name": "Concord",
@@ -447,7 +491,8 @@
     "postalCode": "94520-3105",
     "latitude": 37.958,
     "longitude": -122.033,
-    "url": "https://costco.com/warehouse-locations/concord-ca-663.html"
+    "url": "https://www.costco.com/warehouse-locations/concord-ca-663.html",
+    "hasDiesel": false
   },
   {
     "name": "Corona",
@@ -457,7 +502,8 @@
     "postalCode": "92879-1291",
     "latitude": 33.886,
     "longitude": -117.524,
-    "url": "https://costco.com/warehouse-locations/corona-ca-432.html"
+    "url": "https://www.costco.com/warehouse-locations/corona-ca-432.html",
+    "hasDiesel": false
   },
   {
     "name": "Culver City",
@@ -467,7 +513,8 @@
     "postalCode": "90292-5658",
     "latitude": 33.993,
     "longitude": -118.446,
-    "url": "https://costco.com/warehouse-locations/culver-city-marina-del-rey-ca-479.html"
+    "url": "https://www.costco.com/warehouse-locations/culver-city-marina-del-rey-ca-479.html",
+    "hasDiesel": false
   },
   {
     "name": "Cypress CA",
@@ -477,7 +524,8 @@
     "postalCode": "90720-2809",
     "latitude": 33.804,
     "longitude": -118.039,
-    "url": "https://costco.com/warehouse-locations/cypress-ca-cypress-ca-748.html"
+    "url": "https://www.costco.com/warehouse-locations/cypress-ca-cypress-ca-748.html",
+    "hasDiesel": false
   },
   {
     "name": "Danville",
@@ -487,7 +535,8 @@
     "postalCode": "94526-5553",
     "latitude": 37.782,
     "longitude": -121.973,
-    "url": "https://costco.com/warehouse-locations/danville-ca-21.html"
+    "url": "https://www.costco.com/warehouse-locations/danville-ca-21.html",
+    "hasDiesel": false
   },
   {
     "name": "Eastvale",
@@ -497,7 +546,8 @@
     "postalCode": "91752-1009",
     "latitude": 33.997,
     "longitude": -117.556,
-    "url": "https://costco.com/warehouse-locations/eastvale-ca-1317.html"
+    "url": "https://www.costco.com/warehouse-locations/eastvale-ca-1317.html",
+    "hasDiesel": false
   },
   {
     "name": "El Camino",
@@ -507,7 +557,8 @@
     "postalCode": "94080-1206",
     "latitude": 37.665,
     "longitude": -122.448,
-    "url": "https://costco.com/warehouse-locations/el-camino-south-san-francisco-ca-475.html"
+    "url": "https://www.costco.com/warehouse-locations/el-camino-south-san-francisco-ca-475.html",
+    "hasDiesel": false
   },
   {
     "name": "El Centro",
@@ -517,7 +568,8 @@
     "postalCode": "92243-1323",
     "latitude": 32.812,
     "longitude": -115.573,
-    "url": "https://costco.com/warehouse-locations/el-centro-ca-121.html"
+    "url": "https://www.costco.com/warehouse-locations/el-centro-ca-121.html",
+    "hasDiesel": false
   },
   {
     "name": "Elk Grove",
@@ -527,7 +579,8 @@
     "postalCode": "95757-6299",
     "latitude": 38.406,
     "longitude": -121.414,
-    "url": "https://costco.com/warehouse-locations/elk-grove-ca-1274.html"
+    "url": "https://www.costco.com/warehouse-locations/elk-grove-ca-1274.html",
+    "hasDiesel": true
   },
   {
     "name": "Eureka",
@@ -537,7 +590,8 @@
     "postalCode": "95501-2121",
     "latitude": 40.792,
     "longitude": -124.182,
-    "url": "https://costco.com/warehouse-locations/eureka-ca-125.html"
+    "url": "https://www.costco.com/warehouse-locations/eureka-ca-125.html",
+    "hasDiesel": false
   },
   {
     "name": "Fairfield",
@@ -547,7 +601,8 @@
     "postalCode": "94534-1624",
     "latitude": 38.215,
     "longitude": -122.145,
-    "url": "https://costco.com/warehouse-locations/fairfield-ca-453.html"
+    "url": "https://www.costco.com/warehouse-locations/fairfield-ca-453.html",
+    "hasDiesel": false
   },
   {
     "name": "Folsom",
@@ -557,7 +612,8 @@
     "postalCode": "95630-6235",
     "latitude": 38.645,
     "longitude": -121.11,
-    "url": "https://costco.com/warehouse-locations/folsom-ca-765.html"
+    "url": "https://www.costco.com/warehouse-locations/folsom-ca-765.html",
+    "hasDiesel": true
   },
   {
     "name": "Fontana",
@@ -567,7 +623,8 @@
     "postalCode": "92336-1256",
     "latitude": 34.138,
     "longitude": -117.443,
-    "url": "https://costco.com/warehouse-locations/fontana-ca-627.html"
+    "url": "https://www.costco.com/warehouse-locations/fontana-ca-627.html",
+    "hasDiesel": false
   },
   {
     "name": "Fountain Valley",
@@ -577,7 +634,8 @@
     "postalCode": "92708-5422",
     "latitude": 33.703,
     "longitude": -117.932,
-    "url": "https://costco.com/warehouse-locations/fountain-valley-ca-411.html"
+    "url": "https://www.costco.com/warehouse-locations/fountain-valley-ca-411.html",
+    "hasDiesel": false
   },
   {
     "name": "Fremont",
@@ -587,7 +645,8 @@
     "postalCode": "94538-3809",
     "latitude": 37.502,
     "longitude": -121.973,
-    "url": "https://costco.com/warehouse-locations/fremont-ca-778.html"
+    "url": "https://www.costco.com/warehouse-locations/fremont-ca-778.html",
+    "hasDiesel": false
   },
   {
     "name": "Fresno",
@@ -597,7 +656,8 @@
     "postalCode": "93722-6200",
     "latitude": 36.81,
     "longitude": -119.874,
-    "url": "https://costco.com/warehouse-locations/fresno-ca-31.html"
+    "url": "https://www.costco.com/warehouse-locations/fresno-ca-31.html",
+    "hasDiesel": false
   },
   {
     "name": "Fullerton",
@@ -607,7 +667,8 @@
     "postalCode": "92832-3025",
     "latitude": 33.862,
     "longitude": -117.922,
-    "url": "https://costco.com/warehouse-locations/fullerton-ca-418.html"
+    "url": "https://www.costco.com/warehouse-locations/fullerton-ca-418.html",
+    "hasDiesel": false
   },
   {
     "name": "Garden Grove",
@@ -617,7 +678,8 @@
     "postalCode": "92843-1206",
     "latitude": 33.773,
     "longitude": -117.941,
-    "url": "https://costco.com/warehouse-locations/garden-grove-ca-126.html"
+    "url": "https://www.costco.com/warehouse-locations/garden-grove-ca-126.html",
+    "hasDiesel": false
   },
   {
     "name": "Gilroy",
@@ -627,7 +689,8 @@
     "postalCode": "95020-7340",
     "latitude": 37.008,
     "longitude": -121.556,
-    "url": "https://costco.com/warehouse-locations/gilroy-ca-760.html"
+    "url": "https://www.costco.com/warehouse-locations/gilroy-ca-760.html",
+    "hasDiesel": false
   },
   {
     "name": "Great Oaks",
@@ -637,7 +700,8 @@
     "postalCode": "95119-1730",
     "latitude": 37.244,
     "longitude": -121.786,
-    "url": "https://costco.com/warehouse-locations/great-oaks-san-jose-ca-1267.html"
+    "url": "https://www.costco.com/warehouse-locations/great-oaks-san-jose-ca-1267.html",
+    "hasDiesel": false
   },
   {
     "name": "Hanford",
@@ -647,7 +711,8 @@
     "postalCode": "93230-4740",
     "latitude": 36.326,
     "longitude": -119.607,
-    "url": "https://costco.com/warehouse-locations/hanford-ca-1244.html"
+    "url": "https://www.costco.com/warehouse-locations/hanford-ca-1244.html",
+    "hasDiesel": true
   },
   {
     "name": "Hawthorne",
@@ -657,7 +722,8 @@
     "postalCode": "90250-6748",
     "latitude": 33.899,
     "longitude": -118.373,
-    "url": "https://costco.com/warehouse-locations/hawthorne-ca-671.html"
+    "url": "https://www.costco.com/warehouse-locations/hawthorne-ca-671.html",
+    "hasDiesel": false
   },
   {
     "name": "Hawthorne Business Center",
@@ -667,7 +733,8 @@
     "postalCode": "90250-4638",
     "latitude": 33.919,
     "longitude": -118.343,
-    "url": "https://costco.com/warehouse-locations/hawthorne-business-center-hawthorne-ca-564.html"
+    "url": "https://www.costco.com/warehouse-locations/hawthorne-business-center-hawthorne-ca-564.html",
+    "hasDiesel": false
   },
   {
     "name": "Hayward",
@@ -677,7 +744,8 @@
     "postalCode": "94545-5008",
     "latitude": 37.615,
     "longitude": -122.09,
-    "url": "https://costco.com/warehouse-locations/hayward-ca-1061.html"
+    "url": "https://www.costco.com/warehouse-locations/hayward-ca-1061.html",
+    "hasDiesel": false
   },
   {
     "name": "Hayward Business Center",
@@ -687,7 +755,8 @@
     "postalCode": "94541-4861",
     "latitude": 37.668,
     "longitude": -122.103,
-    "url": "https://costco.com/warehouse-locations/hayward-business-center-hayward-ca-823.html"
+    "url": "https://www.costco.com/warehouse-locations/hayward-business-center-hayward-ca-823.html",
+    "hasDiesel": false
   },
   {
     "name": "Huntington Beach",
@@ -697,7 +766,8 @@
     "postalCode": "92647-3002",
     "latitude": 33.733,
     "longitude": -117.996,
-    "url": "https://costco.com/warehouse-locations/huntington-beach-ca-1110.html"
+    "url": "https://www.costco.com/warehouse-locations/huntington-beach-ca-1110.html",
+    "hasDiesel": false
   },
   {
     "name": "Inglewood",
@@ -707,7 +777,8 @@
     "postalCode": "90303-1201",
     "latitude": 33.943,
     "longitude": -118.334,
-    "url": "https://costco.com/warehouse-locations/inglewood-ca-769.html"
+    "url": "https://www.costco.com/warehouse-locations/inglewood-ca-769.html",
+    "hasDiesel": false
   },
   {
     "name": "Irvine",
@@ -717,7 +788,8 @@
     "postalCode": "92618-2408",
     "latitude": 33.66,
     "longitude": -117.745,
-    "url": "https://costco.com/warehouse-locations/irvine-ca-454.html"
+    "url": "https://www.costco.com/warehouse-locations/irvine-ca-454.html",
+    "hasDiesel": false
   },
   {
     "name": "La Habra",
@@ -727,7 +799,8 @@
     "postalCode": "90631-4468",
     "latitude": 33.933,
     "longitude": -117.97,
-    "url": "https://costco.com/warehouse-locations/la-habra-ca-777.html"
+    "url": "https://www.costco.com/warehouse-locations/la-habra-ca-777.html",
+    "hasDiesel": false
   },
   {
     "name": "La Mesa",
@@ -737,7 +810,8 @@
     "postalCode": "91942-2934",
     "latitude": 32.774,
     "longitude": -117.024,
-    "url": "https://costco.com/warehouse-locations/la-mesa-ca-469.html"
+    "url": "https://www.costco.com/warehouse-locations/la-mesa-ca-469.html",
+    "hasDiesel": false
   },
   {
     "name": "La Quinta",
@@ -747,7 +821,8 @@
     "postalCode": "92253-4756",
     "latitude": 33.705,
     "longitude": -116.273,
-    "url": "https://costco.com/warehouse-locations/la-quinta-ca-638.html"
+    "url": "https://www.costco.com/warehouse-locations/la-quinta-ca-638.html",
+    "hasDiesel": false
   },
   {
     "name": "Laguna Marketplace",
@@ -757,7 +832,8 @@
     "postalCode": "92677-3418",
     "latitude": 33.567,
     "longitude": -117.711,
-    "url": "https://costco.com/warehouse-locations/laguna-marketplace-laguna-niguel-ca-690.html"
+    "url": "https://www.costco.com/warehouse-locations/laguna-marketplace-laguna-niguel-ca-690.html",
+    "hasDiesel": false
   },
   {
     "name": "Laguna Niguel",
@@ -767,7 +843,8 @@
     "postalCode": "92677-1211",
     "latitude": 33.555,
     "longitude": -117.677,
-    "url": "https://costco.com/warehouse-locations/laguna-niguel-ca-28.html"
+    "url": "https://www.costco.com/warehouse-locations/laguna-niguel-ca-28.html",
+    "hasDiesel": false
   },
   {
     "name": "Lake Elsinore",
@@ -777,7 +854,8 @@
     "postalCode": "92532-2212",
     "latitude": 33.696,
     "longitude": -117.339,
-    "url": "https://costco.com/warehouse-locations/lake-elsinore-ca-746.html"
+    "url": "https://www.costco.com/warehouse-locations/lake-elsinore-ca-746.html",
+    "hasDiesel": false
   },
   {
     "name": "Lakewood",
@@ -787,7 +865,8 @@
     "postalCode": "90712-2409",
     "latitude": 33.85,
     "longitude": -118.137,
-    "url": "https://costco.com/warehouse-locations/lakewood-ca-1050.html"
+    "url": "https://www.costco.com/warehouse-locations/lakewood-ca-1050.html",
+    "hasDiesel": false
   },
   {
     "name": "Lancaster CA",
@@ -797,7 +876,8 @@
     "postalCode": "93534-7077",
     "latitude": 34.661,
     "longitude": -118.151,
-    "url": "https://costco.com/warehouse-locations/lancaster-ca-lancaster-ca-762.html"
+    "url": "https://www.costco.com/warehouse-locations/lancaster-ca-lancaster-ca-762.html",
+    "hasDiesel": false
   },
   {
     "name": "Livermore",
@@ -807,7 +887,8 @@
     "postalCode": "94551-7628",
     "latitude": 37.703,
     "longitude": -121.812,
-    "url": "https://costco.com/warehouse-locations/livermore-ca-146.html"
+    "url": "https://www.costco.com/warehouse-locations/livermore-ca-146.html",
+    "hasDiesel": false
   },
   {
     "name": "Lodi",
@@ -817,7 +898,8 @@
     "postalCode": "95240-6848",
     "latitude": 38.1,
     "longitude": -121.264,
-    "url": "https://costco.com/warehouse-locations/lodi-ca-1091.html"
+    "url": "https://www.costco.com/warehouse-locations/lodi-ca-1091.html",
+    "hasDiesel": false
   },
   {
     "name": "Manteca",
@@ -827,7 +909,8 @@
     "postalCode": "95337-6745",
     "latitude": 37.785,
     "longitude": -121.26,
-    "url": "https://costco.com/warehouse-locations/manteca-ca-1031.html"
+    "url": "https://www.costco.com/warehouse-locations/manteca-ca-1031.html",
+    "hasDiesel": false
   },
   {
     "name": "Marysville CA",
@@ -837,7 +920,8 @@
     "postalCode": "95901",
     "latitude": 39.125,
     "longitude": -121.571,
-    "url": "https://costco.com/warehouse-locations/marysville-ca-linda-ca-1658.html"
+    "url": "https://www.costco.com/warehouse-locations/marysville-ca-linda-ca-1658.html",
+    "hasDiesel": false
   },
   {
     "name": "Merced",
@@ -847,7 +931,8 @@
     "postalCode": "95340-5850",
     "latitude": 37.303,
     "longitude": -120.497,
-    "url": "https://costco.com/warehouse-locations/merced-ca-142.html"
+    "url": "https://www.costco.com/warehouse-locations/merced-ca-142.html",
+    "hasDiesel": false
   },
   {
     "name": "Mission Valley",
@@ -857,7 +942,8 @@
     "postalCode": "92108-4743",
     "latitude": 32.782,
     "longitude": -117.129,
-    "url": "https://costco.com/warehouse-locations/mission-valley-san-diego-ca-488.html"
+    "url": "https://www.costco.com/warehouse-locations/mission-valley-san-diego-ca-488.html",
+    "hasDiesel": false
   },
   {
     "name": "Modesto",
@@ -867,7 +953,8 @@
     "postalCode": "95356-8300",
     "latitude": 37.702,
     "longitude": -121.067,
-    "url": "https://costco.com/warehouse-locations/modesto-ca-661.html"
+    "url": "https://www.costco.com/warehouse-locations/modesto-ca-661.html",
+    "hasDiesel": false
   },
   {
     "name": "Montclair",
@@ -877,7 +964,8 @@
     "postalCode": "91763-2421",
     "latitude": 34.083,
     "longitude": -117.69,
-    "url": "https://costco.com/warehouse-locations/montclair-ca-686.html"
+    "url": "https://www.costco.com/warehouse-locations/montclair-ca-686.html",
+    "hasDiesel": false
   },
   {
     "name": "Monterey Park",
@@ -887,7 +975,8 @@
     "postalCode": "91755-7402",
     "latitude": 34.037,
     "longitude": -118.104,
-    "url": "https://costco.com/warehouse-locations/monterey-park-ca-1318.html"
+    "url": "https://www.costco.com/warehouse-locations/monterey-park-ca-1318.html",
+    "hasDiesel": false
   },
   {
     "name": "Morena",
@@ -897,7 +986,8 @@
     "postalCode": "92117-3650",
     "latitude": 32.822,
     "longitude": -117.225,
-    "url": "https://costco.com/warehouse-locations/morena-san-diego-ca-401.html"
+    "url": "https://www.costco.com/warehouse-locations/morena-san-diego-ca-401.html",
+    "hasDiesel": false
   },
   {
     "name": "Moreno Valley",
@@ -907,7 +997,8 @@
     "postalCode": "92553-7521",
     "latitude": 33.935,
     "longitude": -117.276,
-    "url": "https://costco.com/warehouse-locations/moreno-valley-ca-455.html"
+    "url": "https://www.costco.com/warehouse-locations/moreno-valley-ca-455.html",
+    "hasDiesel": false
   },
   {
     "name": "Murrieta",
@@ -917,7 +1008,8 @@
     "postalCode": "92563",
     "latitude": 33.6,
     "longitude": -117.171,
-    "url": "https://costco.com/warehouse-locations/murrieta-ca-1390.html"
+    "url": "https://www.costco.com/warehouse-locations/murrieta-ca-1390.html",
+    "hasDiesel": false
   },
   {
     "name": "N Fresno",
@@ -927,7 +1019,8 @@
     "postalCode": "93720-2920",
     "latitude": 36.839,
     "longitude": -119.788,
-    "url": "https://costco.com/warehouse-locations/n-fresno-fresno-ca-657.html"
+    "url": "https://www.costco.com/warehouse-locations/n-fresno-fresno-ca-657.html",
+    "hasDiesel": true
   },
   {
     "name": "NE San Jose",
@@ -937,7 +1030,8 @@
     "postalCode": "95131-1866",
     "latitude": 37.39,
     "longitude": -121.884,
-    "url": "https://costco.com/warehouse-locations/ne-san-jose-san-jose-ca-1004.html"
+    "url": "https://www.costco.com/warehouse-locations/ne-san-jose-san-jose-ca-1004.html",
+    "hasDiesel": false
   },
   {
     "name": "Napa",
@@ -947,7 +1041,8 @@
     "postalCode": "94558-6357",
     "latitude": 38.252,
     "longitude": -122.279,
-    "url": "https://costco.com/warehouse-locations/napa-ca-1679.html"
+    "url": "https://www.costco.com/warehouse-locations/napa-ca-1679.html",
+    "hasDiesel": false
   },
   {
     "name": "Newark",
@@ -957,7 +1052,8 @@
     "postalCode": "94560",
     "latitude": 37.526,
     "longitude": -121.999,
-    "url": "https://costco.com/warehouse-locations/newark-ca-1660.html"
+    "url": "https://www.costco.com/warehouse-locations/newark-ca-1660.html",
+    "hasDiesel": false
   },
   {
     "name": "Northridge",
@@ -967,7 +1063,8 @@
     "postalCode": "91324-3519",
     "latitude": 34.23,
     "longitude": -118.551,
-    "url": "https://costco.com/warehouse-locations/northridge-ca-437.html"
+    "url": "https://www.costco.com/warehouse-locations/northridge-ca-437.html",
+    "hasDiesel": false
   },
   {
     "name": "Norwalk CA",
@@ -977,7 +1074,8 @@
     "postalCode": "90650-2211",
     "latitude": 33.92,
     "longitude": -118.103,
-    "url": "https://costco.com/warehouse-locations/norwalk-ca-norwalk-ca-410.html"
+    "url": "https://www.costco.com/warehouse-locations/norwalk-ca-norwalk-ca-410.html",
+    "hasDiesel": false
   },
   {
     "name": "Oxnard",
@@ -987,7 +1085,8 @@
     "postalCode": "93036-1813",
     "latitude": 34.225,
     "longitude": -119.148,
-    "url": "https://costco.com/warehouse-locations/oxnard-ca-420.html"
+    "url": "https://www.costco.com/warehouse-locations/oxnard-ca-420.html",
+    "hasDiesel": true
   },
   {
     "name": "Pacoima",
@@ -997,7 +1096,8 @@
     "postalCode": "91331-2352",
     "latitude": 34.272,
     "longitude": -118.426,
-    "url": "https://costco.com/warehouse-locations/pacoima-ca-1071.html"
+    "url": "https://www.costco.com/warehouse-locations/pacoima-ca-1071.html",
+    "hasDiesel": false
   },
   {
     "name": "Palm Desert",
@@ -1007,7 +1107,8 @@
     "postalCode": "92211-0814",
     "latitude": 33.804,
     "longitude": -116.39,
-    "url": "https://costco.com/warehouse-locations/palm-desert-ca-441.html"
+    "url": "https://www.costco.com/warehouse-locations/palm-desert-ca-441.html",
+    "hasDiesel": false
   },
   {
     "name": "Poway",
@@ -1017,7 +1118,8 @@
     "postalCode": "92064-7156",
     "latitude": 32.937,
     "longitude": -117.033,
-    "url": "https://costco.com/warehouse-locations/poway-ca-775.html"
+    "url": "https://www.costco.com/warehouse-locations/poway-ca-775.html",
+    "hasDiesel": false
   },
   {
     "name": "Rancho Cordova",
@@ -1027,7 +1129,8 @@
     "postalCode": "95742-6571",
     "latitude": 38.588,
     "longitude": -121.264,
-    "url": "https://costco.com/warehouse-locations/rancho-cordova-ca-438.html"
+    "url": "https://www.costco.com/warehouse-locations/rancho-cordova-ca-438.html",
+    "hasDiesel": false
   },
   {
     "name": "Rancho Cucamonga",
@@ -1037,7 +1140,8 @@
     "postalCode": "91730-6129",
     "latitude": 34.078,
     "longitude": -117.547,
-    "url": "https://costco.com/warehouse-locations/rancho-cucamonga-ca-678.html"
+    "url": "https://www.costco.com/warehouse-locations/rancho-cucamonga-ca-678.html",
+    "hasDiesel": false
   },
   {
     "name": "Rancho Del Rey",
@@ -1047,7 +1151,8 @@
     "postalCode": "91910-7807",
     "latitude": 32.638,
     "longitude": -117.023,
-    "url": "https://costco.com/warehouse-locations/rancho-del-rey-chula-vista-ca-460.html"
+    "url": "https://www.costco.com/warehouse-locations/rancho-del-rey-chula-vista-ca-460.html",
+    "hasDiesel": false
   },
   {
     "name": "Redding",
@@ -1057,7 +1162,8 @@
     "postalCode": "96002",
     "latitude": 40.541,
     "longitude": -122.356,
-    "url": "https://costco.com/warehouse-locations/redding-ca-1445.html"
+    "url": "https://www.costco.com/warehouse-locations/redding-ca-1445.html",
+    "hasDiesel": true
   },
   {
     "name": "Redwood City",
@@ -1067,7 +1173,8 @@
     "postalCode": "94063-2854",
     "latitude": 37.479,
     "longitude": -122.216,
-    "url": "https://costco.com/warehouse-locations/redwood-city-ca-1042.html"
+    "url": "https://www.costco.com/warehouse-locations/redwood-city-ca-1042.html",
+    "hasDiesel": false
   },
   {
     "name": "Richmond CA",
@@ -1077,7 +1184,8 @@
     "postalCode": "94804-5801",
     "latitude": 37.898,
     "longitude": -122.321,
-    "url": "https://costco.com/warehouse-locations/richmond-ca-richmond-ca-482.html"
+    "url": "https://www.costco.com/warehouse-locations/richmond-ca-richmond-ca-482.html",
+    "hasDiesel": false
   },
   {
     "name": "Riverbank",
@@ -1087,7 +1195,8 @@
     "postalCode": "95367",
     "latitude": 37.711,
     "longitude": -120.969,
-    "url": "https://costco.com/warehouse-locations/riverbank-ca-1683.html"
+    "url": "https://www.costco.com/warehouse-locations/riverbank-ca-1683.html",
+    "hasDiesel": false
   },
   {
     "name": "Rohnert Park",
@@ -1097,7 +1206,8 @@
     "postalCode": "94928-2076",
     "latitude": 38.353,
     "longitude": -122.717,
-    "url": "https://costco.com/warehouse-locations/rohnert-park-ca-659.html"
+    "url": "https://www.costco.com/warehouse-locations/rohnert-park-ca-659.html",
+    "hasDiesel": true
   },
   {
     "name": "Roseville CA",
@@ -1107,7 +1217,8 @@
     "postalCode": "95678-1907",
     "latitude": 38.78,
     "longitude": -121.267,
-    "url": "https://costco.com/warehouse-locations/roseville-ca-roseville-ca-29.html"
+    "url": "https://www.costco.com/warehouse-locations/roseville-ca-roseville-ca-29.html",
+    "hasDiesel": true
   },
   {
     "name": "S San Francisco",
@@ -1117,7 +1228,8 @@
     "postalCode": "94080-6909",
     "latitude": 37.642,
     "longitude": -122.401,
-    "url": "https://costco.com/warehouse-locations/s-san-francisco-south-san-francisco-ca-422.html"
+    "url": "https://www.costco.com/warehouse-locations/s-san-francisco-south-san-francisco-ca-422.html",
+    "hasDiesel": false
   },
   {
     "name": "SE San Diego",
@@ -1127,7 +1239,8 @@
     "postalCode": "92102-4530",
     "latitude": 32.713,
     "longitude": -117.116,
-    "url": "https://costco.com/warehouse-locations/se-san-diego-san-diego-ca-483.html"
+    "url": "https://www.costco.com/warehouse-locations/se-san-diego-san-diego-ca-483.html",
+    "hasDiesel": false
   },
   {
     "name": "SW Bakersfield",
@@ -1137,7 +1250,8 @@
     "postalCode": "93313-3479",
     "latitude": 35.297,
     "longitude": -119.058,
-    "url": "https://costco.com/warehouse-locations/sw-bakersfield-bakersfield-ca-643.html"
+    "url": "https://www.costco.com/warehouse-locations/sw-bakersfield-bakersfield-ca-643.html",
+    "hasDiesel": false
   },
   {
     "name": "Sacramento",
@@ -1147,7 +1261,8 @@
     "postalCode": "95823-9606",
     "latitude": 38.468,
     "longitude": -121.414,
-    "url": "https://costco.com/warehouse-locations/sacramento-ca-464.html"
+    "url": "https://www.costco.com/warehouse-locations/sacramento-ca-464.html",
+    "hasDiesel": false
   },
   {
     "name": "San Bernardino",
@@ -1157,7 +1272,8 @@
     "postalCode": "92408-2813",
     "latitude": 34.068,
     "longitude": -117.263,
-    "url": "https://costco.com/warehouse-locations/san-bernardino-ca-478.html"
+    "url": "https://www.costco.com/warehouse-locations/san-bernardino-ca-478.html",
+    "hasDiesel": false
   },
   {
     "name": "San Dimas",
@@ -1167,7 +1283,8 @@
     "postalCode": "91773-1725",
     "latitude": 34.112,
     "longitude": -117.827,
-    "url": "https://costco.com/warehouse-locations/san-dimas-ca-1015.html"
+    "url": "https://www.costco.com/warehouse-locations/san-dimas-ca-1015.html",
+    "hasDiesel": false
   },
   {
     "name": "San Jose",
@@ -1177,7 +1294,8 @@
     "postalCode": "95112-2627",
     "latitude": 37.31,
     "longitude": -121.851,
-    "url": "https://costco.com/warehouse-locations/san-jose-ca-148.html"
+    "url": "https://www.costco.com/warehouse-locations/san-jose-ca-148.html",
+    "hasDiesel": false
   },
   {
     "name": "San Jose Business Center",
@@ -1187,7 +1305,8 @@
     "postalCode": "95122",
     "latitude": 37.318,
     "longitude": -121.811,
-    "url": "https://costco.com/warehouse-locations/san-jose-business-center-san-jose-ca-848.html"
+    "url": "https://www.costco.com/warehouse-locations/san-jose-business-center-san-jose-ca-848.html",
+    "hasDiesel": false
   },
   {
     "name": "San Juan Capistrano",
@@ -1197,7 +1316,8 @@
     "postalCode": "92675-4835",
     "latitude": 33.47,
     "longitude": -117.678,
-    "url": "https://costco.com/warehouse-locations/san-juan-capistrano-ca-429.html"
+    "url": "https://www.costco.com/warehouse-locations/san-juan-capistrano-ca-429.html",
+    "hasDiesel": false
   },
   {
     "name": "San Leandro",
@@ -1207,7 +1327,8 @@
     "postalCode": "94577-1209",
     "latitude": 37.72,
     "longitude": -122.182,
-    "url": "https://costco.com/warehouse-locations/san-leandro-ca-118.html"
+    "url": "https://www.costco.com/warehouse-locations/san-leandro-ca-118.html",
+    "hasDiesel": false
   },
   {
     "name": "San Luis Obispo",
@@ -1217,7 +1338,8 @@
     "postalCode": "93405-7211",
     "latitude": 35.252,
     "longitude": -120.691,
-    "url": "https://costco.com/warehouse-locations/san-luis-obispo-ca-741.html"
+    "url": "https://www.costco.com/warehouse-locations/san-luis-obispo-ca-741.html",
+    "hasDiesel": false
   },
   {
     "name": "San Marcos",
@@ -1227,7 +1349,8 @@
     "postalCode": "92069-3536",
     "latitude": 33.135,
     "longitude": -117.125,
-    "url": "https://costco.com/warehouse-locations/san-marcos-ca-1080.html"
+    "url": "https://www.costco.com/warehouse-locations/san-marcos-ca-1080.html",
+    "hasDiesel": false
   },
   {
     "name": "Sand City",
@@ -1237,7 +1360,8 @@
     "postalCode": "93955-3050",
     "latitude": 36.617,
     "longitude": -121.845,
-    "url": "https://costco.com/warehouse-locations/sand-city-ca-131.html"
+    "url": "https://www.costco.com/warehouse-locations/sand-city-ca-131.html",
+    "hasDiesel": false
   },
   {
     "name": "Santa Clara",
@@ -1247,7 +1371,8 @@
     "postalCode": "95050-3122",
     "latitude": 37.357,
     "longitude": -121.939,
-    "url": "https://costco.com/warehouse-locations/santa-clara-ca-129.html"
+    "url": "https://www.costco.com/warehouse-locations/santa-clara-ca-129.html",
+    "hasDiesel": false
   },
   {
     "name": "Santa Clarita",
@@ -1257,7 +1382,8 @@
     "postalCode": "91387-4935",
     "latitude": 34.404,
     "longitude": -118.461,
-    "url": "https://costco.com/warehouse-locations/santa-clarita-ca-447.html"
+    "url": "https://www.costco.com/warehouse-locations/santa-clarita-ca-447.html",
+    "hasDiesel": false
   },
   {
     "name": "Santa Cruz",
@@ -1267,7 +1393,8 @@
     "postalCode": "95060-2161",
     "latitude": 36.985,
     "longitude": -122.033,
-    "url": "https://costco.com/warehouse-locations/santa-cruz-ca-149.html"
+    "url": "https://www.costco.com/warehouse-locations/santa-cruz-ca-149.html",
+    "hasDiesel": true
   },
   {
     "name": "Santa Maria",
@@ -1277,7 +1404,8 @@
     "postalCode": "93454-8001",
     "latitude": 34.927,
     "longitude": -120.419,
-    "url": "https://costco.com/warehouse-locations/santa-maria-ca-1275.html"
+    "url": "https://www.costco.com/warehouse-locations/santa-maria-ca-1275.html",
+    "hasDiesel": true
   },
   {
     "name": "Santa Rosa",
@@ -1287,7 +1415,8 @@
     "postalCode": "95407-7621",
     "latitude": 38.42,
     "longitude": -122.712,
-    "url": "https://costco.com/warehouse-locations/santa-rosa-ca-41.html"
+    "url": "https://www.costco.com/warehouse-locations/santa-rosa-ca-41.html",
+    "hasDiesel": false
   },
   {
     "name": "Santee",
@@ -1297,7 +1426,8 @@
     "postalCode": "92071-5802",
     "latitude": 32.841,
     "longitude": -116.988,
-    "url": "https://costco.com/warehouse-locations/santee-ca-403.html"
+    "url": "https://www.costco.com/warehouse-locations/santee-ca-403.html",
+    "hasDiesel": false
   },
   {
     "name": "Signal Hill",
@@ -1307,7 +1437,8 @@
     "postalCode": "90755-2132",
     "latitude": 33.803,
     "longitude": -118.165,
-    "url": "https://costco.com/warehouse-locations/signal-hill-ca-424.html"
+    "url": "https://www.costco.com/warehouse-locations/signal-hill-ca-424.html",
+    "hasDiesel": false
   },
   {
     "name": "Simi Valley",
@@ -1317,7 +1448,8 @@
     "postalCode": "93065-6207",
     "latitude": 34.284,
     "longitude": -118.796,
-    "url": "https://costco.com/warehouse-locations/simi-valley-ca-128.html"
+    "url": "https://www.costco.com/warehouse-locations/simi-valley-ca-128.html",
+    "hasDiesel": true
   },
   {
     "name": "Stockton",
@@ -1327,7 +1459,8 @@
     "postalCode": "95210-4119",
     "latitude": 38.019,
     "longitude": -121.292,
-    "url": "https://costco.com/warehouse-locations/stockton-ca-38.html"
+    "url": "https://www.costco.com/warehouse-locations/stockton-ca-38.html",
+    "hasDiesel": false
   },
   {
     "name": "Sunnyvale",
@@ -1337,7 +1470,8 @@
     "postalCode": "94086-5309",
     "latitude": 37.372,
     "longitude": -121.995,
-    "url": "https://costco.com/warehouse-locations/sunnyvale-ca-423.html"
+    "url": "https://www.costco.com/warehouse-locations/sunnyvale-ca-423.html",
+    "hasDiesel": false
   },
   {
     "name": "Temecula",
@@ -1347,7 +1481,8 @@
     "postalCode": "92591-4697",
     "latitude": 33.521,
     "longitude": -117.155,
-    "url": "https://costco.com/warehouse-locations/temecula-ca-491.html"
+    "url": "https://www.costco.com/warehouse-locations/temecula-ca-491.html",
+    "hasDiesel": true
   },
   {
     "name": "Torrance",
@@ -1357,7 +1492,8 @@
     "postalCode": "90505-5214",
     "latitude": 33.807,
     "longitude": -118.334,
-    "url": "https://costco.com/warehouse-locations/torrance-ca-1202.html"
+    "url": "https://www.costco.com/warehouse-locations/torrance-ca-1202.html",
+    "hasDiesel": false
   },
   {
     "name": "Tracy",
@@ -1367,7 +1503,8 @@
     "postalCode": "95304-8427",
     "latitude": 37.751,
     "longitude": -121.475,
-    "url": "https://costco.com/warehouse-locations/tracy-ca-658.html"
+    "url": "https://www.costco.com/warehouse-locations/tracy-ca-658.html",
+    "hasDiesel": false
   },
   {
     "name": "Turlock",
@@ -1377,7 +1514,8 @@
     "postalCode": "95380-9401",
     "latitude": 37.519,
     "longitude": -120.888,
-    "url": "https://costco.com/warehouse-locations/turlock-ca-782.html"
+    "url": "https://www.costco.com/warehouse-locations/turlock-ca-782.html",
+    "hasDiesel": false
   },
   {
     "name": "Tustin",
@@ -1387,7 +1525,8 @@
     "postalCode": "92782-2708",
     "latitude": 33.699,
     "longitude": -117.823,
-    "url": "https://costco.com/warehouse-locations/tustin-ca-1001.html"
+    "url": "https://www.costco.com/warehouse-locations/tustin-ca-1001.html",
+    "hasDiesel": false
   },
   {
     "name": "Tustin Ranch",
@@ -1397,7 +1536,8 @@
     "postalCode": "92782-8918",
     "latitude": 33.728,
     "longitude": -117.796,
-    "url": "https://costco.com/warehouse-locations/tustin-ranch-tustin-ca-122.html"
+    "url": "https://www.costco.com/warehouse-locations/tustin-ranch-tustin-ca-122.html",
+    "hasDiesel": false
   },
   {
     "name": "Ukiah",
@@ -1407,7 +1547,8 @@
     "postalCode": "95482-7400",
     "latitude": 39.127,
     "longitude": -123.197,
-    "url": "https://costco.com/warehouse-locations/ukiah-ca-1297.html"
+    "url": "https://www.costco.com/warehouse-locations/ukiah-ca-1297.html",
+    "hasDiesel": false
   },
   {
     "name": "Vacaville",
@@ -1417,7 +1558,8 @@
     "postalCode": "95687-5558",
     "latitude": 38.351,
     "longitude": -121.98,
-    "url": "https://costco.com/warehouse-locations/vacaville-ca-694.html"
+    "url": "https://www.costco.com/warehouse-locations/vacaville-ca-694.html",
+    "hasDiesel": false
   },
   {
     "name": "Vallejo",
@@ -1427,7 +1569,8 @@
     "postalCode": "94591-3702",
     "latitude": 38.133,
     "longitude": -122.214,
-    "url": "https://costco.com/warehouse-locations/vallejo-ca-132.html"
+    "url": "https://www.costco.com/warehouse-locations/vallejo-ca-132.html",
+    "hasDiesel": false
   },
   {
     "name": "Van Nuys",
@@ -1437,7 +1580,8 @@
     "postalCode": "91411-2503",
     "latitude": 34.182,
     "longitude": -118.464,
-    "url": "https://costco.com/warehouse-locations/van-nuys-ca-48.html"
+    "url": "https://www.costco.com/warehouse-locations/van-nuys-ca-48.html",
+    "hasDiesel": false
   },
   {
     "name": "Victorville",
@@ -1447,7 +1591,8 @@
     "postalCode": "92395-4216",
     "latitude": 34.515,
     "longitude": -117.318,
-    "url": "https://costco.com/warehouse-locations/victorville-ca-1010.html"
+    "url": "https://www.costco.com/warehouse-locations/victorville-ca-1010.html",
+    "hasDiesel": false
   },
   {
     "name": "Visalia",
@@ -1457,7 +1602,8 @@
     "postalCode": "93277-9527",
     "latitude": 36.293,
     "longitude": -119.307,
-    "url": "https://costco.com/warehouse-locations/visalia-ca-1017.html"
+    "url": "https://www.costco.com/warehouse-locations/visalia-ca-1017.html",
+    "hasDiesel": true
   },
   {
     "name": "Vista",
@@ -1467,7 +1613,8 @@
     "postalCode": "92081-4546",
     "latitude": 33.188,
     "longitude": -117.277,
-    "url": "https://costco.com/warehouse-locations/vista-ca-124.html"
+    "url": "https://www.costco.com/warehouse-locations/vista-ca-124.html",
+    "hasDiesel": false
   },
   {
     "name": "Woodland",
@@ -1477,7 +1624,8 @@
     "postalCode": "95776-5409",
     "latitude": 38.672,
     "longitude": -121.723,
-    "url": "https://costco.com/warehouse-locations/woodland-ca-1003.html"
+    "url": "https://www.costco.com/warehouse-locations/woodland-ca-1003.html",
+    "hasDiesel": false
   },
   {
     "name": "Woodland Hills",
@@ -1487,7 +1635,8 @@
     "postalCode": "91367-2227",
     "latitude": 34.186,
     "longitude": -118.603,
-    "url": "https://costco.com/warehouse-locations/woodland-hills-ca-1205.html"
+    "url": "https://www.costco.com/warehouse-locations/woodland-hills-ca-1205.html",
+    "hasDiesel": false
   },
   {
     "name": "Yorba Linda",
@@ -1497,7 +1646,8 @@
     "postalCode": "92887-4647",
     "latitude": 33.875,
     "longitude": -117.744,
-    "url": "https://costco.com/warehouse-locations/yorba-linda-ca-445.html"
+    "url": "https://www.costco.com/warehouse-locations/yorba-linda-ca-445.html",
+    "hasDiesel": false
   },
   {
     "name": "Arvada",
@@ -1507,7 +1657,8 @@
     "postalCode": "80002-4617",
     "latitude": 39.789,
     "longitude": -105.083,
-    "url": "https://costco.com/warehouse-locations/arvada-co-676.html"
+    "url": "https://www.costco.com/warehouse-locations/arvada-co-676.html",
+    "hasDiesel": false
   },
   {
     "name": "Aurora",
@@ -1517,7 +1668,8 @@
     "postalCode": "80012-4013",
     "latitude": 39.69,
     "longitude": -104.868,
-    "url": "https://costco.com/warehouse-locations/aurora-co-439.html"
+    "url": "https://www.costco.com/warehouse-locations/aurora-co-439.html",
+    "hasDiesel": false
   },
   {
     "name": "Douglas County",
@@ -1527,7 +1679,8 @@
     "postalCode": "80124-5129",
     "latitude": 39.558,
     "longitude": -104.877,
-    "url": "https://costco.com/warehouse-locations/douglas-county-littleton-co-468.html"
+    "url": "https://www.costco.com/warehouse-locations/douglas-county-littleton-co-468.html",
+    "hasDiesel": false
   },
   {
     "name": "E Colorado Springs",
@@ -1537,7 +1690,8 @@
     "postalCode": "80922-3512",
     "latitude": 38.892,
     "longitude": -104.717,
-    "url": "https://costco.com/warehouse-locations/e-colorado-springs-colorado-springs-co-1014.html"
+    "url": "https://www.costco.com/warehouse-locations/e-colorado-springs-colorado-springs-co-1014.html",
+    "hasDiesel": false
   },
   {
     "name": "Gypsum",
@@ -1547,7 +1701,8 @@
     "postalCode": "81637-9707",
     "latitude": 39.645,
     "longitude": -106.891,
-    "url": "https://costco.com/warehouse-locations/gypsum-co-637.html"
+    "url": "https://www.costco.com/warehouse-locations/gypsum-co-637.html",
+    "hasDiesel": true
   },
   {
     "name": "Longmont",
@@ -1557,7 +1712,8 @@
     "postalCode": "80501",
     "latitude": 40.152,
     "longitude": -105.085,
-    "url": "https://costco.com/warehouse-locations/longmont-co-1628.html"
+    "url": "https://www.costco.com/warehouse-locations/longmont-co-1628.html",
+    "hasDiesel": false
   },
   {
     "name": "NE Denver",
@@ -1567,7 +1723,8 @@
     "postalCode": "80239",
     "latitude": 39.781,
     "longitude": -104.796,
-    "url": "https://costco.com/warehouse-locations/ne-denver-denver-co-1652.html"
+    "url": "https://www.costco.com/warehouse-locations/ne-denver-denver-co-1652.html",
+    "hasDiesel": false
   },
   {
     "name": "Parker",
@@ -1577,7 +1734,8 @@
     "postalCode": "80138-8876",
     "latitude": 39.556,
     "longitude": -104.775,
-    "url": "https://costco.com/warehouse-locations/parker-co-1022.html"
+    "url": "https://www.costco.com/warehouse-locations/parker-co-1022.html",
+    "hasDiesel": false
   },
   {
     "name": "SW Denver",
@@ -1587,7 +1745,8 @@
     "postalCode": "80123-1350",
     "latitude": 39.637,
     "longitude": -105.086,
-    "url": "https://costco.com/warehouse-locations/sw-denver-littleton-co-443.html"
+    "url": "https://www.costco.com/warehouse-locations/sw-denver-littleton-co-443.html",
+    "hasDiesel": false
   },
   {
     "name": "Sheridan",
@@ -1597,7 +1756,8 @@
     "postalCode": "80110-3316",
     "latitude": 39.644,
     "longitude": -105.007,
-    "url": "https://costco.com/warehouse-locations/sheridan-co-1027.html"
+    "url": "https://www.costco.com/warehouse-locations/sheridan-co-1027.html",
+    "hasDiesel": false
   },
   {
     "name": "Superior",
@@ -1607,7 +1767,8 @@
     "postalCode": "80027-9730",
     "latitude": 39.959,
     "longitude": -105.174,
-    "url": "https://costco.com/warehouse-locations/superior-co-480.html"
+    "url": "https://www.costco.com/warehouse-locations/superior-co-480.html",
+    "hasDiesel": false
   },
   {
     "name": "Thornton",
@@ -1617,7 +1778,8 @@
     "postalCode": "80023-8907",
     "latitude": 39.991,
     "longitude": -104.983,
-    "url": "https://costco.com/warehouse-locations/thornton-co-629.html"
+    "url": "https://www.costco.com/warehouse-locations/thornton-co-629.html",
+    "hasDiesel": false
   },
   {
     "name": "Timnath",
@@ -1627,7 +1789,8 @@
     "postalCode": "80547-4703",
     "latitude": 40.521,
     "longitude": -104.99,
-    "url": "https://costco.com/warehouse-locations/timnath-co-1178.html"
+    "url": "https://www.costco.com/warehouse-locations/timnath-co-1178.html",
+    "hasDiesel": true
   },
   {
     "name": "W Colorado Springs",
@@ -1637,7 +1800,8 @@
     "postalCode": "80918-8602",
     "latitude": 38.905,
     "longitude": -104.821,
-    "url": "https://costco.com/warehouse-locations/w-colorado-springs-colorado-springs-co-1030.html"
+    "url": "https://www.costco.com/warehouse-locations/w-colorado-springs-colorado-springs-co-1030.html",
+    "hasDiesel": false
   },
   {
     "name": "Westminster CO",
@@ -1647,7 +1811,8 @@
     "postalCode": "80031-2952",
     "latitude": 39.862,
     "longitude": -105.066,
-    "url": "https://costco.com/warehouse-locations/westminster-co-westminster-co-440.html"
+    "url": "https://www.costco.com/warehouse-locations/westminster-co-westminster-co-440.html",
+    "hasDiesel": false
   },
   {
     "name": "Brookfield",
@@ -1657,7 +1822,8 @@
     "postalCode": "06804-2514",
     "latitude": 41.442,
     "longitude": -73.406,
-    "url": "https://costco.com/warehouse-locations/brookfield-ct-304.html"
+    "url": "https://www.costco.com/warehouse-locations/brookfield-ct-304.html",
+    "hasDiesel": false
   },
   {
     "name": "E Lyme",
@@ -1667,7 +1833,8 @@
     "postalCode": "06333-1710",
     "latitude": 41.36,
     "longitude": -72.214,
-    "url": "https://costco.com/warehouse-locations/e-lyme-east-lyme-ct-1372.html"
+    "url": "https://www.costco.com/warehouse-locations/e-lyme-east-lyme-ct-1372.html",
+    "hasDiesel": false
   },
   {
     "name": "Enfield",
@@ -1677,7 +1844,8 @@
     "postalCode": "06082-3854",
     "latitude": 41.993,
     "longitude": -72.576,
-    "url": "https://costco.com/warehouse-locations/enfield-ct-780.html"
+    "url": "https://www.costco.com/warehouse-locations/enfield-ct-780.html",
+    "hasDiesel": false
   },
   {
     "name": "Milford",
@@ -1687,7 +1855,8 @@
     "postalCode": "06460-2718",
     "latitude": 41.251,
     "longitude": -73.025,
-    "url": "https://costco.com/warehouse-locations/milford-ct-312.html"
+    "url": "https://www.costco.com/warehouse-locations/milford-ct-312.html",
+    "hasDiesel": false
   },
   {
     "name": "New Britain",
@@ -1697,7 +1866,8 @@
     "postalCode": "06053-1507",
     "latitude": 41.71,
     "longitude": -72.763,
-    "url": "https://costco.com/warehouse-locations/new-britain-ct-1196.html"
+    "url": "https://www.costco.com/warehouse-locations/new-britain-ct-1196.html",
+    "hasDiesel": false
   },
   {
     "name": "South Windsor",
@@ -1707,7 +1877,8 @@
     "postalCode": "06074",
     "latitude": 41.818,
     "longitude": -72.556,
-    "url": "https://costco.com/warehouse-locations/south-windsor-ct-1493.html"
+    "url": "https://www.costco.com/warehouse-locations/south-windsor-ct-1493.html",
+    "hasDiesel": false
   },
   {
     "name": "Waterbury",
@@ -1717,7 +1888,8 @@
     "postalCode": "06705-3851",
     "latitude": 41.54,
     "longitude": -72.968,
-    "url": "https://costco.com/warehouse-locations/waterbury-ct-313.html"
+    "url": "https://www.costco.com/warehouse-locations/waterbury-ct-313.html",
+    "hasDiesel": false
   },
   {
     "name": "Christiana",
@@ -1727,7 +1899,8 @@
     "postalCode": "19702-3221",
     "latitude": 39.677,
     "longitude": -75.648,
-    "url": "https://costco.com/warehouse-locations/christiana-newark-de-246.html"
+    "url": "https://www.costco.com/warehouse-locations/christiana-newark-de-246.html",
+    "hasDiesel": false
   },
   {
     "name": "Altamonte Springs",
@@ -1737,7 +1910,8 @@
     "postalCode": "32714-3031",
     "latitude": 28.661,
     "longitude": -81.418,
-    "url": "https://costco.com/warehouse-locations/altamonte-springs-fl-183.html"
+    "url": "https://www.costco.com/warehouse-locations/altamonte-springs-fl-183.html",
+    "hasDiesel": false
   },
   {
     "name": "Boca Raton",
@@ -1747,7 +1921,8 @@
     "postalCode": "33487-1200",
     "latitude": 26.412,
     "longitude": -80.101,
-    "url": "https://costco.com/warehouse-locations/boca-raton-fl-345.html"
+    "url": "https://www.costco.com/warehouse-locations/boca-raton-fl-345.html",
+    "hasDiesel": false
   },
   {
     "name": "Bradenton",
@@ -1757,7 +1932,8 @@
     "postalCode": "34212",
     "latitude": 27.495,
     "longitude": -82.47,
-    "url": "https://costco.com/warehouse-locations/bradenton-fl-1364.html"
+    "url": "https://www.costco.com/warehouse-locations/bradenton-fl-1364.html",
+    "hasDiesel": false
   },
   {
     "name": "Brandon",
@@ -1767,7 +1943,8 @@
     "postalCode": "33511-1997",
     "latitude": 27.921,
     "longitude": -82.331,
-    "url": "https://costco.com/warehouse-locations/brandon-fl-358.html"
+    "url": "https://www.costco.com/warehouse-locations/brandon-fl-358.html",
+    "hasDiesel": false
   },
   {
     "name": "Clearwater",
@@ -1777,7 +1954,8 @@
     "postalCode": "33759-4936",
     "latitude": 27.957,
     "longitude": -82.728,
-    "url": "https://costco.com/warehouse-locations/clearwater-fl-336.html"
+    "url": "https://www.costco.com/warehouse-locations/clearwater-fl-336.html",
+    "hasDiesel": false
   },
   {
     "name": "Clermont",
@@ -1787,7 +1965,8 @@
     "postalCode": "34711",
     "latitude": 28.548,
     "longitude": -81.667,
-    "url": "https://costco.com/warehouse-locations/clermont-fl-1649.html"
+    "url": "https://www.costco.com/warehouse-locations/clermont-fl-1649.html",
+    "hasDiesel": false
   },
   {
     "name": "Coral Springs",
@@ -1797,7 +1976,8 @@
     "postalCode": "33076-2200",
     "latitude": 26.289,
     "longitude": -80.28,
-    "url": "https://costco.com/warehouse-locations/coral-springs-fl-1323.html"
+    "url": "https://www.costco.com/warehouse-locations/coral-springs-fl-1323.html",
+    "hasDiesel": false
   },
   {
     "name": "Davie",
@@ -1807,7 +1987,8 @@
     "postalCode": "33324-5808",
     "latitude": 26.097,
     "longitude": -80.248,
-    "url": "https://costco.com/warehouse-locations/davie-fl-91.html"
+    "url": "https://www.costco.com/warehouse-locations/davie-fl-91.html",
+    "hasDiesel": false
   },
   {
     "name": "Daytona",
@@ -1817,7 +1998,8 @@
     "postalCode": "32114",
     "latitude": 29.191,
     "longitude": -81.072,
-    "url": "https://costco.com/warehouse-locations/daytona-daytona-beach-fl-1681.html"
+    "url": "https://www.costco.com/warehouse-locations/daytona-daytona-beach-fl-1681.html",
+    "hasDiesel": false
   },
   {
     "name": "E Orlando",
@@ -1827,7 +2009,8 @@
     "postalCode": "32792-7428",
     "latitude": 28.599,
     "longitude": -81.3,
-    "url": "https://costco.com/warehouse-locations/e-orlando-winter-park-fl-185.html"
+    "url": "https://www.costco.com/warehouse-locations/e-orlando-winter-park-fl-185.html",
+    "hasDiesel": false
   },
   {
     "name": "Estero",
@@ -1837,7 +2020,8 @@
     "postalCode": "33913-8961",
     "latitude": 26.49,
     "longitude": -81.786,
-    "url": "https://costco.com/warehouse-locations/estero-fort-myers-fl-621.html"
+    "url": "https://www.costco.com/warehouse-locations/estero-fort-myers-fl-621.html",
+    "hasDiesel": false
   },
   {
     "name": "Fort Myers",
@@ -1847,7 +2031,8 @@
     "postalCode": "33907-6521",
     "latitude": 26.545,
     "longitude": -81.874,
-    "url": "https://costco.com/warehouse-locations/fort-myers-fl-351.html"
+    "url": "https://www.costco.com/warehouse-locations/fort-myers-fl-351.html",
+    "hasDiesel": false
   },
   {
     "name": "Kendall",
@@ -1857,7 +2042,8 @@
     "postalCode": "33186-7393",
     "latitude": 25.654,
     "longitude": -80.413,
-    "url": "https://costco.com/warehouse-locations/kendall-miami-fl-1023.html"
+    "url": "https://www.costco.com/warehouse-locations/kendall-miami-fl-1023.html",
+    "hasDiesel": false
   },
   {
     "name": "Lantana",
@@ -1867,7 +2053,8 @@
     "postalCode": "33462-2601",
     "latitude": 26.589,
     "longitude": -80.071,
-    "url": "https://costco.com/warehouse-locations/lantana-fl-180.html"
+    "url": "https://www.costco.com/warehouse-locations/lantana-fl-180.html",
+    "hasDiesel": false
   },
   {
     "name": "Melbourne",
@@ -1877,7 +2064,8 @@
     "postalCode": "32940",
     "latitude": 28.189,
     "longitude": -80.72,
-    "url": "https://costco.com/warehouse-locations/melbourne-fl-1450.html"
+    "url": "https://www.costco.com/warehouse-locations/melbourne-fl-1450.html",
+    "hasDiesel": false
   },
   {
     "name": "Miami",
@@ -1887,7 +2075,8 @@
     "postalCode": "33144-2359",
     "latitude": 25.775,
     "longitude": -80.322,
-    "url": "https://costco.com/warehouse-locations/miami-fl-1229.html"
+    "url": "https://www.costco.com/warehouse-locations/miami-fl-1229.html",
+    "hasDiesel": false
   },
   {
     "name": "Miami Lakes",
@@ -1897,7 +2086,8 @@
     "postalCode": "33014-5611",
     "latitude": 25.923,
     "longitude": -80.299,
-    "url": "https://costco.com/warehouse-locations/miami-lakes-fl-181.html"
+    "url": "https://www.costco.com/warehouse-locations/miami-lakes-fl-181.html",
+    "hasDiesel": false
   },
   {
     "name": "N Miami",
@@ -1907,7 +2097,8 @@
     "postalCode": "33181",
     "latitude": 25.912,
     "longitude": -80.154,
-    "url": "https://costco.com/warehouse-locations/n-miami-north-miami-fl-1332.html"
+    "url": "https://www.costco.com/warehouse-locations/n-miami-north-miami-fl-1332.html",
+    "hasDiesel": false
   },
   {
     "name": "Naples",
@@ -1917,7 +2108,8 @@
     "postalCode": "34109-2030",
     "latitude": 26.22,
     "longitude": -81.775,
-    "url": "https://costco.com/warehouse-locations/naples-fl-354.html"
+    "url": "https://www.costco.com/warehouse-locations/naples-fl-354.html",
+    "hasDiesel": false
   },
   {
     "name": "North Port",
@@ -1927,7 +2119,8 @@
     "postalCode": "34293",
     "latitude": 27.04,
     "longitude": -82.307,
-    "url": "https://costco.com/warehouse-locations/north-port-fl-1682.html"
+    "url": "https://www.costco.com/warehouse-locations/north-port-fl-1682.html",
+    "hasDiesel": false
   },
   {
     "name": "Orlando Business Center",
@@ -1937,7 +2130,8 @@
     "postalCode": "32837-9283",
     "latitude": 28.404,
     "longitude": -81.406,
-    "url": "https://costco.com/warehouse-locations/orlando-business-center-orlando-fl-651.html"
+    "url": "https://www.costco.com/warehouse-locations/orlando-business-center-orlando-fl-651.html",
+    "hasDiesel": false
   },
   {
     "name": "Palm Beach Gardens",
@@ -1947,7 +2141,8 @@
     "postalCode": "33403-1702",
     "latitude": 26.807,
     "longitude": -80.088,
-    "url": "https://costco.com/warehouse-locations/palm-beach-gardens-fl-93.html"
+    "url": "https://www.costco.com/warehouse-locations/palm-beach-gardens-fl-93.html",
+    "hasDiesel": false
   },
   {
     "name": "Pembroke Pines",
@@ -1957,7 +2152,8 @@
     "postalCode": "33027-1201",
     "latitude": 26.01,
     "longitude": -80.36,
-    "url": "https://costco.com/warehouse-locations/pembroke-pines-fl-742.html"
+    "url": "https://www.costco.com/warehouse-locations/pembroke-pines-fl-742.html",
+    "hasDiesel": false
   },
   {
     "name": "Pompano",
@@ -1967,7 +2163,8 @@
     "postalCode": "33064-1324",
     "latitude": 26.273,
     "longitude": -80.149,
-    "url": "https://costco.com/warehouse-locations/pompano-pompano-beach-fl-88.html"
+    "url": "https://www.costco.com/warehouse-locations/pompano-pompano-beach-fl-88.html",
+    "hasDiesel": false
   },
   {
     "name": "Royal Palm Beach",
@@ -1977,7 +2174,8 @@
     "postalCode": "33411-4240",
     "latitude": 26.683,
     "longitude": -80.221,
-    "url": "https://costco.com/warehouse-locations/royal-palm-beach-fl-623.html"
+    "url": "https://www.costco.com/warehouse-locations/royal-palm-beach-fl-623.html",
+    "hasDiesel": false
   },
   {
     "name": "S Orlando",
@@ -1987,7 +2185,8 @@
     "postalCode": "32839-2171",
     "latitude": 28.496,
     "longitude": -81.425,
-    "url": "https://costco.com/warehouse-locations/s-orlando-orlando-fl-1235.html"
+    "url": "https://www.costco.com/warehouse-locations/s-orlando-orlando-fl-1235.html",
+    "hasDiesel": false
   },
   {
     "name": "Sarasota Mall",
@@ -1997,7 +2196,8 @@
     "postalCode": "34238-2966",
     "latitude": 27.235,
     "longitude": -82.491,
-    "url": "https://costco.com/warehouse-locations/sarasota-mall-sarasota-fl-1123.html"
+    "url": "https://www.costco.com/warehouse-locations/sarasota-mall-sarasota-fl-1123.html",
+    "hasDiesel": false
   },
   {
     "name": "St Augustine",
@@ -2007,7 +2207,8 @@
     "postalCode": "32092",
     "latitude": 29.982,
     "longitude": -81.463,
-    "url": "https://costco.com/warehouse-locations/st-augustine-st.-augustine-fl-1615.html"
+    "url": "https://www.costco.com/warehouse-locations/st-augustine-st.-augustine-fl-1615.html",
+    "hasDiesel": false
   },
   {
     "name": "Tallahassee",
@@ -2017,7 +2218,8 @@
     "postalCode": "32317-1201",
     "latitude": 30.461,
     "longitude": -84.213,
-    "url": "https://costco.com/warehouse-locations/tallahassee-fl-1026.html"
+    "url": "https://www.costco.com/warehouse-locations/tallahassee-fl-1026.html",
+    "hasDiesel": false
   },
   {
     "name": "W Jacksonville",
@@ -2027,7 +2229,8 @@
     "postalCode": "32244-5704",
     "latitude": 30.202,
     "longitude": -81.757,
-    "url": "https://costco.com/warehouse-locations/w-jacksonville-jacksonville-fl-1294.html"
+    "url": "https://www.costco.com/warehouse-locations/w-jacksonville-jacksonville-fl-1294.html",
+    "hasDiesel": false
   },
   {
     "name": "W Tampa",
@@ -2037,7 +2240,8 @@
     "postalCode": "33625-3713",
     "latitude": 28.042,
     "longitude": -82.58,
-    "url": "https://costco.com/warehouse-locations/w-tampa-tampa-fl-1262.html"
+    "url": "https://www.costco.com/warehouse-locations/w-tampa-tampa-fl-1262.html",
+    "hasDiesel": false
   },
   {
     "name": "Wesley Chapel",
@@ -2047,7 +2251,8 @@
     "postalCode": "33559-6797",
     "latitude": 28.189,
     "longitude": -82.394,
-    "url": "https://costco.com/warehouse-locations/wesley-chapel-lutz-fl-1249.html"
+    "url": "https://www.costco.com/warehouse-locations/wesley-chapel-lutz-fl-1249.html",
+    "hasDiesel": false
   },
   {
     "name": "Alpharetta",
@@ -2057,7 +2262,8 @@
     "postalCode": "30004-3869",
     "latitude": 34.091,
     "longitude": -84.278,
-    "url": "https://costco.com/warehouse-locations/alpharetta-ga-743.html"
+    "url": "https://www.costco.com/warehouse-locations/alpharetta-ga-743.html",
+    "hasDiesel": false
   },
   {
     "name": "Athens",
@@ -2067,7 +2273,8 @@
     "postalCode": "30606",
     "latitude": 33.92,
     "longitude": -83.457,
-    "url": "https://costco.com/warehouse-locations/athens-ga-1621.html"
+    "url": "https://www.costco.com/warehouse-locations/athens-ga-1621.html",
+    "hasDiesel": false
   },
   {
     "name": "Augusta",
@@ -2077,7 +2284,8 @@
     "postalCode": "30909-8202",
     "latitude": 33.525,
     "longitude": -82.02,
-    "url": "https://costco.com/warehouse-locations/augusta-ga-1102.html"
+    "url": "https://www.costco.com/warehouse-locations/augusta-ga-1102.html",
+    "hasDiesel": false
   },
   {
     "name": "Brookhaven",
@@ -2087,7 +2295,8 @@
     "postalCode": "30319-3291",
     "latitude": 33.873,
     "longitude": -84.336,
-    "url": "https://costco.com/warehouse-locations/brookhaven-atlanta-ga-1084.html"
+    "url": "https://www.costco.com/warehouse-locations/brookhaven-atlanta-ga-1084.html",
+    "hasDiesel": false
   },
   {
     "name": "Cumberland Mall",
@@ -2097,7 +2306,8 @@
     "postalCode": "30339-8107",
     "latitude": 33.881,
     "longitude": -84.471,
-    "url": "https://costco.com/warehouse-locations/cumberland-mall-atlanta-ga-631.html"
+    "url": "https://www.costco.com/warehouse-locations/cumberland-mall-atlanta-ga-631.html",
+    "hasDiesel": false
   },
   {
     "name": "Cumming",
@@ -2107,7 +2317,8 @@
     "postalCode": "30041-8484",
     "latitude": 34.213,
     "longitude": -84.116,
-    "url": "https://costco.com/warehouse-locations/cumming-ga-1175.html"
+    "url": "https://www.costco.com/warehouse-locations/cumming-ga-1175.html",
+    "hasDiesel": false
   },
   {
     "name": "Dallas GA",
@@ -2117,7 +2328,8 @@
     "postalCode": "30157",
     "latitude": 33.921,
     "longitude": -84.764,
-    "url": "https://costco.com/warehouse-locations/dallas-ga-dallas-ga-1389.html"
+    "url": "https://www.costco.com/warehouse-locations/dallas-ga-dallas-ga-1389.html",
+    "hasDiesel": false
   },
   {
     "name": "Fort Oglethorpe",
@@ -2127,7 +2339,8 @@
     "postalCode": "30736-8566",
     "latitude": 34.968,
     "longitude": -85.194,
-    "url": "https://costco.com/warehouse-locations/fort-oglethorpe-ringgold-ga-1083.html"
+    "url": "https://www.costco.com/warehouse-locations/fort-oglethorpe-ringgold-ga-1083.html",
+    "hasDiesel": false
   },
   {
     "name": "Gwinnett",
@@ -2137,7 +2350,8 @@
     "postalCode": "30096-5077",
     "latitude": 33.948,
     "longitude": -84.143,
-    "url": "https://costco.com/warehouse-locations/gwinnett-duluth-ga-187.html"
+    "url": "https://www.costco.com/warehouse-locations/gwinnett-duluth-ga-187.html",
+    "hasDiesel": false
   },
   {
     "name": "Mall Of Georgia",
@@ -2147,7 +2361,8 @@
     "postalCode": "30519-6551",
     "latitude": 34.062,
     "longitude": -83.996,
-    "url": "https://costco.com/warehouse-locations/mall-of-georgia-buford-ga-366.html"
+    "url": "https://www.costco.com/warehouse-locations/mall-of-georgia-buford-ga-366.html",
+    "hasDiesel": false
   },
   {
     "name": "Morrow Business Center",
@@ -2157,7 +2372,8 @@
     "postalCode": "30260-3014",
     "latitude": 33.572,
     "longitude": -84.334,
-    "url": "https://costco.com/warehouse-locations/morrow-business-center-morrow-ga-579.html"
+    "url": "https://www.costco.com/warehouse-locations/morrow-business-center-morrow-ga-579.html",
+    "hasDiesel": false
   },
   {
     "name": "Perimeter",
@@ -2167,7 +2383,8 @@
     "postalCode": "30328-4568",
     "latitude": 33.929,
     "longitude": -84.354,
-    "url": "https://costco.com/warehouse-locations/perimeter-atlanta-ga-188.html"
+    "url": "https://www.costco.com/warehouse-locations/perimeter-atlanta-ga-188.html",
+    "hasDiesel": false
   },
   {
     "name": "Pooler",
@@ -2177,7 +2394,8 @@
     "postalCode": "31322",
     "latitude": 32.081,
     "longitude": -81.277,
-    "url": "https://costco.com/warehouse-locations/pooler-ga-1485.html"
+    "url": "https://www.costco.com/warehouse-locations/pooler-ga-1485.html",
+    "hasDiesel": false
   },
   {
     "name": "Sharpsburg",
@@ -2187,7 +2405,8 @@
     "postalCode": "30277",
     "latitude": 33.4,
     "longitude": -84.622,
-    "url": "https://costco.com/warehouse-locations/sharpsburg-ga-1361.html"
+    "url": "https://www.costco.com/warehouse-locations/sharpsburg-ga-1361.html",
+    "hasDiesel": false
   },
   {
     "name": "Stockbridge",
@@ -2197,7 +2416,8 @@
     "postalCode": "30253",
     "latitude": 33.481,
     "longitude": -84.219,
-    "url": "https://costco.com/warehouse-locations/stockbridge-mcdonough-ga-1675.html"
+    "url": "https://www.costco.com/warehouse-locations/stockbridge-mcdonough-ga-1675.html",
+    "hasDiesel": false
   },
   {
     "name": "Town Center",
@@ -2207,7 +2427,8 @@
     "postalCode": "30144-4922",
     "latitude": 34.005,
     "longitude": -84.57,
-    "url": "https://costco.com/warehouse-locations/town-center-kennesaw-ga-189.html"
+    "url": "https://www.costco.com/warehouse-locations/town-center-kennesaw-ga-189.html",
+    "hasDiesel": false
   },
   {
     "name": "Woodstock",
@@ -2217,7 +2438,8 @@
     "postalCode": "30188-7800",
     "latitude": 34.12,
     "longitude": -84.516,
-    "url": "https://costco.com/warehouse-locations/woodstock-ga-1295.html"
+    "url": "https://www.costco.com/warehouse-locations/woodstock-ga-1295.html",
+    "hasDiesel": false
   },
   {
     "name": "Iwilei",
@@ -2227,7 +2449,8 @@
     "postalCode": "96817-5764",
     "latitude": 21.318,
     "longitude": -157.87,
-    "url": "https://costco.com/warehouse-locations/iwilei-honolulu-hi-687.html"
+    "url": "https://www.costco.com/warehouse-locations/iwilei-honolulu-hi-687.html",
+    "hasDiesel": false
   },
   {
     "name": "Kapolei",
@@ -2237,7 +2460,8 @@
     "postalCode": "96707-1879",
     "latitude": 21.327,
     "longitude": -158.088,
-    "url": "https://costco.com/warehouse-locations/kapolei-hi-1038.html"
+    "url": "https://www.costco.com/warehouse-locations/kapolei-hi-1038.html",
+    "hasDiesel": false
   },
   {
     "name": "Kauai",
@@ -2247,7 +2471,8 @@
     "postalCode": "96766-8002",
     "latitude": 21.967,
     "longitude": -159.381,
-    "url": "https://costco.com/warehouse-locations/kauai-lihue-hi-640.html"
+    "url": "https://www.costco.com/warehouse-locations/kauai-lihue-hi-640.html",
+    "hasDiesel": false
   },
   {
     "name": "Kona",
@@ -2257,7 +2482,8 @@
     "postalCode": "96740-2630",
     "latitude": 19.685,
     "longitude": -156.017,
-    "url": "https://costco.com/warehouse-locations/kona-kailua-kona-hi-140.html"
+    "url": "https://www.costco.com/warehouse-locations/kona-kailua-kona-hi-140.html",
+    "hasDiesel": false
   },
   {
     "name": "Maui",
@@ -2267,7 +2493,8 @@
     "postalCode": "96732-2302",
     "latitude": 20.887,
     "longitude": -156.45,
-    "url": "https://costco.com/warehouse-locations/maui-kahului-hi-119.html"
+    "url": "https://www.costco.com/warehouse-locations/maui-kahului-hi-119.html",
+    "hasDiesel": false
   },
   {
     "name": "Waipio",
@@ -2277,7 +2504,8 @@
     "postalCode": "96797-4495",
     "latitude": 21.427,
     "longitude": -158.0,
-    "url": "https://costco.com/warehouse-locations/waipio-waipahu-hi-485.html"
+    "url": "https://www.costco.com/warehouse-locations/waipio-waipahu-hi-485.html",
+    "hasDiesel": false
   },
   {
     "name": "Boise",
@@ -2287,7 +2515,8 @@
     "postalCode": "83709-2815",
     "latitude": 43.586,
     "longitude": -116.276,
-    "url": "https://costco.com/warehouse-locations/boise-id-761.html"
+    "url": "https://www.costco.com/warehouse-locations/boise-id-761.html",
+    "hasDiesel": false
   },
   {
     "name": "Coeur D' Alene",
@@ -2297,7 +2526,8 @@
     "postalCode": "83815-3723",
     "latitude": 47.709,
     "longitude": -116.783,
-    "url": "https://costco.com/warehouse-locations/coeur-d'-alene-id-773.html"
+    "url": "https://www.costco.com/warehouse-locations/coeur-d'-alene-id-773.html",
+    "hasDiesel": false
   },
   {
     "name": "Idaho Falls",
@@ -2307,7 +2537,8 @@
     "postalCode": "83401",
     "latitude": 43.513,
     "longitude": -111.985,
-    "url": "https://costco.com/warehouse-locations/idaho-falls-id-1379.html"
+    "url": "https://www.costco.com/warehouse-locations/idaho-falls-id-1379.html",
+    "hasDiesel": false
   },
   {
     "name": "Meridian",
@@ -2317,7 +2548,8 @@
     "postalCode": "83646",
     "latitude": 43.661,
     "longitude": -116.436,
-    "url": "https://costco.com/warehouse-locations/meridian-id-1343.html"
+    "url": "https://www.costco.com/warehouse-locations/meridian-id-1343.html",
+    "hasDiesel": false
   },
   {
     "name": "Nampa",
@@ -2327,7 +2559,8 @@
     "postalCode": "83687-7909",
     "latitude": 43.615,
     "longitude": -116.59,
-    "url": "https://costco.com/warehouse-locations/nampa-id-734.html"
+    "url": "https://www.costco.com/warehouse-locations/nampa-id-734.html",
+    "hasDiesel": false
   },
   {
     "name": "Pocatello",
@@ -2337,7 +2570,8 @@
     "postalCode": "83201-4988",
     "latitude": 42.905,
     "longitude": -112.455,
-    "url": "https://costco.com/warehouse-locations/pocatello-id-1033.html"
+    "url": "https://www.costco.com/warehouse-locations/pocatello-id-1033.html",
+    "hasDiesel": false
   },
   {
     "name": "Twin Falls",
@@ -2347,7 +2581,8 @@
     "postalCode": "83301-3036",
     "latitude": 42.593,
     "longitude": -114.464,
-    "url": "https://costco.com/warehouse-locations/twin-falls-id-145.html"
+    "url": "https://www.costco.com/warehouse-locations/twin-falls-id-145.html",
+    "hasDiesel": false
   },
   {
     "name": "Bedford Park Business Center",
@@ -2357,7 +2592,8 @@
     "postalCode": "60629-5817",
     "latitude": 41.759,
     "longitude": -87.745,
-    "url": "https://costco.com/warehouse-locations/bedford-park-business-center-chicago-il-580.html"
+    "url": "https://www.costco.com/warehouse-locations/bedford-park-business-center-chicago-il-580.html",
+    "hasDiesel": false
   },
   {
     "name": "Bloomingdale",
@@ -2367,7 +2603,8 @@
     "postalCode": "60108-1391",
     "latitude": 41.941,
     "longitude": -88.134,
-    "url": "https://costco.com/warehouse-locations/bloomingdale-il-371.html"
+    "url": "https://www.costco.com/warehouse-locations/bloomingdale-il-371.html",
+    "hasDiesel": false
   },
   {
     "name": "Bolingbrook",
@@ -2377,7 +2614,8 @@
     "postalCode": "60440-2355",
     "latitude": 41.728,
     "longitude": -88.032,
-    "url": "https://costco.com/warehouse-locations/bolingbrook-il-1088.html"
+    "url": "https://www.costco.com/warehouse-locations/bolingbrook-il-1088.html",
+    "hasDiesel": false
   },
   {
     "name": "Champaign",
@@ -2387,7 +2625,8 @@
     "postalCode": "61820",
     "latitude": 40.141,
     "longitude": -88.245,
-    "url": "https://costco.com/warehouse-locations/champaign-il-1384.html"
+    "url": "https://www.costco.com/warehouse-locations/champaign-il-1384.html",
+    "hasDiesel": false
   },
   {
     "name": "Chicago South Loop",
@@ -2397,7 +2636,8 @@
     "postalCode": "60608-2040",
     "latitude": 41.863,
     "longitude": -87.668,
-    "url": "https://costco.com/warehouse-locations/chicago-south-loop-chicago-il-1107.html"
+    "url": "https://www.costco.com/warehouse-locations/chicago-south-loop-chicago-il-1107.html",
+    "hasDiesel": false
   },
   {
     "name": "East Peoria",
@@ -2407,7 +2647,8 @@
     "postalCode": "61611-2036",
     "latitude": 40.669,
     "longitude": -89.585,
-    "url": "https://costco.com/warehouse-locations/east-peoria-il-1126.html"
+    "url": "https://www.costco.com/warehouse-locations/east-peoria-il-1126.html",
+    "hasDiesel": false
   },
   {
     "name": "Glenview",
@@ -2417,7 +2658,8 @@
     "postalCode": "60026-8046",
     "latitude": 42.109,
     "longitude": -87.822,
-    "url": "https://costco.com/warehouse-locations/glenview-il-348.html"
+    "url": "https://www.costco.com/warehouse-locations/glenview-il-348.html",
+    "hasDiesel": false
   },
   {
     "name": "Lake In The Hills",
@@ -2427,7 +2669,8 @@
     "postalCode": "60156-5943",
     "latitude": 42.179,
     "longitude": -88.339,
-    "url": "https://costco.com/warehouse-locations/lake-in-the-hills-il-774.html"
+    "url": "https://www.costco.com/warehouse-locations/lake-in-the-hills-il-774.html",
+    "hasDiesel": false
   },
   {
     "name": "Lake Zurich",
@@ -2437,7 +2680,8 @@
     "postalCode": "60047-3409",
     "latitude": 42.187,
     "longitude": -88.093,
-    "url": "https://costco.com/warehouse-locations/lake-zurich-il-378.html"
+    "url": "https://www.costco.com/warehouse-locations/lake-zurich-il-378.html",
+    "hasDiesel": false
   },
   {
     "name": "Lincoln Park",
@@ -2447,7 +2691,8 @@
     "postalCode": "60614-1006",
     "latitude": 41.93,
     "longitude": -87.677,
-    "url": "https://costco.com/warehouse-locations/lincoln-park-chicago-il-380.html"
+    "url": "https://www.costco.com/warehouse-locations/lincoln-park-chicago-il-380.html",
+    "hasDiesel": false
   },
   {
     "name": "Loves Park",
@@ -2457,7 +2702,8 @@
     "postalCode": "61111",
     "latitude": 42.321,
     "longitude": -88.961,
-    "url": "https://costco.com/warehouse-locations/loves-park-il-1353.html"
+    "url": "https://www.costco.com/warehouse-locations/loves-park-il-1353.html",
+    "hasDiesel": false
   },
   {
     "name": "Melrose Park",
@@ -2467,7 +2713,8 @@
     "postalCode": "60160-1607",
     "latitude": 41.91,
     "longitude": -87.836,
-    "url": "https://costco.com/warehouse-locations/melrose-park-il-1085.html"
+    "url": "https://www.costco.com/warehouse-locations/melrose-park-il-1085.html",
+    "hasDiesel": true
   },
   {
     "name": "Mettawa",
@@ -2477,7 +2724,8 @@
     "postalCode": "60045-3403",
     "latitude": 42.237,
     "longitude": -87.903,
-    "url": "https://costco.com/warehouse-locations/mettawa-il-1074.html"
+    "url": "https://www.costco.com/warehouse-locations/mettawa-il-1074.html",
+    "hasDiesel": false
   },
   {
     "name": "Mt Prospect",
@@ -2487,7 +2735,8 @@
     "postalCode": "60056-1133",
     "latitude": 42.083,
     "longitude": -87.933,
-    "url": "https://costco.com/warehouse-locations/mt-prospect-mount-prospect-il-779.html"
+    "url": "https://www.costco.com/warehouse-locations/mt-prospect-mount-prospect-il-779.html",
+    "hasDiesel": false
   },
   {
     "name": "NE Naperville",
@@ -2497,7 +2746,8 @@
     "postalCode": "60563",
     "latitude": 41.798,
     "longitude": -88.124,
-    "url": "https://costco.com/warehouse-locations/ne-naperville-naperville-il-1443.html"
+    "url": "https://www.costco.com/warehouse-locations/ne-naperville-naperville-il-1443.html",
+    "hasDiesel": false
   },
   {
     "name": "Naperville",
@@ -2507,7 +2757,8 @@
     "postalCode": "60564-5944",
     "latitude": 41.746,
     "longitude": -88.204,
-    "url": "https://costco.com/warehouse-locations/naperville-il-342.html"
+    "url": "https://www.costco.com/warehouse-locations/naperville-il-342.html",
+    "hasDiesel": false
   },
   {
     "name": "Niles",
@@ -2517,7 +2768,8 @@
     "postalCode": "60714-3905",
     "latitude": 42.015,
     "longitude": -87.78,
-    "url": "https://costco.com/warehouse-locations/niles-il-383.html"
+    "url": "https://www.costco.com/warehouse-locations/niles-il-383.html",
+    "hasDiesel": false
   },
   {
     "name": "North Riverside IL",
@@ -2527,7 +2779,8 @@
     "postalCode": "60546-1415",
     "latitude": 41.844,
     "longitude": -87.806,
-    "url": "https://costco.com/warehouse-locations/north-riverside-il-north-riverside-il-1153.html"
+    "url": "https://www.costco.com/warehouse-locations/north-riverside-il-north-riverside-il-1153.html",
+    "hasDiesel": false
   },
   {
     "name": "Oak Brook",
@@ -2537,7 +2790,8 @@
     "postalCode": "60523-1759",
     "latitude": 41.845,
     "longitude": -87.965,
-    "url": "https://costco.com/warehouse-locations/oak-brook-il-388.html"
+    "url": "https://www.costco.com/warehouse-locations/oak-brook-il-388.html",
+    "hasDiesel": false
   },
   {
     "name": "Orland Park",
@@ -2547,7 +2801,8 @@
     "postalCode": "60467-4572",
     "latitude": 41.6,
     "longitude": -87.861,
-    "url": "https://costco.com/warehouse-locations/orland-park-il-647.html"
+    "url": "https://www.costco.com/warehouse-locations/orland-park-il-647.html",
+    "hasDiesel": false
   },
   {
     "name": "Plainfield",
@@ -2557,7 +2812,8 @@
     "postalCode": "60586",
     "latitude": 41.587,
     "longitude": -88.169,
-    "url": "https://costco.com/warehouse-locations/plainfield-il-1388.html"
+    "url": "https://www.costco.com/warehouse-locations/plainfield-il-1388.html",
+    "hasDiesel": false
   },
   {
     "name": "Schaumburg",
@@ -2567,7 +2823,8 @@
     "postalCode": "60173-4805",
     "latitude": 42.055,
     "longitude": -88.042,
-    "url": "https://costco.com/warehouse-locations/schaumburg-il-387.html"
+    "url": "https://www.costco.com/warehouse-locations/schaumburg-il-387.html",
+    "hasDiesel": false
   },
   {
     "name": "St Charles",
@@ -2577,7 +2834,8 @@
     "postalCode": "60174-1524",
     "latitude": 41.909,
     "longitude": -88.342,
-    "url": "https://costco.com/warehouse-locations/st-charles-saint-charles-il-1040.html"
+    "url": "https://www.costco.com/warehouse-locations/st-charles-saint-charles-il-1040.html",
+    "hasDiesel": false
   },
   {
     "name": "Avon IN",
@@ -2587,7 +2845,8 @@
     "postalCode": "46123",
     "latitude": 39.766,
     "longitude": -86.365,
-    "url": "https://costco.com/warehouse-locations/avon-in-avon-in-1577.html"
+    "url": "https://www.costco.com/warehouse-locations/avon-in-avon-in-1577.html",
+    "hasDiesel": false
   },
   {
     "name": "Castleton",
@@ -2597,7 +2856,8 @@
     "postalCode": "46250-3507",
     "latitude": 39.914,
     "longitude": -86.062,
-    "url": "https://costco.com/warehouse-locations/castleton-indianapolis-in-346.html"
+    "url": "https://www.costco.com/warehouse-locations/castleton-indianapolis-in-346.html",
+    "hasDiesel": false
   },
   {
     "name": "Evansville",
@@ -2607,7 +2867,8 @@
     "postalCode": "47715-9168",
     "latitude": 37.988,
     "longitude": -87.462,
-    "url": "https://costco.com/warehouse-locations/evansville-in-1331.html"
+    "url": "https://www.costco.com/warehouse-locations/evansville-in-1331.html",
+    "hasDiesel": false
   },
   {
     "name": "Fort Wayne",
@@ -2617,7 +2878,8 @@
     "postalCode": "46808-4048",
     "latitude": 41.126,
     "longitude": -85.158,
-    "url": "https://costco.com/warehouse-locations/fort-wayne-in-1161.html"
+    "url": "https://www.costco.com/warehouse-locations/fort-wayne-in-1161.html",
+    "hasDiesel": false
   },
   {
     "name": "Fortune Park",
@@ -2627,7 +2889,8 @@
     "postalCode": "46268-3184",
     "latitude": 39.917,
     "longitude": -86.227,
-    "url": "https://costco.com/warehouse-locations/fortune-park-indianapolis-in-347.html"
+    "url": "https://www.costco.com/warehouse-locations/fortune-park-indianapolis-in-347.html",
+    "hasDiesel": true
   },
   {
     "name": "Merrillville",
@@ -2637,7 +2900,8 @@
     "postalCode": "46410-5768",
     "latitude": 41.475,
     "longitude": -87.322,
-    "url": "https://costco.com/warehouse-locations/merrillville-in-370.html"
+    "url": "https://www.costco.com/warehouse-locations/merrillville-in-370.html",
+    "hasDiesel": false
   },
   {
     "name": "Mishawaka",
@@ -2647,7 +2911,8 @@
     "postalCode": "46530-7381",
     "latitude": 41.719,
     "longitude": -86.172,
-    "url": "https://costco.com/warehouse-locations/mishawaka-granger-in-1183.html"
+    "url": "https://www.costco.com/warehouse-locations/mishawaka-granger-in-1183.html",
+    "hasDiesel": false
   },
   {
     "name": "Noblesville",
@@ -2657,7 +2922,8 @@
     "postalCode": "46060",
     "latitude": 40.004,
     "longitude": -86.003,
-    "url": "https://costco.com/warehouse-locations/noblesville-in-1666.html"
+    "url": "https://www.costco.com/warehouse-locations/noblesville-in-1666.html",
+    "hasDiesel": false
   },
   {
     "name": "S Indianapolis",
@@ -2667,7 +2933,8 @@
     "postalCode": "46237-9105",
     "latitude": 39.638,
     "longitude": -86.089,
-    "url": "https://costco.com/warehouse-locations/s-indianapolis-indianapolis-in-1227.html"
+    "url": "https://www.costco.com/warehouse-locations/s-indianapolis-indianapolis-in-1227.html",
+    "hasDiesel": false
   },
   {
     "name": "Ankeny",
@@ -2677,7 +2944,8 @@
     "postalCode": "50021",
     "latitude": 41.762,
     "longitude": -93.567,
-    "url": "https://costco.com/warehouse-locations/ankeny-ia-1630.html"
+    "url": "https://www.costco.com/warehouse-locations/ankeny-ia-1630.html",
+    "hasDiesel": false
   },
   {
     "name": "Coralville",
@@ -2687,7 +2955,8 @@
     "postalCode": "52241-2740",
     "latitude": 41.699,
     "longitude": -91.616,
-    "url": "https://costco.com/warehouse-locations/coralville-ia-1111.html"
+    "url": "https://www.costco.com/warehouse-locations/coralville-ia-1111.html",
+    "hasDiesel": false
   },
   {
     "name": "Davenport",
@@ -2697,7 +2966,8 @@
     "postalCode": "52807-3007",
     "latitude": 41.577,
     "longitude": -90.534,
-    "url": "https://costco.com/warehouse-locations/davenport-ia-1325.html"
+    "url": "https://www.costco.com/warehouse-locations/davenport-ia-1325.html",
+    "hasDiesel": false
   },
   {
     "name": "West Des Moines",
@@ -2707,7 +2977,8 @@
     "postalCode": "50266-8140",
     "latitude": 41.563,
     "longitude": -93.805,
-    "url": "https://costco.com/warehouse-locations/west-des-moines-ia-788.html"
+    "url": "https://www.costco.com/warehouse-locations/west-des-moines-ia-788.html",
+    "hasDiesel": false
   },
   {
     "name": "Lenexa",
@@ -2717,7 +2988,8 @@
     "postalCode": "66215-3845",
     "latitude": 38.958,
     "longitude": -94.733,
-    "url": "https://costco.com/warehouse-locations/lenexa-ks-349.html"
+    "url": "https://www.costco.com/warehouse-locations/lenexa-ks-349.html",
+    "hasDiesel": false
   },
   {
     "name": "Overland Park",
@@ -2727,7 +2999,8 @@
     "postalCode": "66213-2640",
     "latitude": 38.907,
     "longitude": -94.671,
-    "url": "https://costco.com/warehouse-locations/overland-park-ks-369.html"
+    "url": "https://www.costco.com/warehouse-locations/overland-park-ks-369.html",
+    "hasDiesel": false
   },
   {
     "name": "Wichita",
@@ -2737,7 +3010,8 @@
     "postalCode": "67207-1821",
     "latitude": 37.68,
     "longitude": -97.224,
-    "url": "https://costco.com/warehouse-locations/wichita-ks-1200.html"
+    "url": "https://www.costco.com/warehouse-locations/wichita-ks-1200.html",
+    "hasDiesel": true
   },
   {
     "name": "Florence",
@@ -2747,7 +3021,8 @@
     "postalCode": "41042-1415",
     "latitude": 38.989,
     "longitude": -84.645,
-    "url": "https://costco.com/warehouse-locations/florence-ky-1197.html"
+    "url": "https://www.costco.com/warehouse-locations/florence-ky-1197.html",
+    "hasDiesel": true
   },
   {
     "name": "Lexington",
@@ -2757,7 +3032,8 @@
     "postalCode": "40509-8307",
     "latitude": 38.025,
     "longitude": -84.41,
-    "url": "https://costco.com/warehouse-locations/lexington-ky-1156.html"
+    "url": "https://www.costco.com/warehouse-locations/lexington-ky-1156.html",
+    "hasDiesel": false
   },
   {
     "name": "Louisville",
@@ -2767,7 +3043,8 @@
     "postalCode": "40218-4608",
     "latitude": 38.204,
     "longitude": -85.669,
-    "url": "https://costco.com/warehouse-locations/louisville-ky-1238.html"
+    "url": "https://www.costco.com/warehouse-locations/louisville-ky-1238.html",
+    "hasDiesel": false
   },
   {
     "name": "NE Louisville",
@@ -2777,7 +3054,8 @@
     "postalCode": "40241-2835",
     "latitude": 38.316,
     "longitude": -85.573,
-    "url": "https://costco.com/warehouse-locations/ne-louisville-louisville-ky-634.html"
+    "url": "https://www.costco.com/warehouse-locations/ne-louisville-louisville-ky-634.html",
+    "hasDiesel": false
   },
   {
     "name": "Baton Rouge",
@@ -2787,7 +3065,8 @@
     "postalCode": "70809-2591",
     "latitude": 30.419,
     "longitude": -91.074,
-    "url": "https://costco.com/warehouse-locations/baton-rouge-la-1172.html"
+    "url": "https://www.costco.com/warehouse-locations/baton-rouge-la-1172.html",
+    "hasDiesel": false
   },
   {
     "name": "Covington LA",
@@ -2797,7 +3076,8 @@
     "postalCode": "70433-6052",
     "latitude": 30.447,
     "longitude": -90.131,
-    "url": "https://costco.com/warehouse-locations/covington-la-covington-la-1670.html"
+    "url": "https://www.costco.com/warehouse-locations/covington-la-covington-la-1670.html",
+    "hasDiesel": false
   },
   {
     "name": "Lafayette",
@@ -2807,7 +3087,8 @@
     "postalCode": "70508-7277",
     "latitude": 30.156,
     "longitude": -92.043,
-    "url": "https://costco.com/warehouse-locations/lafayette-la-1201.html"
+    "url": "https://www.costco.com/warehouse-locations/lafayette-la-1201.html",
+    "hasDiesel": true
   },
   {
     "name": "New Orleans",
@@ -2817,7 +3098,8 @@
     "postalCode": "70118-4754",
     "latitude": 29.968,
     "longitude": -90.11,
-    "url": "https://costco.com/warehouse-locations/new-orleans-la-1147.html"
+    "url": "https://www.costco.com/warehouse-locations/new-orleans-la-1147.html",
+    "hasDiesel": false
   },
   {
     "name": "Scarborough ME",
@@ -2827,7 +3109,8 @@
     "postalCode": "04074",
     "latitude": 43.609,
     "longitude": -70.358,
-    "url": "https://costco.com/warehouse-locations/scarborough-me-scarborough-me-1657.html"
+    "url": "https://www.costco.com/warehouse-locations/scarborough-me-scarborough-me-1657.html",
+    "hasDiesel": false
   },
   {
     "name": "Arundel Mills",
@@ -2837,7 +3120,8 @@
     "postalCode": "21076-1387",
     "latitude": 39.156,
     "longitude": -76.731,
-    "url": "https://costco.com/warehouse-locations/arundel-mills-hanover-md-325.html"
+    "url": "https://www.costco.com/warehouse-locations/arundel-mills-hanover-md-325.html",
+    "hasDiesel": false
   },
   {
     "name": "Beltsville",
@@ -2847,7 +3131,8 @@
     "postalCode": "20705-2117",
     "latitude": 39.032,
     "longitude": -76.909,
-    "url": "https://costco.com/warehouse-locations/beltsville-md-214.html"
+    "url": "https://www.costco.com/warehouse-locations/beltsville-md-214.html",
+    "hasDiesel": false
   },
   {
     "name": "Brandywine",
@@ -2857,7 +3142,8 @@
     "postalCode": "20613-8081",
     "latitude": 38.67,
     "longitude": -76.873,
-    "url": "https://costco.com/warehouse-locations/brandywine-md-1039.html"
+    "url": "https://www.costco.com/warehouse-locations/brandywine-md-1039.html",
+    "hasDiesel": false
   },
   {
     "name": "Columbia MD",
@@ -2867,7 +3153,8 @@
     "postalCode": "21075-6457",
     "latitude": 39.187,
     "longitude": -76.794,
-    "url": "https://costco.com/warehouse-locations/columbia-md-elkridge-md-1000.html"
+    "url": "https://www.costco.com/warehouse-locations/columbia-md-elkridge-md-1000.html",
+    "hasDiesel": false
   },
   {
     "name": "Frederick",
@@ -2877,7 +3164,8 @@
     "postalCode": "21704-7256",
     "latitude": 39.401,
     "longitude": -77.408,
-    "url": "https://costco.com/warehouse-locations/frederick-md-330.html"
+    "url": "https://www.costco.com/warehouse-locations/frederick-md-330.html",
+    "hasDiesel": false
   },
   {
     "name": "Glen Burnie",
@@ -2887,7 +3175,8 @@
     "postalCode": "21060-6555",
     "latitude": 39.196,
     "longitude": -76.6,
-    "url": "https://costco.com/warehouse-locations/glen-burnie-md-203.html"
+    "url": "https://www.costco.com/warehouse-locations/glen-burnie-md-203.html",
+    "hasDiesel": false
   },
   {
     "name": "Owings Mills",
@@ -2897,7 +3186,8 @@
     "postalCode": "21117",
     "latitude": 39.406,
     "longitude": -76.789,
-    "url": "https://costco.com/warehouse-locations/owings-mills-md-1326.html"
+    "url": "https://www.costco.com/warehouse-locations/owings-mills-md-1326.html",
+    "hasDiesel": false
   },
   {
     "name": "White Marsh",
@@ -2907,7 +3197,8 @@
     "postalCode": "21220-1411",
     "latitude": 39.358,
     "longitude": -76.445,
-    "url": "https://costco.com/warehouse-locations/white-marsh-baltimore-md-208.html"
+    "url": "https://www.costco.com/warehouse-locations/white-marsh-baltimore-md-208.html",
+    "hasDiesel": false
   },
   {
     "name": "Woodmore Towne Centre",
@@ -2917,7 +3208,8 @@
     "postalCode": "20706-1617",
     "latitude": 38.923,
     "longitude": -76.851,
-    "url": "https://costco.com/warehouse-locations/woodmore-towne-centre-glenarden-md-1078.html"
+    "url": "https://www.costco.com/warehouse-locations/woodmore-towne-centre-glenarden-md-1078.html",
+    "hasDiesel": false
   },
   {
     "name": "Danvers",
@@ -2927,7 +3219,8 @@
     "postalCode": "01923-1014",
     "latitude": 42.557,
     "longitude": -70.977,
-    "url": "https://costco.com/warehouse-locations/danvers-ma-301.html"
+    "url": "https://www.costco.com/warehouse-locations/danvers-ma-301.html",
+    "hasDiesel": false
   },
   {
     "name": "Dedham",
@@ -2937,7 +3230,8 @@
     "postalCode": "02026-2653",
     "latitude": 42.232,
     "longitude": -71.173,
-    "url": "https://costco.com/warehouse-locations/dedham-ma-319.html"
+    "url": "https://www.costco.com/warehouse-locations/dedham-ma-319.html",
+    "hasDiesel": false
   },
   {
     "name": "West Springfield",
@@ -2947,7 +3241,8 @@
     "postalCode": "01089-4672",
     "latitude": 42.132,
     "longitude": -72.621,
-    "url": "https://costco.com/warehouse-locations/west-springfield-ma-302.html"
+    "url": "https://www.costco.com/warehouse-locations/west-springfield-ma-302.html",
+    "hasDiesel": false
   },
   {
     "name": "Auburn Hills",
@@ -2957,7 +3252,8 @@
     "postalCode": "48326-1305",
     "latitude": 42.706,
     "longitude": -83.296,
-    "url": "https://costco.com/warehouse-locations/auburn-hills-mi-376.html"
+    "url": "https://www.costco.com/warehouse-locations/auburn-hills-mi-376.html",
+    "hasDiesel": false
   },
   {
     "name": "Bloomfield",
@@ -2967,7 +3263,8 @@
     "postalCode": "48302-0254",
     "latitude": 42.607,
     "longitude": -83.293,
-    "url": "https://costco.com/warehouse-locations/bloomfield-mi-1037.html"
+    "url": "https://www.costco.com/warehouse-locations/bloomfield-mi-1037.html",
+    "hasDiesel": false
   },
   {
     "name": "Commerce Township",
@@ -2977,7 +3274,8 @@
     "postalCode": "48390-3082",
     "latitude": 42.534,
     "longitude": -83.445,
-    "url": "https://costco.com/warehouse-locations/commerce-township-mi-341.html"
+    "url": "https://www.costco.com/warehouse-locations/commerce-township-mi-341.html",
+    "hasDiesel": false
   },
   {
     "name": "East Lansing",
@@ -2987,7 +3285,8 @@
     "postalCode": "48823-9719",
     "latitude": 42.752,
     "longitude": -84.444,
-    "url": "https://costco.com/warehouse-locations/east-lansing-mi-1277.html"
+    "url": "https://www.costco.com/warehouse-locations/east-lansing-mi-1277.html",
+    "hasDiesel": false
   },
   {
     "name": "Grand Rapids",
@@ -2997,7 +3296,8 @@
     "postalCode": "49512-2049",
     "latitude": 42.911,
     "longitude": -85.543,
-    "url": "https://costco.com/warehouse-locations/grand-rapids-mi-784.html"
+    "url": "https://www.costco.com/warehouse-locations/grand-rapids-mi-784.html",
+    "hasDiesel": false
   },
   {
     "name": "Green Oak Township",
@@ -3007,7 +3307,8 @@
     "postalCode": "48116-2160",
     "latitude": 42.504,
     "longitude": -83.762,
-    "url": "https://costco.com/warehouse-locations/green-oak-township-brighton-mi-786.html"
+    "url": "https://www.costco.com/warehouse-locations/green-oak-township-brighton-mi-786.html",
+    "hasDiesel": false
   },
   {
     "name": "Haggerty",
@@ -3017,7 +3318,8 @@
     "postalCode": "48152-1011",
     "latitude": 42.433,
     "longitude": -83.43,
-    "url": "https://costco.com/warehouse-locations/haggerty-livonia-mi-391.html"
+    "url": "https://www.costco.com/warehouse-locations/haggerty-livonia-mi-391.html",
+    "hasDiesel": false
   },
   {
     "name": "Kalamazoo",
@@ -3027,7 +3329,8 @@
     "postalCode": "49006-5714",
     "latitude": 42.272,
     "longitude": -85.651,
-    "url": "https://costco.com/warehouse-locations/kalamazoo-mi-1191.html"
+    "url": "https://www.costco.com/warehouse-locations/kalamazoo-mi-1191.html",
+    "hasDiesel": false
   },
   {
     "name": "Lakeside",
@@ -3037,7 +3340,8 @@
     "postalCode": "48315-6224",
     "latitude": 42.63,
     "longitude": -82.979,
-    "url": "https://costco.com/warehouse-locations/lakeside-shelby-township-mi-374.html"
+    "url": "https://www.costco.com/warehouse-locations/lakeside-shelby-township-mi-374.html",
+    "hasDiesel": false
   },
   {
     "name": "Madison Heights",
@@ -3047,7 +3351,8 @@
     "postalCode": "48071-1611",
     "latitude": 42.516,
     "longitude": -83.117,
-    "url": "https://costco.com/warehouse-locations/madison-heights-mi-393.html"
+    "url": "https://www.costco.com/warehouse-locations/madison-heights-mi-393.html",
+    "hasDiesel": false
   },
   {
     "name": "Middlebelt",
@@ -3057,7 +3362,8 @@
     "postalCode": "48150-2215",
     "latitude": 42.382,
     "longitude": -83.332,
-    "url": "https://costco.com/warehouse-locations/middlebelt-livonia-mi-390.html"
+    "url": "https://www.costco.com/warehouse-locations/middlebelt-livonia-mi-390.html",
+    "hasDiesel": false
   },
   {
     "name": "Midland",
@@ -3067,7 +3373,8 @@
     "postalCode": "48642",
     "latitude": 43.603,
     "longitude": -84.17,
-    "url": "https://costco.com/warehouse-locations/midland-mi-1420.html"
+    "url": "https://www.costco.com/warehouse-locations/midland-mi-1420.html",
+    "hasDiesel": false
   },
   {
     "name": "Pittsfield Township",
@@ -3077,7 +3384,8 @@
     "postalCode": "48108-3601",
     "latitude": 42.231,
     "longitude": -83.744,
-    "url": "https://costco.com/warehouse-locations/pittsfield-township-ann-arbor-mi-1106.html"
+    "url": "https://www.costco.com/warehouse-locations/pittsfield-township-ann-arbor-mi-1106.html",
+    "hasDiesel": false
   },
   {
     "name": "Roseville MI",
@@ -3087,7 +3395,8 @@
     "postalCode": "48066-2915",
     "latitude": 42.496,
     "longitude": -82.935,
-    "url": "https://costco.com/warehouse-locations/roseville-mi-roseville-mi-394.html"
+    "url": "https://www.costco.com/warehouse-locations/roseville-mi-roseville-mi-394.html",
+    "hasDiesel": false
   },
   {
     "name": "Traverse City",
@@ -3097,7 +3406,8 @@
     "postalCode": "49686-4864",
     "latitude": 44.734,
     "longitude": -85.572,
-    "url": "https://costco.com/warehouse-locations/traverse-city-mi-1279.html"
+    "url": "https://www.costco.com/warehouse-locations/traverse-city-mi-1279.html",
+    "hasDiesel": true
   },
   {
     "name": "Wyoming",
@@ -3107,7 +3417,8 @@
     "postalCode": "49418-8788",
     "latitude": 42.876,
     "longitude": -85.763,
-    "url": "https://costco.com/warehouse-locations/wyoming-mi-744.html"
+    "url": "https://www.costco.com/warehouse-locations/wyoming-mi-744.html",
+    "hasDiesel": false
   },
   {
     "name": "Baxter",
@@ -3117,7 +3428,8 @@
     "postalCode": "56425-8818",
     "latitude": 46.349,
     "longitude": -94.247,
-    "url": "https://costco.com/warehouse-locations/baxter-mn-1122.html"
+    "url": "https://www.costco.com/warehouse-locations/baxter-mn-1122.html",
+    "hasDiesel": false
   },
   {
     "name": "Burnsville",
@@ -3127,7 +3439,8 @@
     "postalCode": "55337-4407",
     "latitude": 44.75,
     "longitude": -93.295,
-    "url": "https://costco.com/warehouse-locations/burnsville-mn-1087.html"
+    "url": "https://www.costco.com/warehouse-locations/burnsville-mn-1087.html",
+    "hasDiesel": false
   },
   {
     "name": "Chaska",
@@ -3137,7 +3450,8 @@
     "postalCode": "55318",
     "latitude": 44.841,
     "longitude": -93.602,
-    "url": "https://costco.com/warehouse-locations/chaska-mn-1646.html"
+    "url": "https://www.costco.com/warehouse-locations/chaska-mn-1646.html",
+    "hasDiesel": false
   },
   {
     "name": "Coon Rapids",
@@ -3147,7 +3461,8 @@
     "postalCode": "55448-6708",
     "latitude": 45.199,
     "longitude": -93.348,
-    "url": "https://costco.com/warehouse-locations/coon-rapids-minneapolis-mn-372.html"
+    "url": "https://www.costco.com/warehouse-locations/coon-rapids-minneapolis-mn-372.html",
+    "hasDiesel": false
   },
   {
     "name": "Duluth",
@@ -3157,7 +3472,8 @@
     "postalCode": "55811",
     "latitude": 46.823,
     "longitude": -92.173,
-    "url": "https://costco.com/warehouse-locations/duluth-mn-1422.html"
+    "url": "https://www.costco.com/warehouse-locations/duluth-mn-1422.html",
+    "hasDiesel": false
   },
   {
     "name": "Eagan",
@@ -3167,7 +3483,8 @@
     "postalCode": "55121-1542",
     "latitude": 44.86,
     "longitude": -93.141,
-    "url": "https://costco.com/warehouse-locations/eagan-mn-1363.html"
+    "url": "https://www.costco.com/warehouse-locations/eagan-mn-1363.html",
+    "hasDiesel": false
   },
   {
     "name": "Eden Prairie",
@@ -3177,7 +3494,8 @@
     "postalCode": "55344-3620",
     "latitude": 44.861,
     "longitude": -93.436,
-    "url": "https://costco.com/warehouse-locations/eden-prairie-mn-783.html"
+    "url": "https://www.costco.com/warehouse-locations/eden-prairie-mn-783.html",
+    "hasDiesel": false
   },
   {
     "name": "Maple Grove",
@@ -3187,7 +3505,8 @@
     "postalCode": "55369-7200",
     "latitude": 45.093,
     "longitude": -93.425,
-    "url": "https://costco.com/warehouse-locations/maple-grove-mn-648.html"
+    "url": "https://www.costco.com/warehouse-locations/maple-grove-mn-648.html",
+    "hasDiesel": false
   },
   {
     "name": "Maplewood",
@@ -3197,7 +3516,8 @@
     "postalCode": "55109-1064",
     "latitude": 45.029,
     "longitude": -93.04,
-    "url": "https://costco.com/warehouse-locations/maplewood-mn-1021.html"
+    "url": "https://www.costco.com/warehouse-locations/maplewood-mn-1021.html",
+    "hasDiesel": false
   },
   {
     "name": "Minneapolis Business Center",
@@ -3207,7 +3527,8 @@
     "postalCode": "55413-4553",
     "latitude": 45.0,
     "longitude": -93.216,
-    "url": "https://costco.com/warehouse-locations/minneapolis-business-center-minneapolis-mn-652.html"
+    "url": "https://www.costco.com/warehouse-locations/minneapolis-business-center-minneapolis-mn-652.html",
+    "hasDiesel": false
   },
   {
     "name": "Rochester MN",
@@ -3217,7 +3538,8 @@
     "postalCode": "55901-3246",
     "latitude": 44.047,
     "longitude": -92.518,
-    "url": "https://costco.com/warehouse-locations/rochester-mn-rochester-mn-1125.html"
+    "url": "https://www.costco.com/warehouse-locations/rochester-mn-rochester-mn-1125.html",
+    "hasDiesel": false
   },
   {
     "name": "St Cloud",
@@ -3227,7 +3549,8 @@
     "postalCode": "56301-3732",
     "latitude": 45.549,
     "longitude": -94.2,
-    "url": "https://costco.com/warehouse-locations/st-cloud-saint-cloud-mn-1344.html"
+    "url": "https://www.costco.com/warehouse-locations/st-cloud-saint-cloud-mn-1344.html",
+    "hasDiesel": false
   },
   {
     "name": "St Louis Park",
@@ -3237,7 +3560,8 @@
     "postalCode": "55416-1446",
     "latitude": 44.967,
     "longitude": -93.354,
-    "url": "https://costco.com/warehouse-locations/st-louis-park-saint-louis-park-mn-377.html"
+    "url": "https://www.costco.com/warehouse-locations/st-louis-park-saint-louis-park-mn-377.html",
+    "hasDiesel": false
   },
   {
     "name": "Woodbury",
@@ -3247,7 +3571,8 @@
     "postalCode": "55125-1205",
     "latitude": 44.939,
     "longitude": -92.963,
-    "url": "https://costco.com/warehouse-locations/woodbury-mn-1272.html"
+    "url": "https://www.costco.com/warehouse-locations/woodbury-mn-1272.html",
+    "hasDiesel": false
   },
   {
     "name": "Ridgeland",
@@ -3257,7 +3582,8 @@
     "postalCode": "39157",
     "latitude": 32.423,
     "longitude": -90.147,
-    "url": "https://costco.com/warehouse-locations/ridgeland-ms-1366.html"
+    "url": "https://www.costco.com/warehouse-locations/ridgeland-ms-1366.html",
+    "hasDiesel": false
   },
   {
     "name": "Independence",
@@ -3267,7 +3593,8 @@
     "postalCode": "64055-7004",
     "latitude": 39.036,
     "longitude": -94.357,
-    "url": "https://costco.com/warehouse-locations/independence-mo-373.html"
+    "url": "https://www.costco.com/warehouse-locations/independence-mo-373.html",
+    "hasDiesel": false
   },
   {
     "name": "Kansas City",
@@ -3277,7 +3604,8 @@
     "postalCode": "64111-1119",
     "latitude": 39.067,
     "longitude": -94.581,
-    "url": "https://costco.com/warehouse-locations/kansas-city-mo-375.html"
+    "url": "https://www.costco.com/warehouse-locations/kansas-city-mo-375.html",
+    "hasDiesel": false
   },
   {
     "name": "Manchester MO",
@@ -3287,7 +3615,8 @@
     "postalCode": "63011-4385",
     "latitude": 38.598,
     "longitude": -90.507,
-    "url": "https://costco.com/warehouse-locations/manchester-mo-manchester-mo-1060.html"
+    "url": "https://www.costco.com/warehouse-locations/manchester-mo-manchester-mo-1060.html",
+    "hasDiesel": false
   },
   {
     "name": "N Kansas City",
@@ -3297,7 +3626,8 @@
     "postalCode": "64155-2410",
     "latitude": 39.255,
     "longitude": -94.599,
-    "url": "https://costco.com/warehouse-locations/n-kansas-city-kansas-city-mo-1268.html"
+    "url": "https://www.costco.com/warehouse-locations/n-kansas-city-kansas-city-mo-1268.html",
+    "hasDiesel": true
   },
   {
     "name": "S St Louis",
@@ -3307,7 +3637,8 @@
     "postalCode": "63128-1973",
     "latitude": 38.508,
     "longitude": -90.339,
-    "url": "https://costco.com/warehouse-locations/s-st-louis-saint-louis-mo-368.html"
+    "url": "https://www.costco.com/warehouse-locations/s-st-louis-saint-louis-mo-368.html",
+    "hasDiesel": false
   },
   {
     "name": "Springfield",
@@ -3317,7 +3648,8 @@
     "postalCode": "65802",
     "latitude": 37.207,
     "longitude": -93.224,
-    "url": "https://costco.com/warehouse-locations/springfield-mo-1486.html"
+    "url": "https://www.costco.com/warehouse-locations/springfield-mo-1486.html",
+    "hasDiesel": false
   },
   {
     "name": "St John Business Center",
@@ -3327,7 +3659,8 @@
     "postalCode": "63114",
     "latitude": 38.705,
     "longitude": -90.335,
-    "url": "https://costco.com/warehouse-locations/st-john-business-center-st.-louis-mo-1665.html"
+    "url": "https://www.costco.com/warehouse-locations/st-john-business-center-st.-louis-mo-1665.html",
+    "hasDiesel": false
   },
   {
     "name": "St Peters",
@@ -3337,7 +3670,8 @@
     "postalCode": "63376-4385",
     "latitude": 38.797,
     "longitude": -90.607,
-    "url": "https://costco.com/warehouse-locations/st-peters-saint-peters-mo-382.html"
+    "url": "https://www.costco.com/warehouse-locations/st-peters-saint-peters-mo-382.html",
+    "hasDiesel": false
   },
   {
     "name": "University City",
@@ -3347,7 +3681,8 @@
     "postalCode": "63132-2503",
     "latitude": 38.676,
     "longitude": -90.36,
-    "url": "https://costco.com/warehouse-locations/university-city-saint-louis-mo-1488.html"
+    "url": "https://www.costco.com/warehouse-locations/university-city-saint-louis-mo-1488.html",
+    "hasDiesel": false
   },
   {
     "name": "Billings",
@@ -3357,7 +3692,8 @@
     "postalCode": "59102",
     "latitude": 45.734,
     "longitude": -108.614,
-    "url": "https://costco.com/warehouse-locations/billings-mt-1644.html"
+    "url": "https://www.costco.com/warehouse-locations/billings-mt-1644.html",
+    "hasDiesel": false
   },
   {
     "name": "Bozeman",
@@ -3367,7 +3703,8 @@
     "postalCode": "59718-7993",
     "latitude": 45.713,
     "longitude": -111.07,
-    "url": "https://costco.com/warehouse-locations/bozeman-mt-96.html"
+    "url": "https://www.costco.com/warehouse-locations/bozeman-mt-96.html",
+    "hasDiesel": false
   },
   {
     "name": "Helena",
@@ -3377,7 +3714,8 @@
     "postalCode": "59602-1217",
     "latitude": 46.616,
     "longitude": -112.003,
-    "url": "https://costco.com/warehouse-locations/helena-mt-633.html"
+    "url": "https://www.costco.com/warehouse-locations/helena-mt-633.html",
+    "hasDiesel": false
   },
   {
     "name": "Kalispell",
@@ -3387,7 +3725,8 @@
     "postalCode": "59901-2547",
     "latitude": 48.234,
     "longitude": -114.333,
-    "url": "https://costco.com/warehouse-locations/kalispell-mt-745.html"
+    "url": "https://www.costco.com/warehouse-locations/kalispell-mt-745.html",
+    "hasDiesel": false
   },
   {
     "name": "Missoula",
@@ -3397,7 +3736,8 @@
     "postalCode": "59808-1556",
     "latitude": 46.895,
     "longitude": -114.038,
-    "url": "https://costco.com/warehouse-locations/missoula-mt-67.html"
+    "url": "https://www.costco.com/warehouse-locations/missoula-mt-67.html",
+    "hasDiesel": false
   },
   {
     "name": "La Vista",
@@ -3407,7 +3747,8 @@
     "postalCode": "68128-5622",
     "latitude": 41.178,
     "longitude": -96.109,
-    "url": "https://costco.com/warehouse-locations/la-vista-ne-1237.html"
+    "url": "https://www.costco.com/warehouse-locations/la-vista-ne-1237.html",
+    "hasDiesel": false
   },
   {
     "name": "Lincoln",
@@ -3417,7 +3758,8 @@
     "postalCode": "68512-3612",
     "latitude": 40.739,
     "longitude": -96.697,
-    "url": "https://costco.com/warehouse-locations/lincoln-ne-1285.html"
+    "url": "https://www.costco.com/warehouse-locations/lincoln-ne-1285.html",
+    "hasDiesel": false
   },
   {
     "name": "NW Omaha",
@@ -3427,7 +3769,8 @@
     "postalCode": "68116",
     "latitude": 41.29,
     "longitude": -96.192,
-    "url": "https://costco.com/warehouse-locations/nw-omaha-omaha-ne-1690.html"
+    "url": "https://www.costco.com/warehouse-locations/nw-omaha-omaha-ne-1690.html",
+    "hasDiesel": false
   },
   {
     "name": "Omaha",
@@ -3437,7 +3780,8 @@
     "postalCode": "68154-2382",
     "latitude": 41.265,
     "longitude": -96.106,
-    "url": "https://costco.com/warehouse-locations/omaha-ne-1012.html"
+    "url": "https://www.costco.com/warehouse-locations/omaha-ne-1012.html",
+    "hasDiesel": false
   },
   {
     "name": "Carson City",
@@ -3447,7 +3791,8 @@
     "postalCode": "89705-6853",
     "latitude": 39.117,
     "longitude": -119.777,
-    "url": "https://costco.com/warehouse-locations/carson-city-nv-127.html"
+    "url": "https://www.costco.com/warehouse-locations/carson-city-nv-127.html",
+    "hasDiesel": false
   },
   {
     "name": "Centennial",
@@ -3457,7 +3802,8 @@
     "postalCode": "89131-2796",
     "latitude": 36.278,
     "longitude": -115.209,
-    "url": "https://costco.com/warehouse-locations/centennial-las-vegas-nv-737.html"
+    "url": "https://www.costco.com/warehouse-locations/centennial-las-vegas-nv-737.html",
+    "hasDiesel": false
   },
   {
     "name": "Henderson",
@@ -3467,7 +3813,8 @@
     "postalCode": "89014-8601",
     "latitude": 36.069,
     "longitude": -115.037,
-    "url": "https://costco.com/warehouse-locations/henderson-nv-673.html"
+    "url": "https://www.costco.com/warehouse-locations/henderson-nv-673.html",
+    "hasDiesel": false
   },
   {
     "name": "Las Vegas Business Center",
@@ -3477,7 +3824,8 @@
     "postalCode": "89106-4305",
     "latitude": 36.172,
     "longitude": -115.162,
-    "url": "https://costco.com/warehouse-locations/las-vegas-business-center-las-vegas-nv-563.html"
+    "url": "https://www.costco.com/warehouse-locations/las-vegas-business-center-las-vegas-nv-563.html",
+    "hasDiesel": false
   },
   {
     "name": "Reno",
@@ -3487,7 +3835,8 @@
     "postalCode": "89502-4004",
     "latitude": 39.503,
     "longitude": -119.784,
-    "url": "https://costco.com/warehouse-locations/reno-nv-25.html"
+    "url": "https://www.costco.com/warehouse-locations/reno-nv-25.html",
+    "hasDiesel": false
   },
   {
     "name": "SW Henderson",
@@ -3497,7 +3846,8 @@
     "postalCode": "89052-4570",
     "latitude": 35.988,
     "longitude": -115.138,
-    "url": "https://costco.com/warehouse-locations/sw-henderson-henderson-nv-1320.html"
+    "url": "https://www.costco.com/warehouse-locations/sw-henderson-henderson-nv-1320.html",
+    "hasDiesel": false
   },
   {
     "name": "Sparks",
@@ -3507,7 +3857,8 @@
     "postalCode": "89436-9605",
     "latitude": 39.579,
     "longitude": -119.739,
-    "url": "https://costco.com/warehouse-locations/sparks-nv-646.html"
+    "url": "https://www.costco.com/warehouse-locations/sparks-nv-646.html",
+    "hasDiesel": true
   },
   {
     "name": "Summerlin",
@@ -3517,7 +3868,8 @@
     "postalCode": "89144-4566",
     "latitude": 36.163,
     "longitude": -115.333,
-    "url": "https://costco.com/warehouse-locations/summerlin-las-vegas-nv-685.html"
+    "url": "https://www.costco.com/warehouse-locations/summerlin-las-vegas-nv-685.html",
+    "hasDiesel": false
   },
   {
     "name": "Bayonne",
@@ -3527,7 +3879,8 @@
     "postalCode": "07002",
     "latitude": 40.674,
     "longitude": -74.104,
-    "url": "https://costco.com/warehouse-locations/bayonne-nj-1334.html"
+    "url": "https://www.costco.com/warehouse-locations/bayonne-nj-1334.html",
+    "hasDiesel": false
   },
   {
     "name": "Brick Township",
@@ -3537,7 +3890,8 @@
     "postalCode": "08723-4049",
     "latitude": 40.055,
     "longitude": -74.157,
-    "url": "https://costco.com/warehouse-locations/brick-township-brick-nj-739.html"
+    "url": "https://www.costco.com/warehouse-locations/brick-township-brick-nj-739.html",
+    "hasDiesel": false
   },
   {
     "name": "Cherry Hill",
@@ -3547,7 +3901,8 @@
     "postalCode": "08002-4250",
     "latitude": 39.927,
     "longitude": -75.04,
-    "url": "https://costco.com/warehouse-locations/cherry-hill-nj-1415.html"
+    "url": "https://www.costco.com/warehouse-locations/cherry-hill-nj-1415.html",
+    "hasDiesel": false
   },
   {
     "name": "Clifton",
@@ -3557,7 +3912,8 @@
     "postalCode": "07014-1724",
     "latitude": 40.832,
     "longitude": -74.137,
-    "url": "https://costco.com/warehouse-locations/clifton-nj-306.html"
+    "url": "https://www.costco.com/warehouse-locations/clifton-nj-306.html",
+    "hasDiesel": false
   },
   {
     "name": "Edison",
@@ -3567,7 +3923,8 @@
     "postalCode": "08817-4785",
     "latitude": 40.53,
     "longitude": -74.376,
-    "url": "https://costco.com/warehouse-locations/edison-nj-323.html"
+    "url": "https://www.costco.com/warehouse-locations/edison-nj-323.html",
+    "hasDiesel": false
   },
   {
     "name": "Flemington",
@@ -3577,7 +3934,8 @@
     "postalCode": "08822",
     "latitude": 40.522,
     "longitude": -74.852,
-    "url": "https://costco.com/warehouse-locations/flemington-nj-1236.html"
+    "url": "https://www.costco.com/warehouse-locations/flemington-nj-1236.html",
+    "hasDiesel": false
   },
   {
     "name": "Hazlet",
@@ -3587,7 +3945,8 @@
     "postalCode": "07730-1516",
     "latitude": 40.419,
     "longitude": -74.171,
-    "url": "https://costco.com/warehouse-locations/hazlet-nj-222.html"
+    "url": "https://www.costco.com/warehouse-locations/hazlet-nj-222.html",
+    "hasDiesel": false
   },
   {
     "name": "Manahawkin",
@@ -3597,7 +3956,8 @@
     "postalCode": "08050-2734",
     "latitude": 39.707,
     "longitude": -74.288,
-    "url": "https://costco.com/warehouse-locations/manahawkin-stafford-township-nj-1025.html"
+    "url": "https://www.costco.com/warehouse-locations/manahawkin-stafford-township-nj-1025.html",
+    "hasDiesel": false
   },
   {
     "name": "Marlboro",
@@ -3607,7 +3967,8 @@
     "postalCode": "07751-1526",
     "latitude": 40.362,
     "longitude": -74.303,
-    "url": "https://costco.com/warehouse-locations/marlboro-morganville-nj-1093.html"
+    "url": "https://www.costco.com/warehouse-locations/marlboro-morganville-nj-1093.html",
+    "hasDiesel": false
   },
   {
     "name": "Mt Laurel",
@@ -3617,7 +3978,8 @@
     "postalCode": "08054-6103",
     "latitude": 39.972,
     "longitude": -74.908,
-    "url": "https://costco.com/warehouse-locations/mt-laurel-mount-laurel-nj-749.html"
+    "url": "https://www.costco.com/warehouse-locations/mt-laurel-mount-laurel-nj-749.html",
+    "hasDiesel": false
   },
   {
     "name": "North Brunswick",
@@ -3627,7 +3989,8 @@
     "postalCode": "08902-5026",
     "latitude": 40.437,
     "longitude": -74.507,
-    "url": "https://costco.com/warehouse-locations/north-brunswick-nj-1174.html"
+    "url": "https://www.costco.com/warehouse-locations/north-brunswick-nj-1174.html",
+    "hasDiesel": false
   },
   {
     "name": "North Plainfield",
@@ -3637,7 +4000,8 @@
     "postalCode": "07060-3518",
     "latitude": 40.612,
     "longitude": -74.459,
-    "url": "https://costco.com/warehouse-locations/north-plainfield-nj-1166.html"
+    "url": "https://www.costco.com/warehouse-locations/north-plainfield-nj-1166.html",
+    "hasDiesel": false
   },
   {
     "name": "Ocean Township",
@@ -3647,7 +4011,8 @@
     "postalCode": "07712-3961",
     "latitude": 40.233,
     "longitude": -74.046,
-    "url": "https://costco.com/warehouse-locations/ocean-township-ocean-nj-329.html"
+    "url": "https://www.costco.com/warehouse-locations/ocean-township-ocean-nj-329.html",
+    "hasDiesel": false
   },
   {
     "name": "Princeton",
@@ -3657,7 +4022,8 @@
     "postalCode": "08648-4702",
     "latitude": 40.282,
     "longitude": -74.675,
-    "url": "https://costco.com/warehouse-locations/princeton-lawrence-township-nj-1199.html"
+    "url": "https://www.costco.com/warehouse-locations/princeton-lawrence-township-nj-1199.html",
+    "hasDiesel": false
   },
   {
     "name": "Teterboro",
@@ -3667,7 +4033,8 @@
     "postalCode": "07608-1120",
     "latitude": 40.861,
     "longitude": -74.064,
-    "url": "https://costco.com/warehouse-locations/teterboro-nj-1214.html"
+    "url": "https://www.costco.com/warehouse-locations/teterboro-nj-1214.html",
+    "hasDiesel": false
   },
   {
     "name": "Union",
@@ -3677,7 +4044,8 @@
     "postalCode": "07083-6809",
     "latitude": 40.694,
     "longitude": -74.288,
-    "url": "https://costco.com/warehouse-locations/union-nj-320.html"
+    "url": "https://www.costco.com/warehouse-locations/union-nj-320.html",
+    "hasDiesel": false
   },
   {
     "name": "Wayne",
@@ -3687,7 +4055,8 @@
     "postalCode": "07470-6933",
     "latitude": 40.891,
     "longitude": -74.255,
-    "url": "https://costco.com/warehouse-locations/wayne-nj-1177.html"
+    "url": "https://www.costco.com/warehouse-locations/wayne-nj-1177.html",
+    "hasDiesel": false
   },
   {
     "name": "Wharton",
@@ -3697,7 +4066,8 @@
     "postalCode": "07885-1222",
     "latitude": 40.907,
     "longitude": -74.569,
-    "url": "https://costco.com/warehouse-locations/wharton-nj-315.html"
+    "url": "https://www.costco.com/warehouse-locations/wharton-nj-315.html",
+    "hasDiesel": false
   },
   {
     "name": "Albuquerque",
@@ -3707,7 +4077,8 @@
     "postalCode": "87107-7008",
     "latitude": 35.137,
     "longitude": -106.614,
-    "url": "https://costco.com/warehouse-locations/albuquerque-nm-116.html"
+    "url": "https://www.costco.com/warehouse-locations/albuquerque-nm-116.html",
+    "hasDiesel": false
   },
   {
     "name": "NW Albuquerque",
@@ -3717,7 +4088,8 @@
     "postalCode": "87114-6196",
     "latitude": 35.195,
     "longitude": -106.661,
-    "url": "https://costco.com/warehouse-locations/nw-albuquerque-albuquerque-nm-1016.html"
+    "url": "https://www.costco.com/warehouse-locations/nw-albuquerque-albuquerque-nm-1016.html",
+    "hasDiesel": false
   },
   {
     "name": "SE Albuquerque",
@@ -3727,7 +4099,8 @@
     "postalCode": "87123-3338",
     "latitude": 35.068,
     "longitude": -106.531,
-    "url": "https://costco.com/warehouse-locations/se-albuquerque-albuquerque-nm-667.html"
+    "url": "https://www.costco.com/warehouse-locations/se-albuquerque-albuquerque-nm-667.html",
+    "hasDiesel": false
   },
   {
     "name": "Commack",
@@ -3737,7 +4110,8 @@
     "postalCode": "11725-5421",
     "latitude": 40.807,
     "longitude": -73.286,
-    "url": "https://costco.com/warehouse-locations/commack-ny-240.html"
+    "url": "https://www.costco.com/warehouse-locations/commack-ny-240.html",
+    "hasDiesel": false
   },
   {
     "name": "Holbrook",
@@ -3747,7 +4121,8 @@
     "postalCode": "11741-4309",
     "latitude": 40.773,
     "longitude": -73.05,
-    "url": "https://costco.com/warehouse-locations/holbrook-ny-230.html"
+    "url": "https://www.costco.com/warehouse-locations/holbrook-ny-230.html",
+    "hasDiesel": false
   },
   {
     "name": "Nanuet",
@@ -3757,7 +4132,8 @@
     "postalCode": "10954-5290",
     "latitude": 41.107,
     "longitude": -74.025,
-    "url": "https://costco.com/warehouse-locations/nanuet-ny-305.html"
+    "url": "https://www.costco.com/warehouse-locations/nanuet-ny-305.html",
+    "hasDiesel": false
   },
   {
     "name": "New Rochelle",
@@ -3767,7 +4143,8 @@
     "postalCode": "10805-1203",
     "latitude": 40.896,
     "longitude": -73.795,
-    "url": "https://costco.com/warehouse-locations/new-rochelle-ny-241.html"
+    "url": "https://www.costco.com/warehouse-locations/new-rochelle-ny-241.html",
+    "hasDiesel": false
   },
   {
     "name": "Oceanside",
@@ -3777,7 +4154,8 @@
     "postalCode": "11572-4808",
     "latitude": 40.619,
     "longitude": -73.652,
-    "url": "https://costco.com/warehouse-locations/oceanside-ny-1215.html"
+    "url": "https://www.costco.com/warehouse-locations/oceanside-ny-1215.html",
+    "hasDiesel": false
   },
   {
     "name": "Riverhead",
@@ -3787,7 +4165,8 @@
     "postalCode": "11901-3146",
     "latitude": 40.927,
     "longitude": -72.707,
-    "url": "https://costco.com/warehouse-locations/riverhead-ny-785.html"
+    "url": "https://www.costco.com/warehouse-locations/riverhead-ny-785.html",
+    "hasDiesel": false
   },
   {
     "name": "Rochester NY",
@@ -3797,7 +4176,8 @@
     "postalCode": "14620-4603",
     "latitude": 43.114,
     "longitude": -77.613,
-    "url": "https://costco.com/warehouse-locations/rochester-ny-rochester-ny-1195.html"
+    "url": "https://www.costco.com/warehouse-locations/rochester-ny-rochester-ny-1195.html",
+    "hasDiesel": false
   },
   {
     "name": "Staten Island",
@@ -3807,7 +4187,8 @@
     "postalCode": "10314-5851",
     "latitude": 40.573,
     "longitude": -74.169,
-    "url": "https://costco.com/warehouse-locations/staten-island-ny-316.html"
+    "url": "https://www.costco.com/warehouse-locations/staten-island-ny-316.html",
+    "hasDiesel": false
   },
   {
     "name": "Syracuse",
@@ -3817,7 +4198,8 @@
     "postalCode": "13031-1659",
     "latitude": 43.057,
     "longitude": -76.268,
-    "url": "https://costco.com/warehouse-locations/syracuse-camillus-ny-1176.html"
+    "url": "https://www.costco.com/warehouse-locations/syracuse-camillus-ny-1176.html",
+    "hasDiesel": false
   },
   {
     "name": "Apex",
@@ -3827,7 +4209,8 @@
     "postalCode": "27523-6406",
     "latitude": 35.747,
     "longitude": -78.828,
-    "url": "https://costco.com/warehouse-locations/apex-nc-1206.html"
+    "url": "https://www.costco.com/warehouse-locations/apex-nc-1206.html",
+    "hasDiesel": false
   },
   {
     "name": "Charlotte",
@@ -3837,7 +4220,8 @@
     "postalCode": "28217-3504",
     "latitude": 35.162,
     "longitude": -80.885,
-    "url": "https://costco.com/warehouse-locations/charlotte-nc-359.html"
+    "url": "https://www.costco.com/warehouse-locations/charlotte-nc-359.html",
+    "hasDiesel": false
   },
   {
     "name": "Durham",
@@ -3847,7 +4231,8 @@
     "postalCode": "27705-3405",
     "latitude": 36.029,
     "longitude": -78.915,
-    "url": "https://costco.com/warehouse-locations/durham-nc-249.html"
+    "url": "https://www.costco.com/warehouse-locations/durham-nc-249.html",
+    "hasDiesel": false
   },
   {
     "name": "Garner",
@@ -3857,7 +4242,8 @@
     "postalCode": "27603",
     "latitude": 35.668,
     "longitude": -78.699,
-    "url": "https://costco.com/warehouse-locations/garner-raleigh-nc-1587.html"
+    "url": "https://www.costco.com/warehouse-locations/garner-raleigh-nc-1587.html",
+    "hasDiesel": false
   },
   {
     "name": "Greensboro",
@@ -3867,7 +4253,8 @@
     "postalCode": "27407-1908",
     "latitude": 36.058,
     "longitude": -79.884,
-    "url": "https://costco.com/warehouse-locations/greensboro-nc-339.html"
+    "url": "https://www.costco.com/warehouse-locations/greensboro-nc-339.html",
+    "hasDiesel": false
   },
   {
     "name": "Matthews",
@@ -3877,7 +4264,8 @@
     "postalCode": "28105-5766",
     "latitude": 35.13,
     "longitude": -80.704,
-    "url": "https://costco.com/warehouse-locations/matthews-nc-367.html"
+    "url": "https://www.costco.com/warehouse-locations/matthews-nc-367.html",
+    "hasDiesel": false
   },
   {
     "name": "Mooresville",
@@ -3887,7 +4275,8 @@
     "postalCode": "28117",
     "latitude": 35.582,
     "longitude": -80.855,
-    "url": "https://costco.com/warehouse-locations/mooresville-nc-1333.html"
+    "url": "https://www.costco.com/warehouse-locations/mooresville-nc-1333.html",
+    "hasDiesel": false
   },
   {
     "name": "Raleigh",
@@ -3897,7 +4286,8 @@
     "postalCode": "27609-7840",
     "latitude": 35.818,
     "longitude": -78.622,
-    "url": "https://costco.com/warehouse-locations/raleigh-nc-645.html"
+    "url": "https://www.costco.com/warehouse-locations/raleigh-nc-645.html",
+    "hasDiesel": false
   },
   {
     "name": "Wilmington",
@@ -3907,7 +4297,8 @@
     "postalCode": "28405-3091",
     "latitude": 34.248,
     "longitude": -77.873,
-    "url": "https://costco.com/warehouse-locations/wilmington-nc-635.html"
+    "url": "https://www.costco.com/warehouse-locations/wilmington-nc-635.html",
+    "hasDiesel": false
   },
   {
     "name": "Winston Salem",
@@ -3917,7 +4308,8 @@
     "postalCode": "27103-1310",
     "latitude": 36.065,
     "longitude": -80.318,
-    "url": "https://costco.com/warehouse-locations/winston-salem-nc-361.html"
+    "url": "https://www.costco.com/warehouse-locations/winston-salem-nc-361.html",
+    "hasDiesel": false
   },
   {
     "name": "Bismarck",
@@ -3927,7 +4319,8 @@
     "postalCode": "58503-6581",
     "latitude": 46.865,
     "longitude": -100.77,
-    "url": "https://costco.com/warehouse-locations/bismarck-nd-1380.html"
+    "url": "https://www.costco.com/warehouse-locations/bismarck-nd-1380.html",
+    "hasDiesel": true
   },
   {
     "name": "West Fargo ND",
@@ -3937,7 +4330,8 @@
     "postalCode": "58078-7804",
     "latitude": 46.845,
     "longitude": -96.887,
-    "url": "https://costco.com/warehouse-locations/west-fargo-nd-west-fargo-nd-1119.html"
+    "url": "https://www.costco.com/warehouse-locations/west-fargo-nd-west-fargo-nd-1119.html",
+    "hasDiesel": false
   },
   {
     "name": "Avon OH",
@@ -3947,7 +4341,8 @@
     "postalCode": "44011-1681",
     "latitude": 41.46,
     "longitude": -82.011,
-    "url": "https://costco.com/warehouse-locations/avon-oh-avon-oh-343.html"
+    "url": "https://www.costco.com/warehouse-locations/avon-oh-avon-oh-343.html",
+    "hasDiesel": false
   },
   {
     "name": "Boston Heights",
@@ -3957,7 +4352,8 @@
     "postalCode": "44236-1198",
     "latitude": 41.265,
     "longitude": -81.507,
-    "url": "https://costco.com/warehouse-locations/boston-heights-oh-1226.html"
+    "url": "https://www.costco.com/warehouse-locations/boston-heights-oh-1226.html",
+    "hasDiesel": true
   },
   {
     "name": "Centerville",
@@ -3967,7 +4363,8 @@
     "postalCode": "45440-2268",
     "latitude": 39.662,
     "longitude": -84.107,
-    "url": "https://costco.com/warehouse-locations/centerville-oh-1185.html"
+    "url": "https://www.costco.com/warehouse-locations/centerville-oh-1185.html",
+    "hasDiesel": false
   },
   {
     "name": "Columbus",
@@ -3977,7 +4374,8 @@
     "postalCode": "43240-7002",
     "latitude": 40.15,
     "longitude": -82.977,
-    "url": "https://costco.com/warehouse-locations/columbus-oh-632.html"
+    "url": "https://www.costco.com/warehouse-locations/columbus-oh-632.html",
+    "hasDiesel": false
   },
   {
     "name": "Deerfield",
@@ -3987,7 +4385,8 @@
     "postalCode": "45249-8220",
     "latitude": 39.296,
     "longitude": -84.303,
-    "url": "https://costco.com/warehouse-locations/deerfield-cincinnati-oh-384.html"
+    "url": "https://www.costco.com/warehouse-locations/deerfield-cincinnati-oh-384.html",
+    "hasDiesel": false
   },
   {
     "name": "Easton OH",
@@ -3997,7 +4396,8 @@
     "postalCode": "43219-3044",
     "latitude": 40.054,
     "longitude": -82.905,
-    "url": "https://costco.com/warehouse-locations/easton-oh-columbus-oh-1160.html"
+    "url": "https://www.costco.com/warehouse-locations/easton-oh-columbus-oh-1160.html",
+    "hasDiesel": false
   },
   {
     "name": "Liberty Township",
@@ -4007,7 +4407,8 @@
     "postalCode": "45069",
     "latitude": 39.37,
     "longitude": -84.358,
-    "url": "https://costco.com/warehouse-locations/liberty-township-oh-1632.html"
+    "url": "https://www.costco.com/warehouse-locations/liberty-township-oh-1632.html",
+    "hasDiesel": false
   },
   {
     "name": "Mayfield Heights",
@@ -4017,7 +4418,8 @@
     "postalCode": "44124-1808",
     "latitude": 41.524,
     "longitude": -81.447,
-    "url": "https://costco.com/warehouse-locations/mayfield-heights-cleveland-oh-344.html"
+    "url": "https://www.costco.com/warehouse-locations/mayfield-heights-cleveland-oh-344.html",
+    "hasDiesel": false
   },
   {
     "name": "NW Columbus",
@@ -4027,7 +4429,8 @@
     "postalCode": "43064-9276",
     "latitude": 40.11,
     "longitude": -83.189,
-    "url": "https://costco.com/warehouse-locations/nw-columbus-plain-city-oh-1243.html"
+    "url": "https://www.costco.com/warehouse-locations/nw-columbus-plain-city-oh-1243.html",
+    "hasDiesel": true
   },
   {
     "name": "North Canton",
@@ -4037,7 +4440,8 @@
     "postalCode": "44720",
     "latitude": 40.886,
     "longitude": -81.44,
-    "url": "https://costco.com/warehouse-locations/north-canton-oh-1635.html"
+    "url": "https://www.costco.com/warehouse-locations/north-canton-oh-1635.html",
+    "hasDiesel": false
   },
   {
     "name": "Perrysburg",
@@ -4047,7 +4451,8 @@
     "postalCode": "43551-1967",
     "latitude": 41.535,
     "longitude": -83.633,
-    "url": "https://costco.com/warehouse-locations/perrysburg-oh-1194.html"
+    "url": "https://www.costco.com/warehouse-locations/perrysburg-oh-1194.html",
+    "hasDiesel": false
   },
   {
     "name": "Strongsville",
@@ -4057,7 +4462,8 @@
     "postalCode": "44136-4433",
     "latitude": 41.317,
     "longitude": -81.816,
-    "url": "https://costco.com/warehouse-locations/strongsville-oh-625.html"
+    "url": "https://www.costco.com/warehouse-locations/strongsville-oh-625.html",
+    "hasDiesel": false
   },
   {
     "name": "Toledo",
@@ -4067,7 +4473,8 @@
     "postalCode": "43606-1402",
     "latitude": 41.676,
     "longitude": -83.625,
-    "url": "https://costco.com/warehouse-locations/toledo-oh-1007.html"
+    "url": "https://www.costco.com/warehouse-locations/toledo-oh-1007.html",
+    "hasDiesel": true
   },
   {
     "name": "Moore",
@@ -4077,7 +4484,8 @@
     "postalCode": "73160-0008",
     "latitude": 35.314,
     "longitude": -97.496,
-    "url": "https://costco.com/warehouse-locations/moore-ok-1444.html"
+    "url": "https://www.costco.com/warehouse-locations/moore-ok-1444.html",
+    "hasDiesel": false
   },
   {
     "name": "North Tulsa",
@@ -4087,7 +4495,8 @@
     "postalCode": "74116",
     "latitude": 36.223,
     "longitude": -95.848,
-    "url": "https://costco.com/warehouse-locations/north-tulsa-tulsa-ok-1640.html"
+    "url": "https://www.costco.com/warehouse-locations/north-tulsa-tulsa-ok-1640.html",
+    "hasDiesel": false
   },
   {
     "name": "Oklahoma City",
@@ -4097,7 +4506,8 @@
     "postalCode": "73114",
     "latitude": 35.605,
     "longitude": -97.53,
-    "url": "https://costco.com/warehouse-locations/oklahoma-city-ok-1350.html"
+    "url": "https://www.costco.com/warehouse-locations/oklahoma-city-ok-1350.html",
+    "hasDiesel": false
   },
   {
     "name": "Tulsa",
@@ -4107,7 +4517,8 @@
     "postalCode": "74133-7179",
     "latitude": 36.014,
     "longitude": -95.889,
-    "url": "https://costco.com/warehouse-locations/tulsa-ok-1207.html"
+    "url": "https://www.costco.com/warehouse-locations/tulsa-ok-1207.html",
+    "hasDiesel": true
   },
   {
     "name": "Albany",
@@ -4117,7 +4528,8 @@
     "postalCode": "97322-5359",
     "latitude": 44.638,
     "longitude": -123.066,
-    "url": "https://costco.com/warehouse-locations/albany-or-682.html"
+    "url": "https://www.costco.com/warehouse-locations/albany-or-682.html",
+    "hasDiesel": false
   },
   {
     "name": "Aloha",
@@ -4127,7 +4539,8 @@
     "postalCode": "97006-5045",
     "latitude": 45.509,
     "longitude": -122.842,
-    "url": "https://costco.com/warehouse-locations/aloha-or-9.html"
+    "url": "https://www.costco.com/warehouse-locations/aloha-or-9.html",
+    "hasDiesel": false
   },
   {
     "name": "Bend",
@@ -4137,7 +4550,8 @@
     "postalCode": "97703",
     "latitude": 44.107,
     "longitude": -121.306,
-    "url": "https://costco.com/warehouse-locations/bend-or-1696.html"
+    "url": "https://www.costco.com/warehouse-locations/bend-or-1696.html",
+    "hasDiesel": true
   },
   {
     "name": "Central Point",
@@ -4147,7 +4561,8 @@
     "postalCode": "97502-2844",
     "latitude": 42.375,
     "longitude": -122.887,
-    "url": "https://costco.com/warehouse-locations/central-point-or-1287.html"
+    "url": "https://www.costco.com/warehouse-locations/central-point-or-1287.html",
+    "hasDiesel": true
   },
   {
     "name": "Clackamas",
@@ -4157,7 +4572,8 @@
     "postalCode": "97015-9733",
     "latitude": 45.428,
     "longitude": -122.574,
-    "url": "https://costco.com/warehouse-locations/clackamas-or-97.html"
+    "url": "https://www.costco.com/warehouse-locations/clackamas-or-97.html",
+    "hasDiesel": false
   },
   {
     "name": "Eugene",
@@ -4167,7 +4583,8 @@
     "postalCode": "97408-7336",
     "latitude": 44.089,
     "longitude": -123.065,
-    "url": "https://costco.com/warehouse-locations/eugene-or-17.html"
+    "url": "https://www.costco.com/warehouse-locations/eugene-or-17.html",
+    "hasDiesel": false
   },
   {
     "name": "Hillsboro",
@@ -4177,7 +4594,8 @@
     "postalCode": "97124-5008",
     "latitude": 45.536,
     "longitude": -122.935,
-    "url": "https://costco.com/warehouse-locations/hillsboro-or-692.html"
+    "url": "https://www.costco.com/warehouse-locations/hillsboro-or-692.html",
+    "hasDiesel": false
   },
   {
     "name": "Portland",
@@ -4187,7 +4605,8 @@
     "postalCode": "97230-3401",
     "latitude": 45.559,
     "longitude": -122.524,
-    "url": "https://costco.com/warehouse-locations/portland-or-2.html"
+    "url": "https://www.costco.com/warehouse-locations/portland-or-2.html",
+    "hasDiesel": true
   },
   {
     "name": "Roseburg",
@@ -4197,7 +4616,8 @@
     "postalCode": "97470-1161",
     "latitude": 43.26,
     "longitude": -123.35,
-    "url": "https://costco.com/warehouse-locations/roseburg-or-1073.html"
+    "url": "https://www.costco.com/warehouse-locations/roseburg-or-1073.html",
+    "hasDiesel": false
   },
   {
     "name": "Salem",
@@ -4207,7 +4627,8 @@
     "postalCode": "97306-6919",
     "latitude": 44.884,
     "longitude": -123.007,
-    "url": "https://costco.com/warehouse-locations/salem-or-1492.html"
+    "url": "https://www.costco.com/warehouse-locations/salem-or-1492.html",
+    "hasDiesel": false
   },
   {
     "name": "Tigard",
@@ -4217,7 +4638,8 @@
     "postalCode": "97223-8401",
     "latitude": 45.435,
     "longitude": -122.758,
-    "url": "https://costco.com/warehouse-locations/tigard-or-111.html"
+    "url": "https://www.costco.com/warehouse-locations/tigard-or-111.html",
+    "hasDiesel": false
   },
   {
     "name": "Warrenton",
@@ -4227,7 +4649,8 @@
     "postalCode": "97146-7339",
     "latitude": 46.147,
     "longitude": -123.914,
-    "url": "https://costco.com/warehouse-locations/warrenton-or-1059.html"
+    "url": "https://www.costco.com/warehouse-locations/warrenton-or-1059.html",
+    "hasDiesel": false
   },
   {
     "name": "Wilsonville",
@@ -4237,7 +4660,8 @@
     "postalCode": "97070-5785",
     "latitude": 45.333,
     "longitude": -122.764,
-    "url": "https://costco.com/warehouse-locations/wilsonville-or-766.html"
+    "url": "https://www.costco.com/warehouse-locations/wilsonville-or-766.html",
+    "hasDiesel": false
   },
   {
     "name": "Allentown",
@@ -4247,7 +4671,8 @@
     "postalCode": "18106-9046",
     "latitude": 40.566,
     "longitude": -75.558,
-    "url": "https://costco.com/warehouse-locations/allentown-pa-1211.html"
+    "url": "https://www.costco.com/warehouse-locations/allentown-pa-1211.html",
+    "hasDiesel": false
   },
   {
     "name": "Bucks County",
@@ -4257,7 +4682,8 @@
     "postalCode": "18974-3533",
     "latitude": 40.197,
     "longitude": -75.08,
-    "url": "https://costco.com/warehouse-locations/bucks-county-warminster-pa-1103.html"
+    "url": "https://www.costco.com/warehouse-locations/bucks-county-warminster-pa-1103.html",
+    "hasDiesel": false
   },
   {
     "name": "Concordville",
@@ -4267,7 +4693,8 @@
     "postalCode": "19342-2102",
     "latitude": 39.89,
     "longitude": -75.532,
-    "url": "https://costco.com/warehouse-locations/concordville-glen-mills-pa-1114.html"
+    "url": "https://www.costco.com/warehouse-locations/concordville-glen-mills-pa-1114.html",
+    "hasDiesel": false
   },
   {
     "name": "Cranberry Township",
@@ -4277,7 +4704,8 @@
     "postalCode": "16066-6142",
     "latitude": 40.691,
     "longitude": -80.108,
-    "url": "https://costco.com/warehouse-locations/cranberry-township-pa-328.html"
+    "url": "https://www.costco.com/warehouse-locations/cranberry-township-pa-328.html",
+    "hasDiesel": false
   },
   {
     "name": "Harrisburg",
@@ -4287,7 +4715,8 @@
     "postalCode": "17112-2983",
     "latitude": 40.307,
     "longitude": -76.798,
-    "url": "https://costco.com/warehouse-locations/harrisburg-pa-327.html"
+    "url": "https://www.costco.com/warehouse-locations/harrisburg-pa-327.html",
+    "hasDiesel": false
   },
   {
     "name": "Homestead",
@@ -4297,7 +4726,8 @@
     "postalCode": "15120-5009",
     "latitude": 40.403,
     "longitude": -79.921,
-    "url": "https://costco.com/warehouse-locations/homestead-pa-649.html"
+    "url": "https://www.costco.com/warehouse-locations/homestead-pa-649.html",
+    "hasDiesel": false
   },
   {
     "name": "Lancaster PA",
@@ -4307,7 +4737,8 @@
     "postalCode": "17601-5671",
     "latitude": 40.053,
     "longitude": -76.257,
-    "url": "https://costco.com/warehouse-locations/lancaster-pa-lancaster-pa-317.html"
+    "url": "https://www.costco.com/warehouse-locations/lancaster-pa-lancaster-pa-317.html",
+    "hasDiesel": false
   },
   {
     "name": "Montgomeryville",
@@ -4317,7 +4748,8 @@
     "postalCode": "19454-1403",
     "latitude": 40.237,
     "longitude": -75.234,
-    "url": "https://costco.com/warehouse-locations/montgomeryville-north-wales-pa-248.html"
+    "url": "https://www.costco.com/warehouse-locations/montgomeryville-north-wales-pa-248.html",
+    "hasDiesel": false
   },
   {
     "name": "Robinson",
@@ -4327,7 +4759,8 @@
     "postalCode": "15205-4858",
     "latitude": 40.459,
     "longitude": -80.166,
-    "url": "https://costco.com/warehouse-locations/robinson-pittsburgh-pa-332.html"
+    "url": "https://www.costco.com/warehouse-locations/robinson-pittsburgh-pa-332.html",
+    "hasDiesel": false
   },
   {
     "name": "Sanatoga",
@@ -4337,7 +4770,8 @@
     "postalCode": "19464-3413",
     "latitude": 40.238,
     "longitude": -75.576,
-    "url": "https://costco.com/warehouse-locations/sanatoga-pottstown-pa-1081.html"
+    "url": "https://www.costco.com/warehouse-locations/sanatoga-pottstown-pa-1081.html",
+    "hasDiesel": false
   },
   {
     "name": "Carolina",
@@ -4347,7 +4781,8 @@
     "postalCode": "00924-3403",
     "latitude": 18.4,
     "longitude": -65.997,
-    "url": "https://costco.com/warehouse-locations/carolina-san-juan-pr-335.html"
+    "url": "https://www.costco.com/warehouse-locations/carolina-san-juan-pr-335.html",
+    "hasDiesel": false
   },
   {
     "name": "Charleston",
@@ -4357,7 +4792,8 @@
     "postalCode": "29414-5664",
     "latitude": 32.795,
     "longitude": -80.036,
-    "url": "https://costco.com/warehouse-locations/charleston-sc-360.html"
+    "url": "https://www.costco.com/warehouse-locations/charleston-sc-360.html",
+    "hasDiesel": false
   },
   {
     "name": "Columbia SC",
@@ -4367,7 +4803,8 @@
     "postalCode": "29210-3405",
     "latitude": 34.071,
     "longitude": -81.14,
-    "url": "https://costco.com/warehouse-locations/columbia-sc-columbia-sc-1232.html"
+    "url": "https://www.costco.com/warehouse-locations/columbia-sc-columbia-sc-1232.html",
+    "hasDiesel": false
   },
   {
     "name": "Greenville",
@@ -4377,7 +4814,8 @@
     "postalCode": "29607-4108",
     "latitude": 34.836,
     "longitude": -82.311,
-    "url": "https://costco.com/warehouse-locations/greenville-sc-1005.html"
+    "url": "https://www.costco.com/warehouse-locations/greenville-sc-1005.html",
+    "hasDiesel": false
   },
   {
     "name": "Mt Pleasant",
@@ -4387,7 +4825,8 @@
     "postalCode": "29466-7242",
     "latitude": 32.882,
     "longitude": -79.77,
-    "url": "https://costco.com/warehouse-locations/mt-pleasant-mount-pleasant-sc-1319.html"
+    "url": "https://www.costco.com/warehouse-locations/mt-pleasant-mount-pleasant-sc-1319.html",
+    "hasDiesel": false
   },
   {
     "name": "Myrtle Beach",
@@ -4397,7 +4836,8 @@
     "postalCode": "29577-9795",
     "latitude": 33.706,
     "longitude": -78.916,
-    "url": "https://costco.com/warehouse-locations/myrtle-beach-sc-338.html"
+    "url": "https://www.costco.com/warehouse-locations/myrtle-beach-sc-338.html",
+    "hasDiesel": false
   },
   {
     "name": "Spartanburg",
@@ -4407,7 +4847,8 @@
     "postalCode": "29301-1382",
     "latitude": 34.94,
     "longitude": -81.997,
-    "url": "https://costco.com/warehouse-locations/spartanburg-sc-1008.html"
+    "url": "https://www.costco.com/warehouse-locations/spartanburg-sc-1008.html",
+    "hasDiesel": false
   },
   {
     "name": "Sioux Falls",
@@ -4417,7 +4858,8 @@
     "postalCode": "57105-6359",
     "latitude": 43.513,
     "longitude": -96.74,
-    "url": "https://costco.com/warehouse-locations/sioux-falls-sd-1159.html"
+    "url": "https://www.costco.com/warehouse-locations/sioux-falls-sd-1159.html",
+    "hasDiesel": false
   },
   {
     "name": "Brentwood TN",
@@ -4427,7 +4869,8 @@
     "postalCode": "37027-2930",
     "latitude": 35.964,
     "longitude": -86.817,
-    "url": "https://costco.com/warehouse-locations/brentwood-tn-brentwood-tn-386.html"
+    "url": "https://www.costco.com/warehouse-locations/brentwood-tn-brentwood-tn-386.html",
+    "hasDiesel": false
   },
   {
     "name": "Farragut",
@@ -4437,7 +4880,8 @@
     "postalCode": "37934-3002",
     "latitude": 35.896,
     "longitude": -84.14,
-    "url": "https://costco.com/warehouse-locations/farragut-knoxville-tn-1116.html"
+    "url": "https://www.costco.com/warehouse-locations/farragut-knoxville-tn-1116.html",
+    "hasDiesel": false
   },
   {
     "name": "Hendersonville",
@@ -4447,7 +4891,8 @@
     "postalCode": "37075",
     "latitude": 36.329,
     "longitude": -86.623,
-    "url": "https://costco.com/warehouse-locations/hendersonville-tn-1659.html"
+    "url": "https://www.costco.com/warehouse-locations/hendersonville-tn-1659.html",
+    "hasDiesel": false
   },
   {
     "name": "Mt Juliet",
@@ -4457,7 +4902,8 @@
     "postalCode": "37122",
     "latitude": 36.182,
     "longitude": -86.463,
-    "url": "https://costco.com/warehouse-locations/mt-juliet-mt.-juliet-tn-1686.html"
+    "url": "https://www.costco.com/warehouse-locations/mt-juliet-mt.-juliet-tn-1686.html",
+    "hasDiesel": false
   },
   {
     "name": "Murfreesboro",
@@ -4467,7 +4913,8 @@
     "postalCode": "37128",
     "latitude": 35.826,
     "longitude": -86.417,
-    "url": "https://costco.com/warehouse-locations/murfreesboro-tn-1448.html"
+    "url": "https://www.costco.com/warehouse-locations/murfreesboro-tn-1448.html",
+    "hasDiesel": false
   },
   {
     "name": "NE Memphis",
@@ -4477,7 +4924,8 @@
     "postalCode": "38016-4494",
     "latitude": 35.192,
     "longitude": -89.795,
-    "url": "https://costco.com/warehouse-locations/ne-memphis-cordova-tn-352.html"
+    "url": "https://www.costco.com/warehouse-locations/ne-memphis-cordova-tn-352.html",
+    "hasDiesel": false
   },
   {
     "name": "SE Memphis",
@@ -4487,7 +4935,8 @@
     "postalCode": "38125-2302",
     "latitude": 35.046,
     "longitude": -89.797,
-    "url": "https://costco.com/warehouse-locations/se-memphis-memphis-tn-353.html"
+    "url": "https://www.costco.com/warehouse-locations/se-memphis-memphis-tn-353.html",
+    "hasDiesel": false
   },
   {
     "name": "W Nashville",
@@ -4497,7 +4946,8 @@
     "postalCode": "37209-4202",
     "latitude": 36.14,
     "longitude": -86.885,
-    "url": "https://costco.com/warehouse-locations/w-nashville-nashville-tn-630.html"
+    "url": "https://www.costco.com/warehouse-locations/w-nashville-nashville-tn-630.html",
+    "hasDiesel": false
   },
   {
     "name": "Arlington",
@@ -4507,7 +4957,8 @@
     "postalCode": "76014-3702",
     "latitude": 32.684,
     "longitude": -97.113,
-    "url": "https://costco.com/warehouse-locations/arlington-tx-668.html"
+    "url": "https://www.costco.com/warehouse-locations/arlington-tx-668.html",
+    "hasDiesel": false
   },
   {
     "name": "Austin",
@@ -4517,7 +4968,8 @@
     "postalCode": "78759-5712",
     "latitude": 30.396,
     "longitude": -97.744,
-    "url": "https://costco.com/warehouse-locations/austin-tx-681.html"
+    "url": "https://www.costco.com/warehouse-locations/austin-tx-681.html",
+    "hasDiesel": false
   },
   {
     "name": "Bunker Hill",
@@ -4527,7 +4979,8 @@
     "postalCode": "77055-6208",
     "latitude": 29.787,
     "longitude": -95.529,
-    "url": "https://costco.com/warehouse-locations/bunker-hill-houston-tx-680.html"
+    "url": "https://www.costco.com/warehouse-locations/bunker-hill-houston-tx-680.html",
+    "hasDiesel": false
   },
   {
     "name": "Cedar Park TX",
@@ -4537,7 +4990,8 @@
     "postalCode": "78613-6310",
     "latitude": 30.527,
     "longitude": -97.819,
-    "url": "https://costco.com/warehouse-locations/cedar-park-tx-cedar-park-tx-1152.html"
+    "url": "https://www.costco.com/warehouse-locations/cedar-park-tx-cedar-park-tx-1152.html",
+    "hasDiesel": false
   },
   {
     "name": "College Station",
@@ -4547,7 +5001,8 @@
     "postalCode": "77845",
     "latitude": 30.567,
     "longitude": -96.263,
-    "url": "https://costco.com/warehouse-locations/college-station-tx-1614.html"
+    "url": "https://www.costco.com/warehouse-locations/college-station-tx-1614.html",
+    "hasDiesel": false
   },
   {
     "name": "Cypress TX",
@@ -4557,7 +5012,8 @@
     "postalCode": "77433-4934",
     "latitude": 29.979,
     "longitude": -95.712,
-    "url": "https://costco.com/warehouse-locations/cypress-tx-cypress-tx-1208.html"
+    "url": "https://www.costco.com/warehouse-locations/cypress-tx-cypress-tx-1208.html",
+    "hasDiesel": false
   },
   {
     "name": "Dallas",
@@ -4567,7 +5023,8 @@
     "postalCode": "75251-2149",
     "latitude": 32.919,
     "longitude": -96.768,
-    "url": "https://costco.com/warehouse-locations/dallas-tx-1266.html"
+    "url": "https://www.costco.com/warehouse-locations/dallas-tx-1266.html",
+    "hasDiesel": false
   },
   {
     "name": "Duncanville",
@@ -4577,7 +5034,8 @@
     "postalCode": "75137-4415",
     "latitude": 32.621,
     "longitude": -96.91,
-    "url": "https://costco.com/warehouse-locations/duncanville-tx-636.html"
+    "url": "https://www.costco.com/warehouse-locations/duncanville-tx-636.html",
+    "hasDiesel": false
   },
   {
     "name": "E Plano",
@@ -4587,7 +5045,8 @@
     "postalCode": "75074-2221",
     "latitude": 33.044,
     "longitude": -96.7,
-    "url": "https://costco.com/warehouse-locations/e-plano-plano-tx-664.html"
+    "url": "https://www.costco.com/warehouse-locations/e-plano-plano-tx-664.html",
+    "hasDiesel": false
   },
   {
     "name": "El Paso",
@@ -4597,7 +5056,8 @@
     "postalCode": "79925-3416",
     "latitude": 31.783,
     "longitude": -106.41,
-    "url": "https://costco.com/warehouse-locations/el-paso-tx-768.html"
+    "url": "https://www.costco.com/warehouse-locations/el-paso-tx-768.html",
+    "hasDiesel": false
   },
   {
     "name": "Fort Worth",
@@ -4607,7 +5067,8 @@
     "postalCode": "76132-3301",
     "latitude": 32.677,
     "longitude": -97.409,
-    "url": "https://costco.com/warehouse-locations/fort-worth-tx-489.html"
+    "url": "https://www.costco.com/warehouse-locations/fort-worth-tx-489.html",
+    "hasDiesel": false
   },
   {
     "name": "Frisco",
@@ -4617,7 +5078,8 @@
     "postalCode": "75033-4102",
     "latitude": 33.172,
     "longitude": -96.838,
-    "url": "https://costco.com/warehouse-locations/frisco-tx-1097.html"
+    "url": "https://www.costco.com/warehouse-locations/frisco-tx-1097.html",
+    "hasDiesel": false
   },
   {
     "name": "Galleria",
@@ -4627,7 +5089,8 @@
     "postalCode": "77027-5802",
     "latitude": 29.735,
     "longitude": -95.439,
-    "url": "https://costco.com/warehouse-locations/galleria-houston-tx-1018.html"
+    "url": "https://www.costco.com/warehouse-locations/galleria-houston-tx-1018.html",
+    "hasDiesel": false
   },
   {
     "name": "Georgetown",
@@ -4637,7 +5100,8 @@
     "postalCode": "78628",
     "latitude": 30.677,
     "longitude": -97.664,
-    "url": "https://costco.com/warehouse-locations/georgetown-tx-1385.html"
+    "url": "https://www.costco.com/warehouse-locations/georgetown-tx-1385.html",
+    "hasDiesel": false
   },
   {
     "name": "Humble",
@@ -4647,7 +5111,8 @@
     "postalCode": "77338-1594",
     "latitude": 30.021,
     "longitude": -95.267,
-    "url": "https://costco.com/warehouse-locations/humble-tx-1228.html"
+    "url": "https://www.costco.com/warehouse-locations/humble-tx-1228.html",
+    "hasDiesel": true
   },
   {
     "name": "Kyle",
@@ -4657,7 +5122,8 @@
     "postalCode": "78640",
     "latitude": 30.002,
     "longitude": -97.867,
-    "url": "https://costco.com/warehouse-locations/kyle-tx-1629.html"
+    "url": "https://www.costco.com/warehouse-locations/kyle-tx-1629.html",
+    "hasDiesel": false
   },
   {
     "name": "Lewisville",
@@ -4667,7 +5133,8 @@
     "postalCode": "75067-4158",
     "latitude": 32.998,
     "longitude": -96.964,
-    "url": "https://costco.com/warehouse-locations/lewisville-tx-683.html"
+    "url": "https://www.costco.com/warehouse-locations/lewisville-tx-683.html",
+    "hasDiesel": false
   },
   {
     "name": "Lubbock TX",
@@ -4677,7 +5144,8 @@
     "postalCode": "79407-3102",
     "latitude": 33.564,
     "longitude": -101.947,
-    "url": "https://costco.com/warehouse-locations/lubbock-tx-lubbock-tx-1163.html"
+    "url": "https://www.costco.com/warehouse-locations/lubbock-tx-lubbock-tx-1163.html",
+    "hasDiesel": true
   },
   {
     "name": "McKinney",
@@ -4687,7 +5155,8 @@
     "postalCode": "75071-2934",
     "latitude": 33.219,
     "longitude": -96.66,
-    "url": "https://costco.com/warehouse-locations/mckinney-tx-1284.html"
+    "url": "https://www.costco.com/warehouse-locations/mckinney-tx-1284.html",
+    "hasDiesel": false
   },
   {
     "name": "N Fort Worth",
@@ -4697,7 +5166,8 @@
     "postalCode": "76177-2004",
     "latitude": 32.901,
     "longitude": -97.321,
-    "url": "https://costco.com/warehouse-locations/n-fort-worth-fort-worth-tx-1173.html"
+    "url": "https://www.costco.com/warehouse-locations/n-fort-worth-fort-worth-tx-1173.html",
+    "hasDiesel": false
   },
   {
     "name": "NW San Antonio",
@@ -4707,7 +5177,8 @@
     "postalCode": "78249-1619",
     "latitude": 29.576,
     "longitude": -98.597,
-    "url": "https://costco.com/warehouse-locations/nw-san-antonio-san-antonio-tx-689.html"
+    "url": "https://www.costco.com/warehouse-locations/nw-san-antonio-san-antonio-tx-689.html",
+    "hasDiesel": false
   },
   {
     "name": "Pearland",
@@ -4717,7 +5188,8 @@
     "postalCode": "77584-1952",
     "latitude": 29.544,
     "longitude": -95.39,
-    "url": "https://costco.com/warehouse-locations/pearland-tx-1221.html"
+    "url": "https://www.costco.com/warehouse-locations/pearland-tx-1221.html",
+    "hasDiesel": true
   },
   {
     "name": "Pflugerville",
@@ -4727,7 +5199,8 @@
     "postalCode": "78660",
     "latitude": 30.469,
     "longitude": -97.591,
-    "url": "https://costco.com/warehouse-locations/pflugerville-tx-1322.html"
+    "url": "https://www.costco.com/warehouse-locations/pflugerville-tx-1322.html",
+    "hasDiesel": false
   },
   {
     "name": "Pharr",
@@ -4737,7 +5210,8 @@
     "postalCode": "78577-5031",
     "latitude": 26.193,
     "longitude": -98.202,
-    "url": "https://costco.com/warehouse-locations/pharr-tx-1108.html"
+    "url": "https://www.costco.com/warehouse-locations/pharr-tx-1108.html",
+    "hasDiesel": false
   },
   {
     "name": "Richmond TX",
@@ -4747,7 +5221,8 @@
     "postalCode": "77406",
     "latitude": 29.649,
     "longitude": -95.706,
-    "url": "https://costco.com/warehouse-locations/richmond-tx-richmond-tx-1697.html"
+    "url": "https://www.costco.com/warehouse-locations/richmond-tx-richmond-tx-1697.html",
+    "hasDiesel": false
   },
   {
     "name": "Rockwall",
@@ -4757,7 +5232,8 @@
     "postalCode": "75032-9376",
     "latitude": 32.908,
     "longitude": -96.446,
-    "url": "https://costco.com/warehouse-locations/rockwall-tx-1049.html"
+    "url": "https://www.costco.com/warehouse-locations/rockwall-tx-1049.html",
+    "hasDiesel": false
   },
   {
     "name": "Selma",
@@ -4767,7 +5243,8 @@
     "postalCode": "78154-3814",
     "latitude": 29.576,
     "longitude": -98.319,
-    "url": "https://costco.com/warehouse-locations/selma-tx-1006.html"
+    "url": "https://www.costco.com/warehouse-locations/selma-tx-1006.html",
+    "hasDiesel": false
   },
   {
     "name": "Southlake",
@@ -4777,7 +5254,8 @@
     "postalCode": "76092-6668",
     "latitude": 32.942,
     "longitude": -97.111,
-    "url": "https://costco.com/warehouse-locations/southlake-tx-669.html"
+    "url": "https://www.costco.com/warehouse-locations/southlake-tx-669.html",
+    "hasDiesel": false
   },
   {
     "name": "Sugar Land",
@@ -4787,7 +5265,8 @@
     "postalCode": "77479-2359",
     "latitude": 29.586,
     "longitude": -95.644,
-    "url": "https://costco.com/warehouse-locations/sugar-land-tx-1146.html"
+    "url": "https://www.costco.com/warehouse-locations/sugar-land-tx-1146.html",
+    "hasDiesel": false
   },
   {
     "name": "Tomball",
@@ -4797,7 +5276,8 @@
     "postalCode": "77375",
     "latitude": 30.069,
     "longitude": -95.621,
-    "url": "https://costco.com/warehouse-locations/tomball-tx-1687.html"
+    "url": "https://www.costco.com/warehouse-locations/tomball-tx-1687.html",
+    "hasDiesel": false
   },
   {
     "name": "W Katy",
@@ -4807,7 +5287,8 @@
     "postalCode": "77494-7221",
     "latitude": 29.783,
     "longitude": -95.781,
-    "url": "https://costco.com/warehouse-locations/w-katy-katy-tx-1167.html"
+    "url": "https://www.costco.com/warehouse-locations/w-katy-katy-tx-1167.html",
+    "hasDiesel": false
   },
   {
     "name": "W Plano",
@@ -4817,7 +5298,8 @@
     "postalCode": "75093-4580",
     "latitude": 33.024,
     "longitude": -96.832,
-    "url": "https://costco.com/warehouse-locations/w-plano-plano-tx-684.html"
+    "url": "https://www.costco.com/warehouse-locations/w-plano-plano-tx-684.html",
+    "hasDiesel": false
   },
   {
     "name": "W San Antonio",
@@ -4827,7 +5309,8 @@
     "postalCode": "78245-4191",
     "latitude": 29.431,
     "longitude": -98.715,
-    "url": "https://costco.com/warehouse-locations/w-san-antonio-san-antonio-tx-1449.html"
+    "url": "https://www.costco.com/warehouse-locations/w-san-antonio-san-antonio-tx-1449.html",
+    "hasDiesel": false
   },
   {
     "name": "Webster",
@@ -4837,7 +5320,8 @@
     "postalCode": "77598",
     "latitude": 29.533,
     "longitude": -95.139,
-    "url": "https://costco.com/warehouse-locations/webster-tx-1330.html"
+    "url": "https://www.costco.com/warehouse-locations/webster-tx-1330.html",
+    "hasDiesel": false
   },
   {
     "name": "Willowbrook",
@@ -4847,7 +5331,8 @@
     "postalCode": "77064-1170",
     "latitude": 29.955,
     "longitude": -95.547,
-    "url": "https://costco.com/warehouse-locations/willowbrook-houston-tx-675.html"
+    "url": "https://www.costco.com/warehouse-locations/willowbrook-houston-tx-675.html",
+    "hasDiesel": false
   },
   {
     "name": "Woodlands",
@@ -4857,7 +5342,8 @@
     "postalCode": "77385-4365",
     "latitude": 30.209,
     "longitude": -95.453,
-    "url": "https://costco.com/warehouse-locations/woodlands-conroe-tx-1189.html"
+    "url": "https://www.costco.com/warehouse-locations/woodlands-conroe-tx-1189.html",
+    "hasDiesel": false
   },
   {
     "name": "Bountiful",
@@ -4867,7 +5353,8 @@
     "postalCode": "84010-7018",
     "latitude": 40.89,
     "longitude": -111.895,
-    "url": "https://costco.com/warehouse-locations/bountiful-west-bountiful-ut-735.html"
+    "url": "https://www.costco.com/warehouse-locations/bountiful-west-bountiful-ut-735.html",
+    "hasDiesel": false
   },
   {
     "name": "Lehi",
@@ -4877,7 +5364,8 @@
     "postalCode": "84043-2294",
     "latitude": 40.389,
     "longitude": -111.823,
-    "url": "https://costco.com/warehouse-locations/lehi-ut-733.html"
+    "url": "https://www.costco.com/warehouse-locations/lehi-ut-733.html",
+    "hasDiesel": false
   },
   {
     "name": "Logan",
@@ -4887,7 +5375,8 @@
     "postalCode": "84321",
     "latitude": 41.752,
     "longitude": -111.857,
-    "url": "https://costco.com/warehouse-locations/logan-ut-1633.html"
+    "url": "https://www.costco.com/warehouse-locations/logan-ut-1633.html",
+    "hasDiesel": false
   },
   {
     "name": "Murray",
@@ -4897,7 +5386,8 @@
     "postalCode": "84107-6024",
     "latitude": 40.658,
     "longitude": -111.89,
-    "url": "https://costco.com/warehouse-locations/murray-ut-764.html"
+    "url": "https://www.costco.com/warehouse-locations/murray-ut-764.html",
+    "hasDiesel": false
   },
   {
     "name": "Orem",
@@ -4907,7 +5397,8 @@
     "postalCode": "84097-6528",
     "latitude": 40.28,
     "longitude": -111.68,
-    "url": "https://costco.com/warehouse-locations/orem-ut-484.html"
+    "url": "https://www.costco.com/warehouse-locations/orem-ut-484.html",
+    "hasDiesel": false
   },
   {
     "name": "Riverton",
@@ -4917,7 +5408,8 @@
     "postalCode": "84096",
     "latitude": 40.513,
     "longitude": -112.002,
-    "url": "https://costco.com/warehouse-locations/riverton-ut-1441.html"
+    "url": "https://www.costco.com/warehouse-locations/riverton-ut-1441.html",
+    "hasDiesel": false
   },
   {
     "name": "Salt Lake City",
@@ -4927,7 +5419,8 @@
     "postalCode": "84115-1805",
     "latitude": 40.731,
     "longitude": -111.902,
-    "url": "https://costco.com/warehouse-locations/salt-lake-city-ut-113.html"
+    "url": "https://www.costco.com/warehouse-locations/salt-lake-city-ut-113.html",
+    "hasDiesel": true
   },
   {
     "name": "Sandy",
@@ -4937,7 +5430,8 @@
     "postalCode": "84070-4171",
     "latitude": 40.55,
     "longitude": -111.895,
-    "url": "https://costco.com/warehouse-locations/sandy-ut-487.html"
+    "url": "https://www.costco.com/warehouse-locations/sandy-ut-487.html",
+    "hasDiesel": true
   },
   {
     "name": "Saratoga Springs",
@@ -4947,7 +5441,8 @@
     "postalCode": "84045",
     "latitude": 40.382,
     "longitude": -111.918,
-    "url": "https://costco.com/warehouse-locations/saratoga-springs-ut-1383.html"
+    "url": "https://www.costco.com/warehouse-locations/saratoga-springs-ut-1383.html",
+    "hasDiesel": false
   },
   {
     "name": "South Jordan",
@@ -4957,7 +5452,8 @@
     "postalCode": "84095-7173",
     "latitude": 40.56,
     "longitude": -111.975,
-    "url": "https://costco.com/warehouse-locations/south-jordan-ut-1019.html"
+    "url": "https://www.costco.com/warehouse-locations/south-jordan-ut-1019.html",
+    "hasDiesel": true
   },
   {
     "name": "South Ogden",
@@ -4967,7 +5463,8 @@
     "postalCode": "84405-7101",
     "latitude": 41.196,
     "longitude": -111.978,
-    "url": "https://costco.com/warehouse-locations/south-ogden-ogden-ut-770.html"
+    "url": "https://www.costco.com/warehouse-locations/south-ogden-ogden-ut-770.html",
+    "hasDiesel": false
   },
   {
     "name": "Spanish Fork",
@@ -4977,7 +5474,8 @@
     "postalCode": "84660-5844",
     "latitude": 40.124,
     "longitude": -111.649,
-    "url": "https://costco.com/warehouse-locations/spanish-fork-ut-1118.html"
+    "url": "https://www.costco.com/warehouse-locations/spanish-fork-ut-1118.html",
+    "hasDiesel": false
   },
   {
     "name": "St George",
@@ -4987,7 +5485,8 @@
     "postalCode": "84790-9041",
     "latitude": 37.122,
     "longitude": -113.522,
-    "url": "https://costco.com/warehouse-locations/st-george-saint-george-ut-672.html"
+    "url": "https://www.costco.com/warehouse-locations/st-george-saint-george-ut-672.html",
+    "hasDiesel": true
   },
   {
     "name": "West Valley",
@@ -4997,7 +5496,8 @@
     "postalCode": "84119-3721",
     "latitude": 40.69,
     "longitude": -111.954,
-    "url": "https://costco.com/warehouse-locations/west-valley-salt-lake-city-ut-622.html"
+    "url": "https://www.costco.com/warehouse-locations/west-valley-salt-lake-city-ut-622.html",
+    "hasDiesel": false
   },
   {
     "name": "Colchester",
@@ -5007,7 +5507,8 @@
     "postalCode": "05446-5830",
     "latitude": 44.504,
     "longitude": -73.175,
-    "url": "https://costco.com/warehouse-locations/colchester-vt-314.html"
+    "url": "https://www.costco.com/warehouse-locations/colchester-vt-314.html",
+    "hasDiesel": false
   },
   {
     "name": "Chantilly",
@@ -5017,7 +5518,8 @@
     "postalCode": "20151-2117",
     "latitude": 38.896,
     "longitude": -77.443,
-    "url": "https://costco.com/warehouse-locations/chantilly-va-334.html"
+    "url": "https://www.costco.com/warehouse-locations/chantilly-va-334.html",
+    "hasDiesel": false
   },
   {
     "name": "Charlottesville",
@@ -5027,7 +5529,8 @@
     "postalCode": "22901-2784",
     "latitude": 38.068,
     "longitude": -78.49,
-    "url": "https://costco.com/warehouse-locations/charlottesville-va-1184.html"
+    "url": "https://www.costco.com/warehouse-locations/charlottesville-va-1184.html",
+    "hasDiesel": false
   },
   {
     "name": "Chesterfield",
@@ -5037,7 +5540,8 @@
     "postalCode": "23235-4887",
     "latitude": 37.514,
     "longitude": -77.605,
-    "url": "https://costco.com/warehouse-locations/chesterfield-north-chesterfield-va-1089.html"
+    "url": "https://www.costco.com/warehouse-locations/chesterfield-north-chesterfield-va-1089.html",
+    "hasDiesel": false
   },
   {
     "name": "Fairfax",
@@ -5047,7 +5551,8 @@
     "postalCode": "22030-6125",
     "latitude": 38.849,
     "longitude": -77.372,
-    "url": "https://costco.com/warehouse-locations/fairfax-va-204.html"
+    "url": "https://www.costco.com/warehouse-locations/fairfax-va-204.html",
+    "hasDiesel": false
   },
   {
     "name": "Fredericksburg",
@@ -5057,7 +5562,8 @@
     "postalCode": "22407-4900",
     "latitude": 38.29,
     "longitude": -77.516,
-    "url": "https://costco.com/warehouse-locations/fredericksburg-va-340.html"
+    "url": "https://www.costco.com/warehouse-locations/fredericksburg-va-340.html",
+    "hasDiesel": false
   },
   {
     "name": "Harrisonburg",
@@ -5067,7 +5573,8 @@
     "postalCode": "22801-8742",
     "latitude": 38.428,
     "longitude": -78.857,
-    "url": "https://costco.com/warehouse-locations/harrisonburg-va-238.html"
+    "url": "https://www.costco.com/warehouse-locations/harrisonburg-va-238.html",
+    "hasDiesel": false
   },
   {
     "name": "Leesburg",
@@ -5077,7 +5584,8 @@
     "postalCode": "20176-3355",
     "latitude": 39.115,
     "longitude": -77.533,
-    "url": "https://costco.com/warehouse-locations/leesburg-va-337.html"
+    "url": "https://www.costco.com/warehouse-locations/leesburg-va-337.html",
+    "hasDiesel": false
   },
   {
     "name": "Manassas",
@@ -5087,7 +5595,8 @@
     "postalCode": "20109-2845",
     "latitude": 38.784,
     "longitude": -77.517,
-    "url": "https://costco.com/warehouse-locations/manassas-va-225.html"
+    "url": "https://www.costco.com/warehouse-locations/manassas-va-225.html",
+    "hasDiesel": false
   },
   {
     "name": "Mt Vernon",
@@ -5097,7 +5606,8 @@
     "postalCode": "22306-7826",
     "latitude": 38.742,
     "longitude": -77.088,
-    "url": "https://costco.com/warehouse-locations/mt-vernon-alexandria-va-1115.html"
+    "url": "https://www.costco.com/warehouse-locations/mt-vernon-alexandria-va-1115.html",
+    "hasDiesel": false
   },
   {
     "name": "Newport News",
@@ -5107,7 +5617,8 @@
     "postalCode": "23602-6916",
     "latitude": 37.106,
     "longitude": -76.497,
-    "url": "https://costco.com/warehouse-locations/newport-news-va-247.html"
+    "url": "https://www.costco.com/warehouse-locations/newport-news-va-247.html",
+    "hasDiesel": false
   },
   {
     "name": "Norfolk",
@@ -5117,7 +5628,8 @@
     "postalCode": "23502-3702",
     "latitude": 36.852,
     "longitude": -76.2,
-    "url": "https://costco.com/warehouse-locations/norfolk-va-202.html"
+    "url": "https://www.costco.com/warehouse-locations/norfolk-va-202.html",
+    "hasDiesel": false
   },
   {
     "name": "Potomac Mills",
@@ -5127,7 +5639,8 @@
     "postalCode": "22192-4653",
     "latitude": 38.642,
     "longitude": -77.292,
-    "url": "https://costco.com/warehouse-locations/potomac-mills-woodbridge-va-626.html"
+    "url": "https://www.costco.com/warehouse-locations/potomac-mills-woodbridge-va-626.html",
+    "hasDiesel": false
   },
   {
     "name": "Sterling",
@@ -5137,7 +5650,8 @@
     "postalCode": "20164-6606",
     "latitude": 39.024,
     "longitude": -77.402,
-    "url": "https://costco.com/warehouse-locations/sterling-va-218.html"
+    "url": "https://www.costco.com/warehouse-locations/sterling-va-218.html",
+    "hasDiesel": false
   },
   {
     "name": "W Henrico",
@@ -5147,7 +5661,8 @@
     "postalCode": "23060-4115",
     "latitude": 37.642,
     "longitude": -77.561,
-    "url": "https://costco.com/warehouse-locations/w-henrico-glen-allen-va-205.html"
+    "url": "https://www.costco.com/warehouse-locations/w-henrico-glen-allen-va-205.html",
+    "hasDiesel": false
   },
   {
     "name": "Winchester",
@@ -5157,7 +5672,8 @@
     "postalCode": "22602-7319",
     "latitude": 39.158,
     "longitude": -78.156,
-    "url": "https://costco.com/warehouse-locations/winchester-va-239.html"
+    "url": "https://www.costco.com/warehouse-locations/winchester-va-239.html",
+    "hasDiesel": false
   },
   {
     "name": "Aurora Village",
@@ -5167,7 +5683,8 @@
     "postalCode": "98133-3206",
     "latitude": 47.775,
     "longitude": -122.344,
-    "url": "https://costco.com/warehouse-locations/aurora-village-shoreline-wa-106.html"
+    "url": "https://www.costco.com/warehouse-locations/aurora-village-shoreline-wa-106.html",
+    "hasDiesel": false
   },
   {
     "name": "Bellingham",
@@ -5177,7 +5694,8 @@
     "postalCode": "98226-9325",
     "latitude": 48.792,
     "longitude": -122.514,
-    "url": "https://costco.com/warehouse-locations/bellingham-wa-1216.html"
+    "url": "https://www.costco.com/warehouse-locations/bellingham-wa-1216.html",
+    "hasDiesel": false
   },
   {
     "name": "Bonney Lake",
@@ -5187,7 +5705,8 @@
     "postalCode": "98391-6559",
     "latitude": 47.167,
     "longitude": -122.159,
-    "url": "https://costco.com/warehouse-locations/bonney-lake-wa-1278.html"
+    "url": "https://www.costco.com/warehouse-locations/bonney-lake-wa-1278.html",
+    "hasDiesel": true
   },
   {
     "name": "Burlington WA",
@@ -5197,7 +5716,8 @@
     "postalCode": "98233-3223",
     "latitude": 48.454,
     "longitude": -122.338,
-    "url": "https://costco.com/warehouse-locations/burlington-wa-burlington-wa-662.html"
+    "url": "https://www.costco.com/warehouse-locations/burlington-wa-burlington-wa-662.html",
+    "hasDiesel": false
   },
   {
     "name": "Clarkston",
@@ -5207,7 +5727,8 @@
     "postalCode": "99403-1860",
     "latitude": 46.423,
     "longitude": -117.042,
-    "url": "https://costco.com/warehouse-locations/clarkston-wa-103.html"
+    "url": "https://www.costco.com/warehouse-locations/clarkston-wa-103.html",
+    "hasDiesel": true
   },
   {
     "name": "Covington WA",
@@ -5217,7 +5738,8 @@
     "postalCode": "98042-9100",
     "latitude": 47.355,
     "longitude": -122.121,
-    "url": "https://costco.com/warehouse-locations/covington-wa-covington-wa-1029.html"
+    "url": "https://www.costco.com/warehouse-locations/covington-wa-covington-wa-1029.html",
+    "hasDiesel": false
   },
   {
     "name": "E Vancouver WA",
@@ -5227,7 +5749,8 @@
     "postalCode": "98607-7472",
     "latitude": 45.622,
     "longitude": -122.473,
-    "url": "https://costco.com/warehouse-locations/e-vancouver-wa-camas-wa-1086.html"
+    "url": "https://www.costco.com/warehouse-locations/e-vancouver-wa-camas-wa-1086.html",
+    "hasDiesel": false
   },
   {
     "name": "Everett WA",
@@ -5237,7 +5760,8 @@
     "postalCode": "98208-4256",
     "latitude": 47.904,
     "longitude": -122.21,
-    "url": "https://costco.com/warehouse-locations/everett-wa-everett-wa-114.html"
+    "url": "https://www.costco.com/warehouse-locations/everett-wa-everett-wa-114.html",
+    "hasDiesel": false
   },
   {
     "name": "Federal Way",
@@ -5247,7 +5771,8 @@
     "postalCode": "98003-8314",
     "latitude": 47.287,
     "longitude": -122.31,
-    "url": "https://costco.com/warehouse-locations/federal-way-wa-61.html"
+    "url": "https://www.costco.com/warehouse-locations/federal-way-wa-61.html",
+    "hasDiesel": false
   },
   {
     "name": "Gig Harbor",
@@ -5257,7 +5782,8 @@
     "postalCode": "98332-8945",
     "latitude": 47.358,
     "longitude": -122.604,
-    "url": "https://costco.com/warehouse-locations/gig-harbor-wa-624.html"
+    "url": "https://www.costco.com/warehouse-locations/gig-harbor-wa-624.html",
+    "hasDiesel": false
   },
   {
     "name": "Issaquah",
@@ -5267,7 +5793,8 @@
     "postalCode": "98027-5384",
     "latitude": 47.551,
     "longitude": -122.052,
-    "url": "https://costco.com/warehouse-locations/issaquah-wa-110.html"
+    "url": "https://www.costco.com/warehouse-locations/issaquah-wa-110.html",
+    "hasDiesel": false
   },
   {
     "name": "Kennewick",
@@ -5277,7 +5804,8 @@
     "postalCode": "99336-8120",
     "latitude": 46.226,
     "longitude": -119.235,
-    "url": "https://costco.com/warehouse-locations/kennewick-wa-486.html"
+    "url": "https://www.costco.com/warehouse-locations/kennewick-wa-486.html",
+    "hasDiesel": false
   },
   {
     "name": "Kirkland",
@@ -5287,7 +5815,8 @@
     "postalCode": "98033-5822",
     "latitude": 47.681,
     "longitude": -122.181,
-    "url": "https://costco.com/warehouse-locations/kirkland-wa-8.html"
+    "url": "https://www.costco.com/warehouse-locations/kirkland-wa-8.html",
+    "hasDiesel": false
   },
   {
     "name": "Lacey",
@@ -5297,7 +5826,8 @@
     "postalCode": "98516-3870",
     "latitude": 47.059,
     "longitude": -122.761,
-    "url": "https://costco.com/warehouse-locations/lacey-wa-740.html"
+    "url": "https://www.costco.com/warehouse-locations/lacey-wa-740.html",
+    "hasDiesel": true
   },
   {
     "name": "Lake Stevens",
@@ -5307,7 +5837,8 @@
     "postalCode": "98258",
     "latitude": 47.975,
     "longitude": -122.105,
-    "url": "https://costco.com/warehouse-locations/lake-stevens-wa-1588.html"
+    "url": "https://www.costco.com/warehouse-locations/lake-stevens-wa-1588.html",
+    "hasDiesel": false
   },
   {
     "name": "Lynnwood",
@@ -5317,7 +5848,8 @@
     "postalCode": "98037-4840",
     "latitude": 47.834,
     "longitude": -122.273,
-    "url": "https://costco.com/warehouse-locations/lynnwood-wa-1190.html"
+    "url": "https://www.costco.com/warehouse-locations/lynnwood-wa-1190.html",
+    "hasDiesel": true
   },
   {
     "name": "Lynnwood Business Center",
@@ -5327,7 +5859,8 @@
     "postalCode": "98036-5228",
     "latitude": 47.826,
     "longitude": -122.31,
-    "url": "https://costco.com/warehouse-locations/lynnwood-business-center-lynnwood-wa-115.html"
+    "url": "https://www.costco.com/warehouse-locations/lynnwood-business-center-lynnwood-wa-115.html",
+    "hasDiesel": false
   },
   {
     "name": "Marysville WA",
@@ -5337,7 +5870,8 @@
     "postalCode": "98271-4701",
     "latitude": 48.148,
     "longitude": -122.191,
-    "url": "https://costco.com/warehouse-locations/marysville-wa-marysville-wa-642.html"
+    "url": "https://www.costco.com/warehouse-locations/marysville-wa-marysville-wa-642.html",
+    "hasDiesel": false
   },
   {
     "name": "N Spokane",
@@ -5347,7 +5881,8 @@
     "postalCode": "99218-1655",
     "latitude": 47.766,
     "longitude": -117.383,
-    "url": "https://costco.com/warehouse-locations/n-spokane-spokane-wa-1298.html"
+    "url": "https://www.costco.com/warehouse-locations/n-spokane-spokane-wa-1298.html",
+    "hasDiesel": true
   },
   {
     "name": "Puyallup",
@@ -5357,7 +5892,8 @@
     "postalCode": "98373-3803",
     "latitude": 47.156,
     "longitude": -122.309,
-    "url": "https://costco.com/warehouse-locations/puyallup-wa-660.html"
+    "url": "https://www.costco.com/warehouse-locations/puyallup-wa-660.html",
+    "hasDiesel": false
   },
   {
     "name": "Redmond",
@@ -5367,7 +5903,8 @@
     "postalCode": "98052-6088",
     "latitude": 47.673,
     "longitude": -122.091,
-    "url": "https://costco.com/warehouse-locations/redmond-wa-1225.html"
+    "url": "https://www.costco.com/warehouse-locations/redmond-wa-1225.html",
+    "hasDiesel": true
   },
   {
     "name": "Ridgefield",
@@ -5377,7 +5914,8 @@
     "postalCode": "98642",
     "latitude": 45.82,
     "longitude": -122.693,
-    "url": "https://costco.com/warehouse-locations/ridgefield-wa-1703.html"
+    "url": "https://www.costco.com/warehouse-locations/ridgefield-wa-1703.html",
+    "hasDiesel": false
   },
   {
     "name": "Seattle",
@@ -5387,7 +5925,8 @@
     "postalCode": "98134-2311",
     "latitude": 47.565,
     "longitude": -122.331,
-    "url": "https://costco.com/warehouse-locations/seattle-wa-1.html"
+    "url": "https://www.costco.com/warehouse-locations/seattle-wa-1.html",
+    "hasDiesel": false
   },
   {
     "name": "Sequim",
@@ -5397,7 +5936,8 @@
     "postalCode": "98382-3266",
     "latitude": 48.077,
     "longitude": -123.126,
-    "url": "https://costco.com/warehouse-locations/sequim-wa-639.html"
+    "url": "https://www.costco.com/warehouse-locations/sequim-wa-639.html",
+    "hasDiesel": false
   },
   {
     "name": "Silverdale",
@@ -5407,7 +5947,8 @@
     "postalCode": "98383-8302",
     "latitude": 47.657,
     "longitude": -122.68,
-    "url": "https://costco.com/warehouse-locations/silverdale-wa-13.html"
+    "url": "https://www.costco.com/warehouse-locations/silverdale-wa-13.html",
+    "hasDiesel": true
   },
   {
     "name": "Spokane",
@@ -5417,7 +5958,8 @@
     "postalCode": "99212-0826",
     "latitude": 47.658,
     "longitude": -117.333,
-    "url": "https://costco.com/warehouse-locations/spokane-wa-670.html"
+    "url": "https://www.costco.com/warehouse-locations/spokane-wa-670.html",
+    "hasDiesel": false
   },
   {
     "name": "Tacoma",
@@ -5427,7 +5969,8 @@
     "postalCode": "98409-7473",
     "latitude": 47.225,
     "longitude": -122.468,
-    "url": "https://costco.com/warehouse-locations/tacoma-wa-95.html"
+    "url": "https://www.costco.com/warehouse-locations/tacoma-wa-95.html",
+    "hasDiesel": false
   },
   {
     "name": "Tukwila",
@@ -5437,7 +5980,8 @@
     "postalCode": "98188-4808",
     "latitude": 47.446,
     "longitude": -122.248,
-    "url": "https://costco.com/warehouse-locations/tukwila-wa-6.html"
+    "url": "https://www.costco.com/warehouse-locations/tukwila-wa-6.html",
+    "hasDiesel": true
   },
   {
     "name": "Tumwater",
@@ -5447,7 +5991,8 @@
     "postalCode": "98512-7363",
     "latitude": 46.997,
     "longitude": -122.916,
-    "url": "https://costco.com/warehouse-locations/tumwater-wa-64.html"
+    "url": "https://www.costco.com/warehouse-locations/tumwater-wa-64.html",
+    "hasDiesel": false
   },
   {
     "name": "Union Gap",
@@ -5457,7 +6002,8 @@
     "postalCode": "98903-1513",
     "latitude": 46.563,
     "longitude": -120.5,
-    "url": "https://costco.com/warehouse-locations/union-gap-wa-1013.html"
+    "url": "https://www.costco.com/warehouse-locations/union-gap-wa-1013.html",
+    "hasDiesel": false
   },
   {
     "name": "Vancouver WA",
@@ -5467,7 +6013,8 @@
     "postalCode": "98665-2016",
     "latitude": 45.685,
     "longitude": -122.605,
-    "url": "https://costco.com/warehouse-locations/vancouver-wa-vancouver-wa-772.html"
+    "url": "https://www.costco.com/warehouse-locations/vancouver-wa-vancouver-wa-772.html",
+    "hasDiesel": true
   },
   {
     "name": "Wenatchee",
@@ -5477,7 +6024,8 @@
     "postalCode": "98802-5344",
     "latitude": 47.401,
     "longitude": -120.281,
-    "url": "https://costco.com/warehouse-locations/wenatchee-east-wenatchee-wa-112.html"
+    "url": "https://www.costco.com/warehouse-locations/wenatchee-east-wenatchee-wa-112.html",
+    "hasDiesel": false
   },
   {
     "name": "Woodinville",
@@ -5487,7 +6035,8 @@
     "postalCode": "98072-9743",
     "latitude": 47.78,
     "longitude": -122.148,
-    "url": "https://costco.com/warehouse-locations/woodinville-wa-747.html"
+    "url": "https://www.costco.com/warehouse-locations/woodinville-wa-747.html",
+    "hasDiesel": true
   },
   {
     "name": "Bellevue (Green Bay)",
@@ -5497,7 +6046,8 @@
     "postalCode": "54311-9206",
     "latitude": 44.458,
     "longitude": -87.986,
-    "url": "https://costco.com/warehouse-locations/bellevue-(green-bay)-bellevue-wi-1162.html"
+    "url": "https://www.costco.com/warehouse-locations/bellevue-(green-bay)-bellevue-wi-1162.html",
+    "hasDiesel": false
   },
   {
     "name": "Eau Claire",
@@ -5507,7 +6057,8 @@
     "postalCode": "54703",
     "latitude": 44.831,
     "longitude": -91.451,
-    "url": "https://costco.com/warehouse-locations/eau-claire-wi-1664.html"
+    "url": "https://www.costco.com/warehouse-locations/eau-claire-wi-1664.html",
+    "hasDiesel": false
   },
   {
     "name": "Grafton",
@@ -5517,7 +6068,8 @@
     "postalCode": "53024-9201",
     "latitude": 43.324,
     "longitude": -87.922,
-    "url": "https://costco.com/warehouse-locations/grafton-wi-628.html"
+    "url": "https://www.costco.com/warehouse-locations/grafton-wi-628.html",
+    "hasDiesel": false
   },
   {
     "name": "Grand Chute",
@@ -5527,7 +6079,8 @@
     "postalCode": "54913-8602",
     "latitude": 44.271,
     "longitude": -88.488,
-    "url": "https://costco.com/warehouse-locations/grand-chute-wi-1222.html"
+    "url": "https://www.costco.com/warehouse-locations/grand-chute-wi-1222.html",
+    "hasDiesel": true
   },
   {
     "name": "Menomonee Falls",
@@ -5537,7 +6090,8 @@
     "postalCode": "53051-4026",
     "latitude": 43.185,
     "longitude": -88.112,
-    "url": "https://costco.com/warehouse-locations/menomonee-falls-wi-1209.html"
+    "url": "https://www.costco.com/warehouse-locations/menomonee-falls-wi-1209.html",
+    "hasDiesel": true
   },
   {
     "name": "Middleton",
@@ -5547,7 +6101,8 @@
     "postalCode": "53562-5507",
     "latitude": 43.1,
     "longitude": -89.522,
-    "url": "https://costco.com/warehouse-locations/middleton-wi-1020.html"
+    "url": "https://www.costco.com/warehouse-locations/middleton-wi-1020.html",
+    "hasDiesel": false
   },
   {
     "name": "New Berlin",
@@ -5557,7 +6112,8 @@
     "postalCode": "53151-7909",
     "latitude": 42.945,
     "longitude": -88.106,
-    "url": "https://costco.com/warehouse-locations/new-berlin-wi-1212.html"
+    "url": "https://www.costco.com/warehouse-locations/new-berlin-wi-1212.html",
+    "hasDiesel": false
   },
   {
     "name": "Pewaukee",
@@ -5567,7 +6123,8 @@
     "postalCode": "53072-5886",
     "latitude": 43.089,
     "longitude": -88.231,
-    "url": "https://costco.com/warehouse-locations/pewaukee-wi-1101.html"
+    "url": "https://www.costco.com/warehouse-locations/pewaukee-wi-1101.html",
+    "hasDiesel": false
   },
   {
     "name": "Pleasant Prairie",
@@ -5577,7 +6134,8 @@
     "postalCode": "53158-1955",
     "latitude": 42.564,
     "longitude": -87.92,
-    "url": "https://costco.com/warehouse-locations/pleasant-prairie-wi-1198.html"
+    "url": "https://www.costco.com/warehouse-locations/pleasant-prairie-wi-1198.html",
+    "hasDiesel": false
   },
   {
     "name": "Sun Prairie",
@@ -5587,7 +6145,8 @@
     "postalCode": "53590-9334",
     "latitude": 43.167,
     "longitude": -89.274,
-    "url": "https://costco.com/warehouse-locations/sun-prairie-wi-1121.html"
+    "url": "https://www.costco.com/warehouse-locations/sun-prairie-wi-1121.html",
+    "hasDiesel": false
   },
   {
     "name": "Verona",
@@ -5597,6 +6156,7 @@
     "postalCode": "53593",
     "latitude": 42.971,
     "longitude": -89.509,
-    "url": "https://costco.com/warehouse-locations/verona-wi-1491.html"
+    "url": "https://www.costco.com/warehouse-locations/verona-wi-1491.html",
+    "hasDiesel": false
   }
 ]

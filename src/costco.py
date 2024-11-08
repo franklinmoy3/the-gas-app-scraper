@@ -13,6 +13,7 @@ import json
 from loguru import logger
 from multiprocessing import Pool
 import requests
+from urllib.parse import urljoin
 import time
 
 
@@ -21,12 +22,51 @@ _prices_output_file_name = "costco-prices-out.json"
 _should_abort = False
 
 
-def write_and_get_all_gas_station_urls() -> list:
+def write_urls_to_file(urls: list) -> None:
+    with open(costco_station_urls_file_name, "w") as out_file:
+        logger.info(
+            "Writing Costco US warehouse URLs that have gas stations to {file_name}",
+            file_name=out_file.name,
+        )
+        out_file.write(json.dumps(urls, indent=2))
+
+
+def mark_diesel_station_urls(urls: list) -> None:
+    diesel_stations_url = "https://www.costco.com/gasoline-diesel.html"
+    logger.debug(get_request_log_fmt_str, url=diesel_stations_url)
+    resp = requests.get(diesel_stations_url, headers={"User-Agent": user_agent})
+    logger.info(api_response_log_fmt_str, status_code=resp.status_code, url=diesel_stations_url)
+    
+    if resp.status_code != 200:
+        logger.error(abort_due_to_bad_response_fmt_str)
+        resp.raise_for_status()
+        
+    logger.info(read_html_log_fmt_str, url=diesel_stations_url)
+    soup = BeautifulSoup(resp.text, "html5lib")
+    logger.info("Done reading HTML response tree from {url}", url=diesel_stations_url)
+    
+    # Find all links on the diesel stations page
+    diesel_station_links = set()
+    for link in soup.find_all('a', href=True):
+        if '/warehouse-locations/' in link['href']:
+            diesel_station_links.add(urljoin("https://www.costco.com", link['href']))
+    
+    # Mark stations that appear in the diesel page
+    for url_obj in urls:
+        if url_obj['url'] in diesel_station_links:
+            url_obj['hasDiesel'] = True
+        else:
+            url_obj['hasDiesel'] = False
+
+    return urls
+
+
+def get_all_gas_station_urls() -> list:
     # When the warehouse name isn't the same as the city name, use the alt format
     warehouse_url_format_string = (
-        "https://costco.com/warehouse-locations/{city}-{state_code}-{location_id}.html"
+        "https://www.costco.com/warehouse-locations/{city}-{state_code}-{location_id}.html"
     )
-    alt_warehouse_url_format_string = "https://costco.com/warehouse-locations/{name}-{city}-{state_code}-{location_id}.html"
+    alt_warehouse_url_format_string = "https://www.costco.com/warehouse-locations/{name}-{city}-{state_code}-{location_id}.html"
     warehouse_list_url = "https://www.costco.com/WarehouseListByStateDisplayView"
     p_start = time.perf_counter()
     logger.debug(get_request_log_fmt_str, url=warehouse_list_url)
@@ -56,47 +96,41 @@ def write_and_get_all_gas_station_urls() -> list:
         )
     warehouse_list = json.loads(warehouse_list_as_str)
     logger.info("Found and loaded warehouse list.")
-    with open(costco_station_urls_file_name, "w") as out_file:
-        logger.info(
-            "Writing Costco US warehouse URLs that have gas stations to {file_name}",
-            file_name=out_file.name,
-        )
-        gas_station_urls = []
-        for state_with_warehouses in warehouse_list:
-            state_code = state_with_warehouses["stateCode"].lower()
-            for warehouse in state_with_warehouses["warehouseList"]:
-                if warehouse["hasGasDepartment"]:
-                    location_name = warehouse["locationName"]
-                    location_name_lower = location_name.lower()
-                    city_lower = warehouse["city"].lower()
-                    city = city_lower.title()
-                    location_id = warehouse["identifier"]
-                    if location_name_lower == city_lower:
-                        url_to_write = warehouse_url_format_string.format(
-                            city=city_lower,
-                            state_code=state_code,
-                            location_id=location_id,
-                        )
-                    else:
-                        url_to_write = alt_warehouse_url_format_string.format(
-                            name=location_name_lower,
-                            city=city_lower,
-                            state_code=state_code,
-                            location_id=location_id,
-                        )
-                    gas_station_urls.append(
-                        {
-                            "name": location_name,
-                            "streetAddress": warehouse["address1"].title(),
-                            "city": city,
-                            "state": warehouse["state"],
-                            "postalCode": warehouse["zipCode"],
-                            "latitude": warehouse["latitude"],
-                            "longitude": warehouse["longitude"],
-                            "url": url_to_write.replace(" ", "-"),
-                        }
+    gas_station_urls = []
+    for state_with_warehouses in warehouse_list:
+        state_code = state_with_warehouses["stateCode"].lower()
+        for warehouse in state_with_warehouses["warehouseList"]:
+            if warehouse["hasGasDepartment"]:
+                location_name = warehouse["locationName"]
+                location_name_lower = location_name.lower()
+                city_lower = warehouse["city"].lower()
+                city = city_lower.title()
+                location_id = warehouse["identifier"]
+                if location_name_lower == city_lower:
+                    url_to_write = warehouse_url_format_string.format(
+                        city=city_lower,
+                        state_code=state_code,
+                        location_id=location_id,
                     )
-        out_file.write(json.dumps(gas_station_urls, indent=2))
+                else:
+                    url_to_write = alt_warehouse_url_format_string.format(
+                        name=location_name_lower,
+                        city=city_lower,
+                        state_code=state_code,
+                        location_id=location_id,
+                    )
+                gas_station_urls.append(
+                    {
+                        "name": location_name,
+                        "streetAddress": warehouse["address1"].title(),
+                        "city": city,
+                        "state": warehouse["state"],
+                        "postalCode": warehouse["zipCode"],
+                        "latitude": warehouse["latitude"],
+                        "longitude": warehouse["longitude"],
+                        "url": url_to_write.replace(" ", "-"),
+                    }
+                )
     p_end = time.perf_counter()
     logger.info(
         "Done writing all Costco US warehouse URLs with gas stations. Took {time_s} s",
@@ -164,6 +198,12 @@ def get_and_normalize_data_from_url(url_object: dict) -> dict | None:
                     case "Premium":
                         premium_price = {"timestamp": now_in_epoch_ms(), "price": price}
                     case "Diesel":
+                        if url_object["hasDiesel"] is False:
+                            logger.warning(
+                                '{url} has a diesel price, but is not marked as a diesel station! Ignoring...',
+                                url=url,
+                            )
+                            continue
                         diesel_price = {"timestamp": now_in_epoch_ms(), "price": price}
                     case _:
                         logger.warning(
@@ -213,7 +253,9 @@ def main(args):
     urls = None
     if args.refresh_station_list:
         logger.info("Updating list of Costco gas station URLs")
-        urls = write_and_get_all_gas_station_urls()
+        urls = get_all_gas_station_urls()
+        mark_diesel_station_urls(urls)
+        write_urls_to_file(urls)
     if args.no_collect_prices:
         logger.info('Will not collect prices as "--no-collect-prices" was specified')
     else:

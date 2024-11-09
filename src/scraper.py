@@ -59,8 +59,11 @@ def merge_prices(curr_prices: list, new_prices: list):
             merged_mid_grade_price = new_station_state["midGradePrice"]
         if new_station_state["premiumPrice"] is not None:
             merged_premium_price = new_station_state["premiumPrice"]
-        if new_station_state["dieselPrice"] is not None:
-            merged_diesel_price = new_station_state["dieselPrice"]
+        if new_station_state["dieselPrice"] is not None and curr_station_state["dieselPrice"] is None:
+            logger.warning("Station {station_name} has a diesel price but didn't have one before", station_name=new_station_state["name"])
+        # Not going to go though the hassle of guaranteeing diesel price accuracy;
+        # just overwrite it with what we saw just now
+        merged_diesel_price = new_station_state["dieselPrice"]
 
         merged_prices.append(
             {
@@ -78,7 +81,7 @@ def main(args):
     refreshed_costco_urls = None
     if args.refresh_station_list:
         logger.info("Will refresh all station lists...")
-        refreshed_costco_urls = costco.write_and_get_all_gas_station_urls()
+        refreshed_costco_urls = costco.get_and_write_all_gas_station_urls()
     if args.no_collect_prices:
         logger.info('Will not collect prices as "--no-collect-prices" was specified')
     else:

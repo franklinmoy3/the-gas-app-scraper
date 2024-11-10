@@ -4,7 +4,7 @@ WORKDIR /usr/local/app
 
 # Install Selenium dependencies
 RUN apt-get update
-RUN apt-get install -y firefox-esr=115.14.0esr-1~deb12u1 wget bzip2 libxtst6 libgtk-3-0 libx11-xcb-dev libdbus-glib-1-2 libxt6 libpci-dev
+RUN apt-get install -y firefox-esr=128.4.0esr-1~deb12u1 wget bzip2 libxtst6 libgtk-3-0 libx11-xcb-dev libdbus-glib-1-2 libxt6 libpci-dev
 RUN curl -L https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-linux64.tar.gz | tar zx
 RUN mv geckodriver /usr/local/bin/
 

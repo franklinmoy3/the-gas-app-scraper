@@ -237,7 +237,7 @@ def get_and_normalize_data_from_url(url_object: dict) -> dict | None:
                     ):
                         grade = meaningful_descendant.text
                     else:
-                        price = float(meaningful_descendant.text.replace("$", ""))
+                        price = float(meaningful_descendant.text.replace("$", "")[0:4])
                         if state == "PR":
                             price = convert_price_per_liter_to_price_per_gallon(price)
                 match grade:

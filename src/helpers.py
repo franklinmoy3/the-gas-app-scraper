@@ -18,7 +18,7 @@ user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Ge
 
 
 def convert_price_per_liter_to_price_per_gallon(price_per_liter: float) -> float:
-    return round(price_per_liter * 3.78541178, 2) + 0.009
+    return round(price_per_liter * 3.78541178, 2)
 
 
 def now_in_epoch_ms() -> int:
@@ -51,7 +51,7 @@ def parse_command_args():
         action="store",
         type=int,
         default=mp.cpu_count(),
-        help="Number of subprocesses to use for gas station data retrieval (for applicable franchises)",
+        help="Number of subprocesses to use for gas station data retrieval (for applicable franchises). Recommend a value within [2,4] to balance speed and rate limiting mitigation",
     )
     arg_parser.add_argument(
         "--no-collect-prices",

@@ -10,9 +10,13 @@ on:
 jobs:
   format:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Local Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
 
       - name: Format with Black
         uses: psf/black@stable

@@ -59,8 +59,14 @@ def merge_prices(curr_prices: list, new_prices: list):
             merged_mid_grade_price = new_station_state["midGradePrice"]
         if new_station_state["premiumPrice"] is not None:
             merged_premium_price = new_station_state["premiumPrice"]
-        if new_station_state["dieselPrice"] is not None and curr_station_state["dieselPrice"] is None:
-            logger.warning("Station {station_name} has a diesel price but didn't have one before", station_name=new_station_state["name"])
+        if (
+            new_station_state["dieselPrice"] is not None
+            and curr_station_state["dieselPrice"] is None
+        ):
+            logger.warning(
+                "Station {station_name} has a diesel price but didn't have one before",
+                station_name=new_station_state["name"],
+            )
         # Not going to go though the hassle of guaranteeing diesel price accuracy;
         # just overwrite it with what we saw just now
         merged_diesel_price = new_station_state["dieselPrice"]

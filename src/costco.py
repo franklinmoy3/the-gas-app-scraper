@@ -65,7 +65,9 @@ def mark_diesel_station_urls(urls: list) -> None:
         if "/warehouse-locations/" in link["href"]:
             diesel_station_href = link["href"]
             # NOTE: Some stations have dead links, and one station has both a dead link and an incorrect address
-            diesel_station_id = station_id_from_url_regex.search(diesel_station_href).group(1)
+            diesel_station_id = station_id_from_url_regex.search(
+                diesel_station_href
+            ).group(1)
             diesel_station_ids.add(int(diesel_station_id))
             address = link.parent.find_next_sibling().text
             normalized_address = "".join(
@@ -91,7 +93,8 @@ def mark_diesel_station_urls(urls: list) -> None:
         if (
             normalized_next_address_full_zip_code in diesel_station_addresses
             or normalized_next_address_partial_zip_code in diesel_station_addresses
-            or int(station_id_from_url_regex.search(url_obj["url"]).group(1)) in diesel_station_ids
+            or int(station_id_from_url_regex.search(url_obj["url"]).group(1))
+            in diesel_station_ids
         ):
             marked_diesel_station_count += 1
             url_obj["hasDiesel"] = True

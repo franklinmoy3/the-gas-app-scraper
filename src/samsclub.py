@@ -36,22 +36,22 @@ def normalize_data(data) -> list:
                     case "UNLEAD":
                         regular_price = {
                             "timestamp": now_in_epoch_ms(),
-                            "price": float(gas_price["price"][0:4]),
+                            "price": float(str(gas_price["price"])[0:4]),
                         }
                     case "MIDGRAD":
                         mid_grade_price = {
                             "timestamp": now_in_epoch_ms(),
-                            "price": float(gas_price["price"][0:4]),
+                            "price": float(str(gas_price["price"])[0:4]),
                         }
                     case "PREMIUM":
                         premium_price = {
                             "timestamp": now_in_epoch_ms(),
-                            "price": float(gas_price["price"][0:4]),
+                            "price": float(str(gas_price["price"])[0:4]),
                         }
                     case "DIESEL":
                         diesel_price = {
                             "timestamp": now_in_epoch_ms(),
-                            "price": float(gas_price["price"][0:4]),
+                            "price": float(str(gas_price["price"])[0:4]),
                         }
                     case _:
                         logger.warning(
